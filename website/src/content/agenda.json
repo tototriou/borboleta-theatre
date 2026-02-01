@@ -1,0 +1,42 @@
+[
+    {
+        "annee": "2024",
+        "spectacles": [
+            {
+                "date": "6 au 9 Novembre 2024",
+                "lieu": "JULIET - Lavoir Public, Lyon",
+                "photo_url": "/images/compagnie/images/affiche-juliet.png"
+            },
+            {
+                "date": "9 Septembre 2024",
+                "lieu": "Festival Les yeux dans la cour",
+                "photo_url": "/images/compagnie/images/lesyeuxdanslacuette.jpeg"
+            },
+            {
+                "date": "14 au 17 Août - 17h45 Pastille 33, Parvis du Théâtre",
+                "lieu": "CHIMERES - festival d'Aurillac",
+                "photo_url": "/images/compagnie/images/affiche-chimeres2.png"
+            },
+            {
+                "date": "24 et 25 Mai",
+                "lieu": "JULIET - Théâtre de L'Elysée, Lyon",
+                "photo_url": "/images/compagnie/images/affiche-juliet.png"
+            },
+            {
+                "date": "10 Mars",
+                "lieu": "CHIMERES - festival du meuf mars, Paris",
+                "photo_url": "/images/compagnie/images/affiche-chimeres2.png"
+            }
+        ]
+    },
+    {
+        "annee": "2023",
+        "spectacles": [
+            {
+                "date": "4 et 5 Novembre",
+                "lieu": "CHIMERES - CNSAD, Paris",
+                "photo_url": "/images/compagnie/images/chimeres-affiche.png"
+            }
+        ]
+    }
+]

@@ -1,0 +1,111 @@
+@import "bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Catamaran";
+  src: url("/fonts/Catamaran/Catamaran-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sue_Ellen_Francisco";
+  src: url("/fonts/Sue_Ellen_Francisco/SueEllenFrancisco-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gochi_Hand";
+  src: url("/fonts/Gochi_Hand/GochiHand-Regular.ttf") format("truetype");
+}
+
+:root {
+  --bg-color-primary: #f2eddb;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color-primary);
+}
+
+h1,
+h2 {
+  font-family: "Sue_Ellen_Francisco", cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+// Dividers
+@for $i from 1 through 7 {
+  .trait#{$i * 10}vw {
+    width: #{$i * 10}vw;
+    height: 0.5px;
+    background-color: lightgray;
+    margin: 15px 0;
+  }
+
+  .trait#{$i * 10}percent {
+    width: #{$i * 10}%;
+    height: 0.5px;
+    background-color: lightgray;
+    margin: 20px 0;
+  }
+}
+
+// Header logo (return to home)
+.retour-menu {
+  display: flex;
+  position: fixed;
+  height: 10%;
+  left: 0;
+  top: 0;
+  margin-left: 2%;
+  flex-direction: column;
+  font-family: "Sue_Ellen_Francisco";
+  font-size: 5vh;
+  z-index: 100;
+
+  .link-retour-menu {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Modal base styles
+dialog {
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: var(--bg-color-primary);
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+dialog[open] {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

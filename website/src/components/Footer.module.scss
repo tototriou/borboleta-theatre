@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 100dvw;
+  min-height: 8vh;
+  background: black;
+  color: var(--bg-color-primary);
+  font-size: small;
+  font-style: italic;
+  font-weight: 200;
+  padding: 1vh 0;
+
+  a {
+    color: var(--bg-color-primary);
+    text-decoration: none;
+
+    &:hover {
+      color: aliceblue;
+    }
+  }
+}
+
+.designedBy {
+  margin: 10px 0;
+}
+
+.copyright {
+  font-weight: 100;
+  color: rgba(211, 211, 211, 0.515);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

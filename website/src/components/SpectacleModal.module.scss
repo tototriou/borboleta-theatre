@@ -1,0 +1,93 @@
+.modal {
+  max-width: 800px;
+  width: 90vw;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.btnClose {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 2rem 1rem;
+}
+
+.titreSpectacle {
+  padding: 0;
+  font-size: 7vw;
+}
+
+.sousTitre {
+  margin: 0;
+  font-weight: 100;
+}
+
+.context {
+  text-align: center;
+
+  * {
+    margin: 0 !important;
+  }
+}
+
+.youtubeWrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+
+  iframe {
+    border-radius: 8px;
+  }
+}
+
+.footerSpectacle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.agendaLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  padding: 0 25px;
+}
+
+.dossierComp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 25px;
+
+  h6 {
+    margin: 0;
+  }
+}
+
+.download {
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

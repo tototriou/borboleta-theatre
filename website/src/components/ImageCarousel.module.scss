@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navButton {
+  display: flex;
+  height: 10vh;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  padding: 0;
+
+  &:hover:not(:disabled) {
+    transform: scale(1.1);
+  }
+
+  &:disabled {
+    opacity: 0;
+    cursor: default;
+  }
+}
+
+.mainImage {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  max-height: 80dvh;
+  margin: 0 auto;
+}
+
+.creditPhoto {
+  font-size: small;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+}

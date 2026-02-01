@@ -1,0 +1,71 @@
+.wrapper {
+  background-color: var(--bg-color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.titre h1 {
+  font-family: "Sue_Ellen_Francisco", cursive;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.logocentral {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  margin: 10px;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.theatreTexte p {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: #f2eddb;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 0 5em;
+  line-height: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  padding: 0 10px;
+  font-family: "Sue_Ellen_Francisco", cursive;
+  font-size: x-large;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+
+  a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+
+    &:hover {
+      color: rgb(0, 0, 0);
+      transform: scale(1.1);
+      display: inline-block;
+    }
+  }
+}

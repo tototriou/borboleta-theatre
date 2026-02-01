@@ -1,0 +1,18 @@
+.wrapper {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--bg-color-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 70%;
+}

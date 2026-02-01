@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  width: 15em;
+  margin: 5px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.description {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  color: var(--bg-color-primary);
+  transition: all 0.3s ease-in-out;
+  top: 0;
+  left: 0;
+
+  &:hover {
+    opacity: 1;
+    background-color: rgba(3, 3, 3, 0.593);
+  }
+}
+
+.nomPrenom {
+  margin: 0;
+  font-weight: 600;
+}
+
+.role {
+  color: rgb(255, 180, 68);
+  margin: 0;
+}
