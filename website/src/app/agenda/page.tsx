@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -49,8 +50,13 @@ export default function AgendaPage() {
                     <p className={styles.date}>
                       <time>{spectacle.date}</time>
                     </p>
-                    <Link href="/spectacles/" aria-label={`Voir le spectacle ${spectacle.lieu}`}>
-                      <img src={spectacle.photo_url} alt={`Affiche ${spectacle.lieu}`} />
+                    <Link href="/spectacles/" aria-label={`Voir le spectacle ${spectacle.lieu}`} className={styles.posterLink}>
+                      <Image
+                        src={spectacle.photo_url}
+                        alt={`Affiche ${spectacle.lieu}`}
+                        fill
+                        sizes="60px"
+                      />
                     </Link>
                   </article>
                 ))}

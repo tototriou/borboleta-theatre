@@ -14,7 +14,7 @@ Liste des améliorations à apporter au site.
 
 ### Accessibilité
 - [x] Ajouter skip link "Aller au contenu principal"
-- [ ] Vérifier contrastes couleurs (rose/violet) - objectif 4.5:1
+- [x] Vérifier contrastes couleurs (rose/violet) - objectif 4.5:1
 - [x] Styliser le focus visible sur tous les éléments interactifs
 - [x] Ajouter `aria-current="page"` sur le lien actif dans la navbar
 
@@ -23,10 +23,10 @@ Liste des améliorations à apporter au site.
 ## Priorité moyenne
 
 ### Performance
-- [ ] Migrer les `<img>` vers `next/image` pour optimisation automatique
+- [x] Migrer les `<img>` vers `next/image` pour optimisation automatique
 - [ ] Convertir les images en WebP/AVIF
 - [x] Ajouter `font-display: swap` sur les @font-face
-- [ ] Lazy loading sur les images hors viewport
+- [x] Lazy loading sur les images hors viewport (via next/image)
 
 ### UX
 - [ ] Ajouter indicateur de chargement (skeleton ou spinner)

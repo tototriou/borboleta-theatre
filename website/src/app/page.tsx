@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import RedThread from "@/components/RedThread";
@@ -20,9 +21,12 @@ export default function HomePage() {
         {/* Contenu principal */}
         <div className={styles.central}>
           <article className={styles.logoFrame}>
-            <img
+            <Image
               src="/images/home-page-image/image-accueil.jpeg"
               alt="Affiche Borboleta Théâtre avec papillons dorés sur fond sombre"
+              width={400}
+              height={400}
+              priority
             />
             <h1 className={styles.titre}>Borboleta Théâtre</h1>
             <p className={styles.sousTitre}>

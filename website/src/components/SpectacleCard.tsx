@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Spectacle } from "@/types";
 import styles from "./SpectacleCard.module.scss";
@@ -15,10 +16,11 @@ export default function SpectacleCard({ spectacle }: SpectacleCardProps) {
       aria-label={`Voir le spectacle ${spectacle.titre}`}
     >
       <div className={styles.image}>
-        <img
+        <Image
           src={spectacle.photo_principale}
           alt={`Affiche du spectacle ${spectacle.titre}`}
-          loading="lazy"
+          fill
+          sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 25em"
         />
       </div>
       <div className={styles.description} aria-hidden="true" />

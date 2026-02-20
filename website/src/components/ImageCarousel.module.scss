@@ -26,12 +26,16 @@
   }
 }
 
-.mainImage {
-  display: block;
+.imageContainer {
+  position: relative;
+  flex: 1;
   max-width: 80%;
-  height: auto;
-  max-height: 80dvh;
+  height: 60vh;
   margin: 0 auto;
+
+  img {
+    object-fit: contain;
+  }
 }
 
 .creditPhoto {
