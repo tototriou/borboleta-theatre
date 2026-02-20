@@ -195,27 +195,43 @@ Règles :
 - Corps du commit pour expliquer le *pourquoi* si nécessaire
 - Un commit = une intention claire
 
-### Commits atomiques
+### Commits atomiques et workflow de branche
 
-**Chaque tâche doit être découpée en plusieurs commits distincts** pour garder un historique lisible dans le git graph.
+**Workflow obligatoire pour toute série de tâches :**
 
-Exemple pour une refactorisation de styles :
+1. **Créer une branche** depuis `main` : `git checkout -b feat/nom-feature`
+2. **Un commit par tâche** : chaque tâche distincte = un commit séparé
+3. **Ne pas squash** lors du merge pour conserver l'historique détaillé
+4. **Merger avec `--no-ff`** pour créer un commit de merge visible dans le graph
+5. **Mettre à jour RELEASE.md** avant le merge final
+
 ```bash
-# Mauvais : un seul gros commit
-refactor(styles): ajouter design system complet
+# Workflow exemple
+git checkout -b feat/responsive-a11y
 
-# Bon : plusieurs commits atomiques
-refactor(styles): créer fichier _variables.scss avec tokens
-refactor(styles): migrer globals.scss vers les variables
-refactor(components): rendre Butterfly configurable
-refactor(components): uniformiser MemberCard avec variables
-refactor(components): uniformiser SpectacleCard avec variables
+# Commit 1 : première tâche
+git commit -m "feat(header): ajouter navbar responsive avec menu burger"
+
+# Commit 2 : deuxième tâche
+git commit -m "a11y(header): ajouter skip link pour navigation clavier"
+
+# Commit 3 : troisième tâche
+git commit -m "a11y(global): ajouter focus visible sur éléments interactifs"
+
+# Avant merge : mettre à jour RELEASE.md
+git commit -m "docs(release): ajouter v1.5.0"
+
+# Merge sans squash pour garder tous les commits
+git checkout main
+git merge --no-ff feat/responsive-a11y
+git branch -d feat/responsive-a11y
 ```
 
-Principes :
-- **1 commit = 1 changement logique** (pas plusieurs features mélangées)
+**Principes :**
+- **1 commit = 1 tâche identifiable** dans l'arbre de commits
 - Chaque commit doit compiler et fonctionner indépendamment
-- L'historique doit raconter l'évolution du code étape par étape
+- L'historique raconte l'évolution du code étape par étape
+- Le merge `--no-ff` crée un commit de merge qui groupe visuellement les tâches
 - Facilite les reverts, cherry-picks et la compréhension du projet
 
 ### Branches
