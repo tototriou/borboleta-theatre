@@ -6,6 +6,25 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.6.0] - 2026-02-21
+
+### Modifié
+- Page agenda entièrement refondée : suppression des images, layout liste
+- Séparation dynamique passé/futur selon la date du navigateur (`Date.now()`)
+- Dates futures groupées par spectacle (avec lien vers la page du spectacle)
+- Dates passées triées par date décroissante, groupées par année
+- Message "Aucune date à venir" affiché si aucun événement futur
+
+### Ajouté
+- Nouveau composant client `AgendaContent.tsx` gérant la logique de tri/groupement
+- Champs `date` (ISO YYYY-MM-DD), `dateDisplay`, `spectacleName`, `slug` dans `agenda.json`
+
+### Supprimé
+- Champ `photo_url` retiré de `agenda.json` et de l'interface `AgendaEvent`
+- Interface `AgendaYear` supprimée des types TypeScript
+
+---
+
 ## [1.5.6] - 2026-02-20
 
 ### Modifié
