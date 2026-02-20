@@ -11,11 +11,11 @@ interface NavLink {
 }
 
 const navLinks: NavLink[] = [
-  { href: "/spectacles/", label: "Spectacles" },
   { href: "/compagnie/", label: "Compagnie" },
-  { href: "/galerie/", label: "Galerie" },
+  { href: "/spectacles/", label: "Spectacles" },
   { href: "/agenda/", label: "Agenda" },
   { href: "/contact/", label: "Contact" },
+  { href: "/galerie/", label: "Galerie" },
 ];
 
 /** Navbar responsive avec menu burger sur mobile. */
