@@ -2,18 +2,22 @@
 
 import { useCallback, useEffect } from "react";
 import { useDialog } from "@/hooks/useDialog";
+import { GaleriePhoto } from "@/types";
 import styles from "./LightboxModal.module.scss";
 
 interface LightboxModalProps {
-  photos: string[];
+  photos: GaleriePhoto[];
+  /** Crédit par défaut affiché si la photo n'a pas de crédit spécifique */
+  defaultCredit?: string;
   currentIndex: number;
   onClose: () => void;
   onNavigate: (index: number) => void;
 }
 
-/** Modale plein écran pour afficher une photo avec navigation prev/next et clavier. */
+/** Modale plein écran pour afficher une photo avec navigation prev/next, crédit et clavier. */
 export default function LightboxModal({
   photos,
+  defaultCredit,
   currentIndex,
   onClose,
   onNavigate,
@@ -40,6 +44,9 @@ export default function LightboxModal({
   }, [isOpen, goPrev, goNext]);
 
   if (!isOpen) return null;
+
+  const photo = photos[currentIndex];
+  const credit = photo.credit || defaultCredit;
 
   return (
     <dialog
@@ -72,8 +79,8 @@ export default function LightboxModal({
       )}
 
       <img
-        src={photos[currentIndex]}
-        alt={`Photo ${currentIndex + 1} sur ${photos.length}`}
+        src={photo.url}
+        alt={photo.alt}
         className={styles.photo}
       />
 
@@ -89,9 +96,12 @@ export default function LightboxModal({
         </button>
       )}
 
-      <span className={styles.counter} aria-live="polite">
-        {currentIndex + 1} / {photos.length}
-      </span>
+      <div className={styles.footer}>
+        <span className={styles.counter} aria-live="polite">
+          {currentIndex + 1} / {photos.length}
+        </span>
+        {credit && <span className={styles.credit}>{credit}</span>}
+      </div>
     </dialog>
   );
 }
