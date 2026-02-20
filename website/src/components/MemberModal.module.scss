@@ -27,12 +27,13 @@
 }
 
 .photoPopup {
-  display: flex;
+  position: relative;
+  width: 200px;
+  height: 30vh;
   margin: 10px 0;
 
   img {
-    height: 30vh;
-    width: auto;
+    object-fit: cover;
   }
 }
 
