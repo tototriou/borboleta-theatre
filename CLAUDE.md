@@ -439,5 +439,6 @@ git push origin --tags
 - Chaque version dans RELEASE.md doit avoir un tag correspondant
 - Le message du tag doit résumer les changements principaux
 - Toujours pousser les tags après création : `git push origin --tags`
+- **IMPORTANT : Ne jamais créer de tag sans l'accord explicite de l'utilisateur.** Après le merge, attendre que l'utilisateur teste et valide avant de tagger la version.
 
 ---

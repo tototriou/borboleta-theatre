@@ -29,9 +29,9 @@ Liste des améliorations à apporter au site.
 - [x] Lazy loading sur les images hors viewport (via next/image)
 
 ### UX
-- [ ] Ajouter indicateur de chargement (skeleton ou spinner)
-- [ ] Animation de transition entre les pages
-- [ ] Feedback visuel au clic sur les boutons
+- [x] Ajouter indicateur de chargement (skeleton ou spinner)
+- [x] Animation de transition entre les pages
+- [x] Feedback visuel au clic sur les boutons
 
 ---
 
