@@ -2,7 +2,7 @@
  * Fil rouge decoratif qui serpente sur la page.
  * SVG genere en code, positionne en absolute pour ne pas affecter le layout.
  */
-export default function RedThread({ className }: { className?: string }) {
+export default function RedThread({ className, opacity = 0.65 }: { className?: string; opacity?: number }) {
   return (
     <svg
       className={className}
@@ -55,7 +55,7 @@ export default function RedThread({ className }: { className?: string }) {
         strokeLinecap="round"
         strokeLinejoin="round"
         fill="none"
-        opacity="0.65"
+        opacity={opacity}
       />
     </svg>
   );
