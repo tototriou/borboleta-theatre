@@ -227,6 +227,12 @@ h2 {
   }
 }
 
+// ===== Contenu principal au-dessus des éléments décoratifs =====
+#main-content {
+  position: relative;
+  z-index: $z-content;
+}
+
 // ===== Decorative elements =====
 .deco-thread {
   position: absolute;
