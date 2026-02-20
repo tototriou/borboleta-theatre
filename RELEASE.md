@@ -6,6 +6,21 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.5.0] - 2026-02-20
+
+### Ajouté
+- Navbar responsive avec menu burger sur mobile
+- Skip link "Aller au contenu principal" pour l'accessibilité
+- Focus visible global (outline dorée sur tous les éléments interactifs)
+- Attribut `aria-current="page"` sur le lien actif dans la navbar
+- Media queries responsive pour MemberCard et SpectacleCard
+
+### Modifié
+- `font-display: swap` sur toutes les @font-face pour améliorer les performances
+- Grilles de cartes adaptatives sur tablette et mobile
+
+---
+
 ## [1.4.1] - 2026-02-20
 
 ### Ajouté
