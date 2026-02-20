@@ -6,6 +6,13 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.7.1] - 2026-02-21
+
+### Supprimé
+- Bouton "Aller au contenu principal" (skip link) retiré du Header
+
+---
+
 ## [1.7.0] - 2026-02-21
 
 ### Modifié
