@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Membre } from "@/types";
 import styles from "./MemberCard.module.scss";
 
@@ -18,7 +19,13 @@ export default function MemberCard({ membre, onClick }: MemberCardProps) {
       aria-label={`Voir le profil de ${membre.prenom} ${membre.nom}, ${membre.role}`}
     >
       <div className={styles.image}>
-        <img src={membre.photo_url} alt="" aria-hidden="true" />
+        <Image
+          src={membre.photo_url}
+          alt=""
+          aria-hidden="true"
+          fill
+          sizes="(max-width: 576px) 50vw, 15em"
+        />
       </div>
       <div className={styles.description}>
         <p className={styles.nomPrenom}>
