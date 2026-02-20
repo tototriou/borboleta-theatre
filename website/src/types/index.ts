@@ -19,6 +19,12 @@ export interface Spectacle {
   cadre: string[];
   /** Équipe de création, alternance role/noms : ["Mise en scène", "Nom Prénom", "Jeu", "Nom1, Nom2"] */
   creation: string[];
+  /** Courte accroche (1 phrase, affichée en italique sur la liste) */
+  accroche: string;
+  /** Durée du spectacle (ex: "1h15"). Vide si non renseigné. */
+  duree: string;
+  /** Public visé (ex: "Tout public", "À partir de 14 ans"). Vide si non renseigné. */
+  public: string;
   /** Résumé du spectacle */
   resume: string;
   /** Chemins des photos du spectacle (affichées dans le carousel) */

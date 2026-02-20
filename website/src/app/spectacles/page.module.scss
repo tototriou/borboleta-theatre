@@ -1,6 +1,8 @@
+@use "../../styles/variables" as *;
+
 .wrapper {
   position: relative;
-  padding-top: 80px;
+  padding-top: $page-padding-top;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -8,22 +10,37 @@
   overflow-x: hidden;
 }
 
-.cardGrid {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  width: 70%;
-  gap: 15px;
+.pageTitle {
+  font-family: $font-display;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-5xl;
+  letter-spacing: 2px;
+  margin: $spacing-xl 0 $spacing-lg;
+  text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: $breakpoint-md) {
+    font-size: $font-size-4xl;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 70%;
+  padding-bottom: $spacing-3xl;
+
+  @media (max-width: $breakpoint-lg) {
+    width: 85%;
+  }
+
+  @media (max-width: $breakpoint-md) {
     width: 90%;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: $breakpoint-sm) {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 $spacing-md $spacing-3xl;
   }
 }
 
