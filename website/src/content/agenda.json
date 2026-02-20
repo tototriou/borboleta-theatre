@@ -1,42 +1,44 @@
 [
     {
-        "annee": "2024",
-        "spectacles": [
-            {
-                "date": "6 au 9 Novembre 2024",
-                "lieu": "JULIET - Lavoir Public, Lyon",
-                "photo_url": "/images/compagnie/images/affiche-juliet.png"
-            },
-            {
-                "date": "9 Septembre 2024",
-                "lieu": "Festival Les yeux dans la cour",
-                "photo_url": "/images/compagnie/images/lesyeuxdanslacuette.jpeg"
-            },
-            {
-                "date": "14 au 17 Août - 17h45 Pastille 33, Parvis du Théâtre",
-                "lieu": "CHIMERES - festival d'Aurillac",
-                "photo_url": "/images/compagnie/images/affiche-chimeres2.png"
-            },
-            {
-                "date": "24 et 25 Mai",
-                "lieu": "JULIET - Théâtre de L'Elysée, Lyon",
-                "photo_url": "/images/compagnie/images/affiche-juliet.png"
-            },
-            {
-                "date": "10 Mars",
-                "lieu": "CHIMERES - festival du meuf mars, Paris",
-                "photo_url": "/images/compagnie/images/affiche-chimeres2.png"
-            }
-        ]
+        "date": "2024-11-06",
+        "dateDisplay": "6 au 9 Novembre 2024",
+        "spectacleName": "JULIET",
+        "slug": "juliet",
+        "lieu": "Lavoir Public, Lyon"
     },
     {
-        "annee": "2023",
-        "spectacles": [
-            {
-                "date": "4 et 5 Novembre",
-                "lieu": "CHIMERES - CNSAD, Paris",
-                "photo_url": "/images/compagnie/images/chimeres-affiche.png"
-            }
-        ]
+        "date": "2024-09-09",
+        "dateDisplay": "9 Septembre 2024",
+        "spectacleName": "CHIMERES",
+        "slug": "chimeres",
+        "lieu": "Festival Les yeux dans la cour"
+    },
+    {
+        "date": "2024-08-14",
+        "dateDisplay": "14 au 17 Août 2024",
+        "spectacleName": "CHIMERES",
+        "slug": "chimeres",
+        "lieu": "Festival d'Aurillac — 17h45, Pastille 33, Parvis du Théâtre"
+    },
+    {
+        "date": "2024-05-24",
+        "dateDisplay": "24 et 25 Mai 2024",
+        "spectacleName": "JULIET",
+        "slug": "juliet",
+        "lieu": "Théâtre de L'Elysée, Lyon"
+    },
+    {
+        "date": "2024-03-10",
+        "dateDisplay": "10 Mars 2024",
+        "spectacleName": "CHIMERES",
+        "slug": "chimeres",
+        "lieu": "Festival du meuf mars, Paris"
+    },
+    {
+        "date": "2023-11-04",
+        "dateDisplay": "4 et 5 Novembre 2023",
+        "spectacleName": "CHIMERES",
+        "slug": "chimeres",
+        "lieu": "CNSAD, Paris"
     }
 ]
