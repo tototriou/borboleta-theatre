@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MemberCard from "@/components/MemberCard";
@@ -25,9 +26,12 @@ export default function CompagniePage() {
         <Header />
 
         <div className={styles.heroImage}>
-          <img
+          <Image
             src="/images/compagnie/images/image-compagnie.jpeg"
             alt="Main tendue vers un papillon, symbole de la compagnie Borboleta"
+            width={280}
+            height={280}
+            priority
           />
         </div>
 
