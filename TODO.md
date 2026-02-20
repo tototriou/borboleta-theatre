@@ -4,14 +4,6 @@
 
 ## Features
 
-### `feat/agenda-layout`
-- [ ] Supprimer les images dans la page agenda
-- [ ] Dates futures groupées par spectacle (titre en `h2`, liste de dates dessous)
-- [ ] Dates passées triées par date décroissante, groupées par année
-- [ ] Séparation passé/futur dynamique côté client (`Date.now()`)
-- [ ] Ajouter champ `date` ISO (`YYYY-MM-DD`) et `spectacleName` dans `agenda.json`
-- [ ] Mettre à jour `src/types/index.ts`
-
 ### `feat/galerie-layout`
 - [ ] Afficher le titre du spectacle sans l'année
 - [ ] Limiter à 15 photos maximum par spectacle
