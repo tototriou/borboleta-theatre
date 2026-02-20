@@ -6,6 +6,14 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.5.4] - 2026-02-20
+
+### Modifié
+- Section équipe artistique scindée en deux blocs : "Direction artistique" (Romain, Sidonie) et "Ils/Elles ont travaillé avec nous"
+- Ajout du champ `category` (`"direction"` | `"collaboration"`) dans `compagnie.json` et l'interface `Membre`
+
+---
+
 ## [1.5.3] - 2026-02-20
 
 ### Modifié

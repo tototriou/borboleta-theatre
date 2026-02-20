@@ -16,6 +16,9 @@ export default function HomePage() {
   const [selectedMember, setSelectedMember] = useState<Membre | null>(null);
   const { description, membre: membres } = compagnieData as CompagnieData;
 
+  const direction = membres.filter((m) => m.category === "direction");
+  const collaborateurs = membres.filter((m) => m.category === "collaboration");
+
   const scrollToCompagnie = () => {
     const section = document.getElementById("compagnie");
     if (section) {
@@ -72,10 +75,25 @@ export default function HomePage() {
 
           <div className="trait70vw" />
 
-          <div className={styles.compagnieSection} aria-labelledby="equipe-title">
-            <h2 id="equipe-title">L&apos;équipe Artistique</h2>
+          <div className={styles.compagnieSection} aria-labelledby="direction-title">
+            <h2 id="direction-title">Direction artistique</h2>
             <div className={styles.cardGrid}>
-              {membres.map((membre, i) => (
+              {direction.map((membre, i) => (
+                <MemberCard
+                  key={i}
+                  membre={membre}
+                  onClick={() => setSelectedMember(membre)}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div className="trait70vw" />
+
+          <div className={styles.compagnieSection} aria-labelledby="collaborateurs-title">
+            <h2 id="collaborateurs-title">Ils/Elles ont travaillé avec nous</h2>
+            <div className={styles.cardGrid}>
+              {collaborateurs.map((membre, i) => (
                 <MemberCard
                   key={i}
                   membre={membre}
