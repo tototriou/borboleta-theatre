@@ -384,10 +384,21 @@ Format : `MAJOR.MINOR.PATCH`
 
 ---
 
-## Règles spécifiques au projet (à compléter)
+## Règles spécifiques au projet
 
 > Cette section est réservée aux consignes données au fil des sessions. Toute règle globale communiquée doit être ajoutée ici immédiatement.
 
-<!-- Exemple :
-- 2024-01 : Les couleurs des cartes spectacles ne doivent pas être modifiées sans validation client
--->
+### RELEASE.md obligatoire
+
+**À chaque merge sur `main` contenant une feature ou un fix, le fichier `RELEASE.md` DOIT être mis à jour.**
+
+Workflow :
+1. Avant de merger sur `main`, vérifier la version actuelle dans `RELEASE.md`
+2. Incrémenter la version selon le type de changement (MINOR pour feat, PATCH pour fix)
+3. Ajouter une nouvelle section avec la date du jour
+4. Lister les changements dans les catégories appropriées (Ajouté, Modifié, Corrigé)
+5. Commiter le `RELEASE.md` mis à jour avec les autres changements
+
+**Ne jamais oublier cette étape.** Le RELEASE.md est la documentation officielle des évolutions du site.
+
+---
