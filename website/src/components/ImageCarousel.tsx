@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import styles from "./ImageCarousel.module.scss";
 
 interface ImageCarouselProps {
@@ -30,12 +31,14 @@ export default function ImageCarousel({
           <img src="/icons/chevron-compact-left.svg" alt="" />
         </button>
 
-        <img
-          src={photos[currentIndex]}
-          alt={`Photo ${currentIndex + 1} sur ${photos.length}`}
-          className={styles.mainImage}
-          loading="lazy"
-        />
+        <div className={styles.imageContainer}>
+          <Image
+            src={photos[currentIndex]}
+            alt={`Photo ${currentIndex + 1} sur ${photos.length}`}
+            fill
+            sizes="(max-width: 768px) 80vw, 600px"
+          />
+        </div>
 
         <button
           className={styles.navButton}
