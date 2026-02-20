@@ -1,5 +1,7 @@
+@import "variables";
 @import "bootstrap/scss/bootstrap";
 
+// ===== Fonts =====
 @font-face {
   font-family: "Catamaran";
   src: url("/fonts/Catamaran/Catamaran-VariableFont_wght.ttf") format("truetype");
@@ -15,66 +17,84 @@
   src: url("/fonts/Gochi_Hand/GochiHand-Regular.ttf") format("truetype");
 }
 
-// ===== Palette rose / papillons =====
+// ===== CSS Variables (pour compatibilité avec les composants existants) =====
 :root {
-  --bg-primary: #f0b8d0;       // Rose principal
-  --bg-secondary: #2d1b4e;     // Violet sombre (navbar, footer)
-  --bg-card: #ffffff;           // Fond des cartes de contenu
-  --text-primary: #1a1a1a;     // Texte principal
-  --text-light: #f2eddb;       // Texte sur fond sombre
-  --accent-gold: #d4a843;      // Or du logo
-  --accent-red: #c43c3c;       // Fil rouge
-  --accent-purple: #6b3fa0;    // Violet accent (boutons)
+  // Couleurs
+  --bg-primary: #{$color-bg-primary};
+  --bg-secondary: #{$color-bg-secondary};
+  --bg-card: #{$color-bg-card};
+  --text-primary: #{$color-text-primary};
+  --text-light: #{$color-text-light};
+  --accent-gold: #{$color-accent-gold};
+  --accent-red: #{$color-accent-red};
+  --accent-purple: #{$color-accent-purple};
+
+  // Espacements
+  --spacing-sm: #{$spacing-sm};
+  --spacing-md: #{$spacing-md};
+  --spacing-lg: #{$spacing-lg};
+  --spacing-xl: #{$spacing-xl};
+
+  // Tailles
+  --navbar-height: #{$navbar-height};
+  --page-padding-top: #{$page-padding-top};
+  --gap-cards: #{$gap-cards};
+
+  // Bordures
+  --border-radius-sm: #{$border-radius-sm};
+  --border-radius-md: #{$border-radius-md};
+  --border-radius-lg: #{$border-radius-lg};
 }
 
+// ===== Base styles =====
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--bg-primary);
-  font-family: "Catamaran", sans-serif;
-  color: var(--text-primary);
+  background-color: $color-bg-primary;
+  font-family: $font-primary;
+  color: $color-text-primary;
   overflow-x: hidden;
 }
 
 h1,
 h2 {
-  font-family: "Sue_Ellen_Francisco", cursive;
-  font-size: 3rem;
-  font-weight: 400;
+  font-family: $font-display;
+  font-size: $font-size-5xl;
+  font-weight: $font-weight-normal;
   letter-spacing: 3px;
-  padding-bottom: 15px;
+  padding-bottom: $spacing-md;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: $font-size-4xl;
 }
 
 .text-justify {
   text-align: justify;
 }
 
-// ===== Navbar sombre =====
+// ===== Navbar =====
 .navbar-dark {
-  background-color: var(--bg-secondary);
-  padding: 0.8rem 2rem;
+  background-color: $color-bg-secondary;
+  padding: $spacing-sm $spacing-xl;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: $z-navbar;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   .navbar-brand {
-    color: var(--text-light);
-    font-family: "Sue_Ellen_Francisco", cursive;
-    font-size: 1.3rem;
+    color: $color-text-light;
+    font-family: $font-display;
+    font-size: $font-size-xl;
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: $spacing-sm;
 
     &:hover {
       color: white;
@@ -83,17 +103,17 @@ h2 {
 
   .navbar-links {
     display: flex;
-    gap: 1.8rem;
+    gap: $spacing-lg;
     list-style: none;
     margin: 0;
     padding: 0;
 
     a {
-      color: var(--text-light);
+      color: $color-text-light;
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: $font-size-sm;
       letter-spacing: 0.5px;
-      transition: color 0.2s;
+      transition: color $transition-base;
 
       &:hover {
         color: white;
@@ -109,19 +129,19 @@ h2 {
   .trait#{$i * 10}vw {
     width: #{$i * 10}vw;
     height: 0.5px;
-    background-color: rgba(0, 0, 0, 0.15);
-    margin: 15px 0;
+    background-color: $color-text-muted;
+    margin: $spacing-md 0;
   }
 
   .trait#{$i * 10}percent {
     width: #{$i * 10}%;
     height: 0.5px;
-    background-color: rgba(0, 0, 0, 0.15);
-    margin: 20px 0;
+    background-color: $color-text-muted;
+    margin: $spacing-lg 0;
   }
 }
 
-// ===== Decorative elements positioning =====
+// ===== Decorative elements =====
 .deco-thread {
   position: absolute;
   width: 100%;
@@ -129,42 +149,42 @@ h2 {
   top: 0;
   left: 0;
   pointer-events: none;
-  z-index: 0;
+  z-index: $z-decorative;
 }
 
 .deco-butterfly {
   position: absolute;
   pointer-events: none;
-  z-index: 1;
+  z-index: $z-decorative + 1;
   opacity: 0.7;
 }
 
-// ===== Content cards (white zones for readability) =====
+// ===== Content cards =====
 .content-card {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: $color-overlay-light;
   backdrop-filter: blur(4px);
-  border-radius: 12px;
-  padding: 2rem;
+  border-radius: $border-radius-lg;
+  padding: $spacing-xl;
   position: relative;
-  z-index: 2;
+  z-index: $z-content;
 }
 
 // ===== Buttons =====
 .btn-borboleta {
   background-color: transparent;
-  border: 2px solid var(--accent-purple);
-  color: var(--accent-purple);
-  padding: 0.5rem 2rem;
-  border-radius: 4px;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 600;
+  border: 2px solid $color-accent-purple;
+  color: $color-accent-purple;
+  padding: $spacing-sm $spacing-xl;
+  border-radius: $border-radius-sm;
+  font-family: $font-primary;
+  font-weight: $font-weight-semibold;
   letter-spacing: 1px;
-  transition: all 0.2s;
+  transition: all $transition-base;
   text-decoration: none;
   display: inline-block;
 
   &:hover {
-    background-color: var(--accent-purple);
+    background-color: $color-accent-purple;
     color: white;
   }
 }
@@ -172,7 +192,7 @@ h2 {
 // ===== Modal base styles =====
 dialog {
   border: none;
-  border-radius: 12px;
+  border-radius: $border-radius-lg;
   padding: 0;
   max-width: 90vw;
   max-height: 90vh;
@@ -180,12 +200,12 @@ dialog {
   background-color: white;
 
   &::backdrop {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: $color-overlay-dark;
   }
 }
 
 dialog[open] {
-  animation: fadeIn 0.2s ease-in-out;
+  animation: fadeIn $transition-base;
 }
 
 @keyframes fadeIn {

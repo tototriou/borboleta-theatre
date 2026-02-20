@@ -1,0 +1,157 @@
+// =============================================
+// DESIGN TOKENS - Variables SCSS centralisées
+// =============================================
+
+// ----- COULEURS -----
+// Palette principale
+$color-bg-primary: #f0b8d0;       // Rose principal (fond)
+$color-bg-secondary: #2d1b4e;     // Violet sombre (navbar, footer)
+$color-bg-card: #ffffff;          // Fond des cartes
+
+// Texte
+$color-text-primary: #1a1a1a;     // Texte principal (noir)
+$color-text-light: #f2eddb;       // Texte sur fond sombre (beige)
+$color-text-muted: rgba(0, 0, 0, 0.6);
+
+// Accents
+$color-accent-gold: #d4a843;      // Or (boutons, highlights)
+$color-accent-red: #c43c3c;       // Fil rouge décoratif
+$color-accent-purple: #6b3fa0;    // Violet (boutons secondaires)
+
+// Overlays
+$color-overlay-dark: rgba(3, 3, 3, 0.6);
+$color-overlay-light: rgba(255, 255, 255, 0.85);
+
+// Décoratifs (papillons)
+$color-butterfly-dark: #2a2a2a;
+$color-butterfly-light: #555555;
+
+// ----- TYPOGRAPHIE -----
+$font-primary: "Catamaran", sans-serif;
+$font-display: "Sue_Ellen_Francisco", cursive;
+$font-handwritten: "Gochi_Hand", cursive;
+
+// Tailles de police
+$font-size-xs: 0.75rem;    // 12px
+$font-size-sm: 0.875rem;   // 14px
+$font-size-base: 1rem;     // 16px
+$font-size-lg: 1.125rem;   // 18px
+$font-size-xl: 1.25rem;    // 20px
+$font-size-2xl: 1.5rem;    // 24px
+$font-size-3xl: 2rem;      // 32px
+$font-size-4xl: 2.5rem;    // 40px
+$font-size-5xl: 3rem;      // 48px
+
+// Poids de police
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// ----- ESPACEMENTS -----
+$spacing-xs: 0.25rem;   // 4px
+$spacing-sm: 0.5rem;    // 8px
+$spacing-md: 1rem;      // 16px
+$spacing-lg: 1.5rem;    // 24px
+$spacing-xl: 2rem;      // 32px
+$spacing-2xl: 3rem;     // 48px
+$spacing-3xl: 4rem;     // 64px
+
+// Gaps standards pour les grilles
+$gap-cards: 15px;
+$gap-sections: 2rem;
+
+// ----- TAILLES -----
+// Cartes
+$card-width-member: 15em;
+$card-width-spectacle: 25em;
+
+// Conteneurs
+$container-max-width: 1200px;
+$content-max-width: 700px;
+
+// Navbar
+$navbar-height: 60px;
+$page-padding-top: 80px;
+
+// ----- BORDURES & OMBRES -----
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+$shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 20px rgba(0, 0, 0, 0.15);
+$shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+// ----- TRANSITIONS -----
+$transition-fast: 0.15s ease-in-out;
+$transition-base: 0.2s ease-in-out;
+$transition-slow: 0.3s ease-in-out;
+
+// ----- BREAKPOINTS -----
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// ----- MIXINS -----
+
+// Responsive
+@mixin mobile {
+  @media (max-width: #{$breakpoint-sm - 1}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $breakpoint-sm) and (max-width: #{$breakpoint-lg - 1}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+// Flexbox center
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Page wrapper standard
+@mixin page-wrapper {
+  position: relative;
+  min-height: 100vh;
+  padding-top: $page-padding-top;
+  overflow-x: hidden;
+}
+
+// Card hover effect
+@mixin card-hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: $color-overlay-dark;
+  transition: opacity $transition-slow;
+}
+
+// Z-index scale
+$z-decorative: 0;
+$z-content: 2;
+$z-modal-backdrop: 100;
+$z-modal: 101;
+$z-navbar: 1000;

@@ -1,7 +1,9 @@
+@use "../styles/variables" as *;
+
 .card {
   display: flex;
-  width: 15em;
-  margin: 5px;
+  width: $card-width-member;
+  margin: $spacing-xs;
   position: relative;
   cursor: pointer;
   overflow: hidden;
@@ -10,7 +12,7 @@
   background: none;
 
   &:focus {
-    outline: 3px solid var(--accent-gold);
+    outline: 3px solid $color-accent-gold;
     outline-offset: 2px;
   }
 }
@@ -35,8 +37,8 @@
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  color: var(--bg-color-primary);
-  transition: all 0.3s ease-in-out;
+  color: $color-text-light;
+  transition: all $transition-slow;
   top: 0;
   left: 0;
 }
@@ -44,15 +46,15 @@
 .card:hover .description,
 .card:focus .description {
   opacity: 1;
-  background-color: rgba(3, 3, 3, 0.593);
+  background-color: $color-overlay-dark;
 }
 
 .nomPrenom {
   margin: 0;
-  font-weight: 600;
+  font-weight: $font-weight-semibold;
 }
 
 .role {
-  color: rgb(255, 180, 68);
+  color: $color-accent-gold;
   margin: 0;
 }
