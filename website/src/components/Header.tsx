@@ -27,14 +27,8 @@ export default function Header() {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <>
-      {/* Skip link pour accessibilité */}
-      <a href="#main-content" className="skip-link">
-        Aller au contenu principal
-      </a>
-
-      <header>
-        <nav className="navbar-dark" aria-label="Navigation principale">
+    <header>
+      <nav className="navbar-dark" aria-label="Navigation principale">
           <Link
             href="/"
             className="navbar-brand"
@@ -76,8 +70,7 @@ export default function Header() {
               </li>
             ))}
           </ul>
-        </nav>
-      </header>
-    </>
+      </nav>
+    </header>
   );
 }

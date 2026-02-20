@@ -49,25 +49,6 @@
   --border-radius-lg: #{$border-radius-lg};
 }
 
-// ===== Skip link (accessibilité) =====
-.skip-link {
-  position: absolute;
-  top: -100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: $color-bg-secondary;
-  color: $color-text-light;
-  padding: $spacing-sm $spacing-lg;
-  border-radius: $border-radius-sm;
-  z-index: $z-navbar + 1;
-  text-decoration: none;
-  font-weight: $font-weight-semibold;
-
-  &:focus {
-    top: $spacing-sm;
-  }
-}
-
 // ===== Focus visible global =====
 :focus-visible {
   outline: 3px solid $color-accent-gold;
