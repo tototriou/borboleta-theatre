@@ -7,16 +7,16 @@ Liste des améliorations à apporter au site.
 ## Priorité haute
 
 ### Responsive
-- [ ] Navbar responsive avec menu burger sur mobile
-- [ ] Media queries pour les cartes (MemberCard, SpectacleCard)
+- [x] Navbar responsive avec menu burger sur mobile
+- [x] Media queries pour les cartes (MemberCard, SpectacleCard)
 - [ ] Adapter les éléments décoratifs (papillons) sur mobile
 - [ ] Tester sur différentes tailles d'écran (320px, 768px, 1024px)
 
 ### Accessibilité
-- [ ] Ajouter skip link "Aller au contenu principal"
+- [x] Ajouter skip link "Aller au contenu principal"
 - [ ] Vérifier contrastes couleurs (rose/violet) - objectif 4.5:1
-- [ ] Styliser le focus visible sur tous les éléments interactifs
-- [ ] Ajouter `aria-current="page"` sur le lien actif dans la navbar
+- [x] Styliser le focus visible sur tous les éléments interactifs
+- [x] Ajouter `aria-current="page"` sur le lien actif dans la navbar
 
 ---
 
@@ -25,7 +25,7 @@ Liste des améliorations à apporter au site.
 ### Performance
 - [ ] Migrer les `<img>` vers `next/image` pour optimisation automatique
 - [ ] Convertir les images en WebP/AVIF
-- [ ] Ajouter `font-display: swap` sur les @font-face
+- [x] Ajouter `font-display: swap` sur les @font-face
 - [ ] Lazy loading sur les images hors viewport
 
 ### UX
@@ -50,7 +50,7 @@ Liste des améliorations à apporter au site.
 ### Code
 - [ ] Ajouter tests unitaires (Jest + React Testing Library)
 - [ ] Configurer Storybook pour les composants
-- [ ] Ajouter pre-commit hooks (Husky)
+- [x] Ajouter pre-commit hooks (Husky)
 
 ---
 
