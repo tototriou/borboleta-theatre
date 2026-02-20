@@ -328,6 +328,59 @@ Ces hooks garantissent :
 - [ ] Nouveaux composants documentés (JSDoc)
 - [ ] Message(s) de commit conformes à la convention
 - [ ] `CLAUDE.md` mis à jour si nouvelle règle globale
+- [ ] `RELEASE.md` mis à jour si nouvelle feature ou fix
+
+---
+
+## Gestion des versions (RELEASE.md)
+
+Le fichier `RELEASE.md` à la racine du projet contient l'historique des versions avec les release notes.
+
+### Versionnement sémantique
+
+Format : `MAJOR.MINOR.PATCH`
+
+- **MAJOR** : changement incompatible ou refonte majeure (ex: 2.0.0)
+- **MINOR** : nouvelle fonctionnalité rétrocompatible (ex: 1.3.0)
+- **PATCH** : correction de bug ou amélioration mineure (ex: 1.2.1)
+
+### Quand mettre à jour RELEASE.md
+
+**Obligatoire** pour chaque merge sur `main` qui est de type :
+- `feat` → incrémenter MINOR, reset PATCH à 0
+- `fix` → incrémenter PATCH
+- `refactor` (si impact visible) → incrémenter PATCH
+- `style` (si impact visible) → incrémenter PATCH
+- `perf` → incrémenter PATCH
+
+**Non requis** pour :
+- `docs` (documentation uniquement)
+- `chore` (maintenance interne)
+- `content` (sauf si nouvelle section/page)
+
+### Format des entrées
+
+```markdown
+## [1.3.0] - 2025-02-20
+
+### Ajouté
+- Page galerie avec lightbox (#feat)
+- Support des couleurs configurables pour les papillons
+
+### Modifié
+- Refonte du design system avec variables SCSS
+
+### Corrigé
+- Scroll horizontal sur les pages mobiles
+```
+
+### Catégories disponibles
+
+- **Ajouté** : nouvelles fonctionnalités
+- **Modifié** : changements dans les fonctionnalités existantes
+- **Corrigé** : corrections de bugs
+- **Supprimé** : fonctionnalités retirées
+- **Sécurité** : corrections de vulnérabilités
 
 ---
 
