@@ -9,14 +9,8 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 ## [1.7.0] - 2026-02-20
 
 ### Ajouté
-- Indicateur de chargement animé (composant Loading)
-- Animation de transition fade-in entre les pages (template.tsx)
-- Feedback visuel au clic sur tous les boutons (scale + opacity)
-
-### UX
-- États loading.tsx sur les routes principales
-- Effet hover avec élévation sur les boutons
-- Effet active avec réduction au clic
+- Indicateur de chargement animé (composant Loading avec animation de rebond)
+- États loading.tsx sur les routes principales (compagnie, spectacles, galerie)
 
 ---
 
