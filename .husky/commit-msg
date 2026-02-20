@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Vérifie que le message de commit respecte la convention
+commit_regex='^(feat|fix|content|style|refactor|a11y|seo|perf|chore|docs)(\(.+\))?: .{1,72}'
+
+if ! grep -qE "$commit_regex" "$1"; then
+  echo "❌ Message de commit invalide."
+  echo ""
+  echo "Format attendu : type(scope): description"
+  echo ""
+  echo "Types : feat, fix, content, style, refactor, a11y, seo, perf, chore, docs"
+  echo "Exemple : feat(spectacles): ajouter page Éclats"
+  echo ""
+  exit 1
+fi

@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "prepare": "cd .. && husky"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +23,16 @@
   "devDependencies": {
     "@types/node": "^25.1.0",
     "@types/react": "^19.2.10",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.35",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "sass": "^1.97.3",
     "typescript": "^5.9.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix"
+    ]
   }
 }
