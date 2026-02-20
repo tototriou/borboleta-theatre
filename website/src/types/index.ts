@@ -95,20 +95,18 @@ export interface CompagnieData {
   membre: Membre[];
 }
 
-/** Un événement dans l'agenda */
+/** Un événement dans l'agenda (src/content/agenda.json) */
 export interface AgendaEvent {
-  /** Date de l'événement (ex: "6 au 9 Novembre 2024") */
+  /** Date ISO de début (ex: "2024-11-06") — utilisée pour le tri et la séparation passé/futur */
   date: string;
-  /** Lieu et nom de l'événement (ex: "JULIET - Lavoir Public, Lyon") */
+  /** Date lisible (ex: "6 au 9 Novembre 2024") — affichée à l'écran */
+  dateDisplay: string;
+  /** Nom du spectacle (ex: "JULIET", "CHIMERES") — utilisé pour le regroupement */
+  spectacleName: string;
+  /** Slug du spectacle pour le lien vers sa page (ex: "juliet") — optionnel */
+  slug?: string;
+  /** Lieu de représentation (ex: "Lavoir Public, Lyon") */
   lieu: string;
-  /** Chemin vers l'affiche associée */
-  photo_url: string;
-}
-
-/** Une année dans l'agenda (src/content/agenda.json) */
-export interface AgendaYear {
-  annee: string;
-  spectacles: AgendaEvent[];
 }
 
 /** Informations de contact (src/content/contact.json) */
