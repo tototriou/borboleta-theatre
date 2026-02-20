@@ -412,6 +412,7 @@ Format : `MAJOR.MINOR.PATCH`
 - `TODO.md` ne contient **que les tâches restantes à faire**
 - Dès qu'une tâche est terminée et mergée sur `main`, la **supprimer de `TODO.md`** — elle est tracée dans `RELEASE.md`
 - Ne jamais laisser de section "Terminé" dans `TODO.md` : c'est le rôle de `RELEASE.md`
+- **À la fin de chaque tâche**, mettre à jour `TODO.md` : supprimer les éléments accomplis, conserver uniquement ce qui reste à faire
 
 ### RELEASE.md obligatoire
 
