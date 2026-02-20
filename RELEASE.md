@@ -6,6 +6,13 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.5.2] - 2026-02-20
+
+### Modifié
+- Réorganisation des onglets de navigation : Compagnie → Spectacles → Agenda → Contact → Galerie
+
+---
+
 ## [1.5.1] - 2026-02-20
 
 ### Corrigé
