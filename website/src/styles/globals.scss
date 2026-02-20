@@ -15,15 +15,25 @@
   src: url("/fonts/Gochi_Hand/GochiHand-Regular.ttf") format("truetype");
 }
 
+// ===== Palette rose / papillons =====
 :root {
-  --bg-color-primary: #f2eddb;
+  --bg-primary: #f0b8d0;       // Rose principal
+  --bg-secondary: #2d1b4e;     // Violet sombre (navbar, footer)
+  --bg-card: #ffffff;           // Fond des cartes de contenu
+  --text-primary: #1a1a1a;     // Texte principal
+  --text-light: #f2eddb;       // Texte sur fond sombre
+  --accent-gold: #d4a843;      // Or du logo
+  --accent-red: #c43c3c;       // Fil rouge
+  --accent-purple: #6b3fa0;    // Violet accent (boutons)
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--bg-color-primary);
+  background-color: var(--bg-primary);
+  font-family: "Catamaran", sans-serif;
+  color: var(--text-primary);
 }
 
 h1,
@@ -43,55 +53,133 @@ h2 {
   text-align: justify;
 }
 
-// Dividers
+// ===== Navbar sombre =====
+.navbar-dark {
+  background-color: var(--bg-secondary);
+  padding: 0.8rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navbar-brand {
+    color: var(--text-light);
+    font-family: "Sue_Ellen_Francisco", cursive;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .navbar-links {
+    display: flex;
+    gap: 1.8rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+      color: var(--text-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+      transition: color 0.2s;
+
+      &:hover {
+        color: white;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+      }
+    }
+  }
+}
+
+// ===== Dividers =====
 @for $i from 1 through 7 {
   .trait#{$i * 10}vw {
     width: #{$i * 10}vw;
     height: 0.5px;
-    background-color: lightgray;
+    background-color: rgba(0, 0, 0, 0.15);
     margin: 15px 0;
   }
 
   .trait#{$i * 10}percent {
     width: #{$i * 10}%;
     height: 0.5px;
-    background-color: lightgray;
+    background-color: rgba(0, 0, 0, 0.15);
     margin: 20px 0;
   }
 }
 
-// Header logo (return to home)
-.retour-menu {
-  display: flex;
-  position: fixed;
-  height: 10%;
-  left: 0;
+// ===== Decorative elements positioning =====
+.deco-thread {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   top: 0;
-  margin-left: 2%;
-  flex-direction: column;
-  font-family: "Sue_Ellen_Francisco";
-  font-size: 5vh;
-  z-index: 100;
+  left: 0;
+  pointer-events: none;
+  z-index: 0;
+}
 
-  .link-retour-menu {
-    display: flex;
-    width: 100%;
-    height: 100%;
+.deco-butterfly {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+// ===== Content cards (white zones for readability) =====
+.content-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+// ===== Buttons =====
+.btn-borboleta {
+  background-color: transparent;
+  border: 2px solid var(--accent-purple);
+  color: var(--accent-purple);
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover {
+    background-color: var(--accent-purple);
+    color: white;
   }
 }
 
-// Modal base styles
+// ===== Modal base styles =====
 dialog {
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0;
   max-width: 90vw;
   max-height: 90vh;
   overflow-y: auto;
-  background-color: var(--bg-color-primary);
+  background-color: white;
 
   &::backdrop {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
   }
 }
 

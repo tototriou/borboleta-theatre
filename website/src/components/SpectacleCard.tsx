@@ -1,19 +1,14 @@
-"use client";
-
+import Link from "next/link";
 import { Spectacle } from "@/types";
 import styles from "./SpectacleCard.module.scss";
 
 interface SpectacleCardProps {
   spectacle: Spectacle;
-  onClick: () => void;
 }
 
-export default function SpectacleCard({
-  spectacle,
-  onClick,
-}: SpectacleCardProps) {
+export default function SpectacleCard({ spectacle }: SpectacleCardProps) {
   return (
-    <div className={styles.card} onClick={onClick}>
+    <Link href={`/spectacles/${spectacle.slug}/`} className={styles.card}>
       <div className={styles.image}>
         <img
           src={spectacle.photo_principale}
@@ -22,6 +17,6 @@ export default function SpectacleCard({
         />
       </div>
       <div className={styles.description} />
-    </div>
+    </Link>
   );
 }

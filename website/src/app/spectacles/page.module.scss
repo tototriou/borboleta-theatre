@@ -1,9 +1,9 @@
 .wrapper {
-  padding-top: 20px;
+  position: relative;
+  padding-top: 80px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: var(--bg-color-primary);
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -15,4 +15,17 @@
   justify-content: center;
   flex-direction: row;
   width: 70%;
+  gap: 15px;
+}
+
+.butterfly1 {
+  top: 120px;
+  left: 4%;
+  transform: rotate(-10deg);
+}
+
+.butterfly2 {
+  bottom: 15%;
+  right: 6%;
+  transform: rotate(25deg);
 }

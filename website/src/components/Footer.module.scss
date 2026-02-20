@@ -5,19 +5,19 @@
   align-items: center;
   min-width: 100dvw;
   min-height: 8vh;
-  background: black;
-  color: var(--bg-color-primary);
+  background: var(--bg-secondary);
+  color: var(--text-light);
   font-size: small;
   font-style: italic;
   font-weight: 200;
   padding: 1vh 0;
 
   a {
-    color: var(--bg-color-primary);
+    color: var(--accent-gold);
     text-decoration: none;
 
     &:hover {
-      color: aliceblue;
+      color: var(--text-light);
     }
   }
 }

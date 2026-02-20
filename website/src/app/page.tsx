@@ -1,37 +1,38 @@
 import Link from "next/link";
+import Header from "@/components/Header";
+import RedThread from "@/components/RedThread";
+import Butterfly from "@/components/Butterfly";
 import styles from "./page.module.scss";
 
 export default function HomePage() {
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.titre}>
-        <h1>BORBOLETA THEATRE</h1>
+    <>
+      <Header />
+      <div className={styles.hero}>
+        {/* Decorative elements */}
+        <RedThread className="deco-thread" />
+        <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={100} />
+        <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={70} />
+        <Butterfly className={`deco-butterfly ${styles.butterfly3}`} size={55} />
+        <Butterfly className={`deco-butterfly ${styles.butterfly4}`} size={85} />
+
+        {/* Central content */}
+        <div className={styles.central}>
+          <div className={styles.logoFrame}>
+            <img
+              src="/images/home-page-image/image-accueil.jpeg"
+              alt="Borboleta Théâtre"
+            />
+            <h1 className={styles.titre}>Borboleta Théâtre</h1>
+            <p className={styles.sousTitre}>
+              Compagnie de Théâtre créée par Sidonie Vilas Boas et Romain Triouleyre
+            </p>
+            <Link href="/compagnie/" className={styles.btnDecouvrir}>
+              Découvrir
+            </Link>
+          </div>
+        </div>
       </div>
-      <div className={styles.logocentral}>
-        <img
-          src="/images/home-page-image/logo-page1.PNG"
-          alt="Logo Borboleta Théâtre"
-        />
-      </div>
-      <div className={styles.theatreTexte}>
-        <p>THEATRE</p>
-      </div>
-      <nav className={styles.navbar}>
-        <ul>
-          <li>
-            <Link href="/compagnie/">Compagnie</Link>
-          </li>
-          <li>
-            <Link href="/spectacles/">Spectacles</Link>
-          </li>
-          <li>
-            <Link href="/contact/">Contact</Link>
-          </li>
-          <li>
-            <Link href="/agenda/">Agenda</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    </>
   );
 }

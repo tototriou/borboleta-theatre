@@ -1,0 +1,121 @@
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+  padding: 100px 2rem 2rem;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backLink {
+  align-self: flex-start;
+  color: var(--accent-purple);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.titre {
+  padding: 0;
+  font-size: 4rem;
+  text-align: center;
+
+  @media (max-width: 600px) {
+    font-size: 2.5rem;
+  }
+}
+
+.sousTitre {
+  margin: 0;
+  font-weight: 100;
+}
+
+.infoSection {
+  width: 100%;
+}
+
+.context {
+  text-align: center;
+
+  * {
+    margin: 0 !important;
+  }
+}
+
+.youtubeWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  iframe {
+    border-radius: 8px;
+    max-width: 100%;
+  }
+}
+
+.resume {
+  text-align: justify;
+  margin: 0 1rem 2rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.agendaLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dossierComp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  h6 {
+    margin: 0;
+  }
+}
+
+.download {
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.butterfly1 {
+  top: 12%;
+  right: 5%;
+  transform: rotate(15deg);
+}
+
+.butterfly2 {
+  bottom: 20%;
+  left: 4%;
+  transform: rotate(-20deg) scaleX(-1);
+}

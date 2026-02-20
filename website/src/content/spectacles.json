@@ -1,6 +1,7 @@
 {
     "spectacles": [
         {
+            "slug": "chimeres",
             "titre": "CHIMERES",
             "sous_titre": "Création novembre 2023",
             "youtube_url": "",
@@ -35,6 +36,7 @@
             "photo_principale": "/images/compagnie/images/chimeres-affiche.png"
         },
         {
+            "slug": "juliet",
             "titre": "JULIET",
             "sous_titre": "Création 2024",
             "youtube_url": "aQysrMCEjas",

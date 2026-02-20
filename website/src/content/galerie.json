@@ -1,0 +1,61 @@
+{
+  "categories": [
+    {
+      "titre": "CHIMÈRES",
+      "sous_titre": "Création novembre 2023",
+      "credit_photo": "Photos : Henrique Vilas Boas",
+      "photos": [
+        "/images/compagnie/images/photo-chimères1.JPG",
+        "/images/compagnie/images/photo-chimères2.JPG",
+        "/images/compagnie/images/photo-chimères3.JPG",
+        "/images/compagnie/images/photo-chimères4.JPG",
+        "/images/compagnie/images/photo-chimères5.JPG",
+        "/images/compagnie/images/photo-chimères6.JPG",
+        "/images/compagnie/images/photo-chimères7.JPG",
+        "/images/compagnie/images/photo-chimères8.JPG",
+        "/images/compagnie/images/photo-chimères9.JPG",
+        "/images/spectacles/chimere/IMG_1497.png",
+        "/images/spectacles/chimere/IMG_1911.JPG",
+        "/images/spectacles/chimere/IMG_1937.JPG",
+        "/images/spectacles/chimere/IMG_1949.JPG",
+        "/images/spectacles/chimere/IMG_2002.JPG",
+        "/images/spectacles/chimere/IMG_2007.JPG",
+        "/images/spectacles/chimere/IMG_2025.JPG",
+        "/images/spectacles/chimere/IMG_2038.JPG",
+        "/images/spectacles/chimere/image00001.jpeg",
+        "/images/spectacles/chimere/image00014.jpeg",
+        "/images/compagnie/images/photo-chimères-grp.png",
+        "/images/compagnie/images/photo-chimères-meuf-mars.jpeg"
+      ]
+    },
+    {
+      "titre": "JULIET",
+      "sous_titre": "Création 2024",
+      "credit_photo": "Photos : Cyril Masson",
+      "photos": [
+        "/images/compagnie/images/photo-juliet1.jpg",
+        "/images/compagnie/images/photo-juliet3.jpg",
+        "/images/compagnie/images/photo-juliet4.jpg",
+        "/images/compagnie/images/photo-juliet5.jpg",
+        "/images/compagnie/images/photo-juliet6.jpg",
+        "/images/compagnie/images/photo-juliet7.jpg",
+        "/images/compagnie/images/photo-juliet8.jpg",
+        "/images/compagnie/images/photo-juliet9.jpg",
+        "/images/compagnie/images/photo-juliet10.jpg",
+        "/images/compagnie/images/photo-juliet11.jpg",
+        "/images/compagnie/images/photo-juliet12.jpg",
+        "/images/compagnie/images/photo-juliet13.jpg",
+        "/images/compagnie/images/photo-juliet14.jpg",
+        "/images/compagnie/images/photo-juliet15.jpg",
+        "/images/compagnie/images/photo-juliet16.jpg",
+        "/images/compagnie/images/photo-juliet17.jpg",
+        "/images/compagnie/images/photo-juliet18.jpg",
+        "/images/compagnie/images/photo-juliet19.jpg",
+        "/images/compagnie/images/photo-juliet20.jpg",
+        "/images/compagnie/images/photo-juliet21.jpg",
+        "/images/compagnie/images/photo-juliet22.jpg",
+        "/images/compagnie/images/photo-juliet23.jpg"
+      ]
+    }
+  ]
+}

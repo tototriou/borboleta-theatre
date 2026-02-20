@@ -1,17 +1,14 @@
 .wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: var(--bg-color-primary);
   min-height: 100vh;
-  margin: 0;
+  padding-top: 80px;
 }
 
 .title {
   display: flex;
-  position: relative;
-  top: 0;
   padding-top: 25px;
 }
 
@@ -23,12 +20,10 @@
 }
 
 .section {
-  margin: 50px;
+  margin: 25px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-top: 25px;
 }
 
 .ligne {
@@ -38,6 +33,9 @@
   flex-direction: column;
   width: 100%;
   margin-bottom: 15px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
 
   p {
     margin: 0;
@@ -47,10 +45,23 @@
     max-width: 15vw;
     min-width: 100px;
     height: auto;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 4px;
   }
 }
 
 .date {
   font-weight: bold;
+}
+
+.butterfly1 {
+  top: 130px;
+  right: 8%;
+  transform: rotate(20deg);
+}
+
+.butterfly2 {
+  bottom: 20%;
+  left: 5%;
+  transform: rotate(-15deg);
 }

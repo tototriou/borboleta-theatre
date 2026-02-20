@@ -7,6 +7,8 @@
 
 /** Un spectacle de la compagnie (src/content/spectacles.json) */
 export interface Spectacle {
+  /** Slug URL-friendly (ex: "chimeres", "juliet") */
+  slug: string;
   /** Titre du spectacle (ex: "CHIMERES", "JULIET") */
   titre: string;
   /** Sous-titre affiché sous le titre (ex: "Création 2024") */
@@ -82,4 +84,17 @@ export interface ContactInfo {
   facebook_url: string;
   /** Mention légale affichée en bas de la page contact */
   mention_legale: string;
+}
+
+/** Une catégorie de photos dans la galerie (src/content/galerie.json) */
+export interface GalerieCategory {
+  titre: string;
+  sous_titre: string;
+  credit_photo: string;
+  photos: string[];
+}
+
+/** Structure racine de galerie.json */
+export interface GalerieData {
+  categories: GalerieCategory[];
 }

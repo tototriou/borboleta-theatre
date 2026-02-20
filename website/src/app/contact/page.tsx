@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Butterfly from "@/components/Butterfly";
+import RedThread from "@/components/RedThread";
 import contactData from "@/content/contact.json";
 import { ContactInfo } from "@/types";
 import styles from "./page.module.scss";
@@ -10,6 +12,9 @@ export default function ContactPage() {
   return (
     <>
       <div className={styles.wrapper}>
+        <RedThread className="deco-thread" />
+        <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={50} />
+        <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={40} />
         <Header />
         <h1>Contactez-nous</h1>
 

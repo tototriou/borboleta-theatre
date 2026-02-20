@@ -1,16 +1,32 @@
 .wrapper {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: var(--bg-color-primary);
   min-height: 100vh;
   overflow-x: hidden;
+  padding-top: 80px;
   padding-bottom: 10vh;
 }
 
+.heroImage {
+  width: 280px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 .description {
-  width: 70vw;
+  width: 60vw;
   text-align: justify;
+  max-width: 700px;
 }
 
 .cardGrid {
@@ -18,5 +34,18 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 0 20vw;
+  gap: 10px;
+  margin: 0 10vw;
+}
+
+.butterfly1 {
+  top: 150px;
+  right: 5%;
+  transform: rotate(15deg);
+}
+
+.butterfly2 {
+  top: 60%;
+  left: 3%;
+  transform: rotate(-20deg);
 }
