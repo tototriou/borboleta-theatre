@@ -30,8 +30,8 @@ Liste des améliorations à apporter au site.
 
 ### UX
 - [x] Ajouter indicateur de chargement (skeleton ou spinner)
-- [x] Animation de transition entre les pages
-- [x] Feedback visuel au clic sur les boutons
+- [ ] Animation de transition entre les pages (retiré - non souhaité)
+- [ ] Feedback visuel au clic sur les boutons (retiré - non souhaité)
 
 ---
 

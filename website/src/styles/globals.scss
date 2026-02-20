@@ -287,33 +287,10 @@ h2 {
   transition: all $transition-base;
   text-decoration: none;
   display: inline-block;
-  cursor: pointer;
 
   &:hover {
     background-color: $color-accent-purple;
     color: white;
-    transform: translateY(-2px);
-  }
-
-  &:active {
-    transform: translateY(0) scale(0.98);
-  }
-}
-
-// Feedback visuel global pour tous les boutons
-button,
-[role="button"] {
-  cursor: pointer;
-  transition: transform $transition-fast, opacity $transition-fast;
-
-  &:active:not(:disabled) {
-    transform: scale(0.97);
-    opacity: 0.9;
-  }
-
-  &:disabled {
-    cursor: not-allowed;
-    opacity: 0.5;
   }
 }
 
