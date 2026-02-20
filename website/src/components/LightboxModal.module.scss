@@ -9,10 +9,14 @@
   justify-content: center;
 }
 
-.photo {
-  max-width: 85vw;
-  max-height: 85vh;
-  object-fit: contain;
+.photoContainer {
+  position: relative;
+  width: 85vw;
+  height: 85vh;
+
+  img {
+    object-fit: contain;
+  }
 }
 
 .closeBtn {
