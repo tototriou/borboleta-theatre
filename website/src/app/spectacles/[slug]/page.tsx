@@ -85,7 +85,7 @@ export default async function SpectaclePage({ params }: Props) {
   return (
     <>
       <div className={styles.wrapper}>
-        <RedThread className="deco-thread" />
+        <RedThread className={`deco-thread ${styles.thread}`} />
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={60} />
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={45} />
         <Header />
