@@ -85,6 +85,31 @@
             "credit_photo": "Photos : Cyril Masson",
             "dossier_url": "/images/compagnie/cv/dossier-juliet.pdf",
             "photo_principale": "/images/compagnie/images/affiche-juliet.png"
+        },
+        {
+            "slug": "stella",
+            "titre": "ALLÔ STELLA",
+            "sous_titre": "Création novembre 2023",
+            "youtube_url": "",
+            "cadre": [
+                "-production-",
+                "carte blanche au CNSAD",
+                "-soutien-",
+                "Festival du MEUF MARS"
+            ],
+            "creation": [
+                "Mise en scène",
+                "Sidonie VIlas Boas",
+                "Assistanat à la mise en scène",
+                "Romain Triouleyre",
+                "Jeu",
+                "Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis-Calixte, Clara Pacini, Lucile Rose"
+            ],
+            "resume": "Sept femmes comme projetées dans une époque d'autrefois, qui se fardent et s'habillent de leurs blouses de travail pour aller à l'usine. La patronne donne le tempo, le tricot démarre et le chant suit. Les accouchements se succèdent. Ici, on fabrique des bébés à la chaîne et on joue à la maman.",
+            "photos": [            ],
+            "credit_photo": "Photos : Henrique Vilas Boas",
+            "dossier_url": "/images/compagnie/cv/dossier-chimères.pdf",
+            "photo_principale": "/images/compagnie/images/chimeres-affiche.png"
         }
     ]
 }
