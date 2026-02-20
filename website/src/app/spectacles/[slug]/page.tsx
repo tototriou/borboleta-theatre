@@ -75,13 +75,13 @@ export default async function SpectaclePage({ params }: Props) {
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={45} />
         <Header />
 
-        <main id="main-content" className={styles.content}>
-          <nav aria-label="Fil d'Ariane">
-            <Link href="/spectacles/" className={styles.backLink}>
-              &larr; Retour aux spectacles
-            </Link>
-          </nav>
+        <nav aria-label="Fil d'Ariane" className={styles.breadcrumb}>
+          <Link href="/spectacles/" className={styles.backLink}>
+            &larr; Retour aux spectacles
+          </Link>
+        </nav>
 
+        <main id="main-content" className={styles.content}>
           <article>
             <header>
               <h1

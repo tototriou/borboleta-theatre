@@ -6,6 +6,19 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.5.5] - 2026-02-20
+
+### Modifié
+- Refonte de la page liste des spectacles : layout en lignes alternées (image / contenu)
+- Titre de la page plus grand, spectacles séparés par une ligne
+- Chaque spectacle affiche : titre, sous-titre, accroche italique, durée, public, distribution, bouton "En savoir plus"
+- Nouveaux champs `accroche`, `duree`, `public` dans `spectacles.json`
+
+### Corrigé
+- Lien "← Retour aux spectacles" déplacé hors de la boîte contenu pour éviter le blocage par la police décorative
+
+---
+
 ## [1.5.4] - 2026-02-20
 
 ### Modifié

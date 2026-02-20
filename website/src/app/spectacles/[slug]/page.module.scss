@@ -1,7 +1,15 @@
 .wrapper {
   position: relative;
   min-height: 100vh;
-  padding: 100px 2rem 2rem;
+  padding: 80px 2rem 2rem;
+}
+
+.breadcrumb {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 1.5rem auto 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .content {

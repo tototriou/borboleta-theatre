@@ -29,10 +29,13 @@ export default function SpectaclesPage() {
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={55} />
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={40} />
         <Header />
-        <h1>Les spectacles</h1>
-        <section className={styles.cardGrid} aria-label="Liste des spectacles">
-          {spectacles.map((spectacle) => (
-            <SpectacleCard key={spectacle.slug} spectacle={spectacle} />
+        <h1 className={styles.pageTitle}>Les spectacles</h1>
+        <section className={styles.list} aria-label="Liste des spectacles">
+          {spectacles.map((spectacle, i) => (
+            <div key={spectacle.slug}>
+              <SpectacleCard spectacle={spectacle} reversed={i % 2 !== 0} />
+              {i < spectacles.length - 1 && <div className="trait70vw" />}
+            </div>
           ))}
         </section>
       </main>
