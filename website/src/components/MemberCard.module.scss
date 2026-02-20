@@ -11,6 +11,16 @@
   padding: 0;
   background: none;
 
+  // Responsive: cartes plus petites sur tablette et mobile
+  @media (max-width: $breakpoint-md) {
+    width: 12em;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    width: calc(50% - #{$spacing-sm});
+    margin: $spacing-xs / 2;
+  }
+
   &:focus {
     outline: 3px solid $color-accent-gold;
     outline-offset: 2px;

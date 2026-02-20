@@ -29,6 +29,10 @@
   width: 60vw;
   text-align: justify;
   max-width: 700px;
+
+  @media (max-width: 576px) {
+    width: 90vw;
+  }
 }
 
 .section {

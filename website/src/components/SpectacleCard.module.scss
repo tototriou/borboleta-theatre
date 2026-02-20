@@ -8,6 +8,16 @@
   cursor: pointer;
   border-radius: $border-radius-md;
   overflow: hidden;
+
+  // Responsive: cartes plus petites sur tablette et mobile
+  @media (max-width: $breakpoint-md) {
+    width: 20em;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    width: calc(100% - #{$spacing-md});
+    max-width: 20em;
+  }
 }
 
 .image img {
