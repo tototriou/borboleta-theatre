@@ -18,45 +18,43 @@ export default function CompagniePage() {
 
   return (
     <>
-      <div className={styles.wrapper}>
+      <main className={styles.wrapper}>
         <RedThread className="deco-thread" />
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={60} />
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={45} />
         <Header />
 
-        <main>
-          <div className={styles.heroImage}>
-            <img
-              src="/images/compagnie/images/image-compagnie.jpeg"
-              alt="Main tendue vers un papillon, symbole de la compagnie Borboleta"
-            />
+        <div className={styles.heroImage}>
+          <img
+            src="/images/compagnie/images/image-compagnie.jpeg"
+            alt="Main tendue vers un papillon, symbole de la compagnie Borboleta"
+          />
+        </div>
+
+        <section className={styles.section} aria-labelledby="compagnie-title">
+          <h1 id="compagnie-title">La Compagnie</h1>
+          <div className={styles.description}>
+            {description.map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
           </div>
+        </section>
 
-          <section className="text-center mx-5" aria-labelledby="compagnie-title">
-            <h1 id="compagnie-title">La Compagnie</h1>
-            <div className={styles.description}>
-              {description.map((paragraph, i) => (
-                <p key={i}>{paragraph}</p>
-              ))}
-            </div>
-          </section>
+        <div className="trait70vw" />
 
-          <div className="trait70vw" />
-
-          <section aria-labelledby="equipe-title">
-            <h2 id="equipe-title">L&apos;équipe Artistique</h2>
-            <div className={styles.cardGrid}>
-              {membres.map((membre, i) => (
-                <MemberCard
-                  key={i}
-                  membre={membre}
-                  onClick={() => setSelectedMember(membre)}
-                />
-              ))}
-            </div>
-          </section>
-        </main>
-      </div>
+        <section className={styles.section} aria-labelledby="equipe-title">
+          <h2 id="equipe-title">L&apos;équipe Artistique</h2>
+          <div className={styles.cardGrid}>
+            {membres.map((membre, i) => (
+              <MemberCard
+                key={i}
+                membre={membre}
+                onClick={() => setSelectedMember(membre)}
+              />
+            ))}
+          </div>
+        </section>
+      </main>
 
       <MemberModal
         membre={selectedMember}
