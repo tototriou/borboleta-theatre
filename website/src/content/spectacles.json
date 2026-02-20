@@ -4,7 +4,6 @@
             "slug": "chimeres",
             "titre": "CHIMERES",
             "sous_titre": "Création novembre 2023",
-            "youtube_url": "",
             "cadre": [
                 "-production-",
                 "carte blanche au CNSAD",
@@ -13,16 +12,20 @@
             ],
             "creation": [
                 "Mise en scène",
-                "Sidonie VIlas Boas",
+                "Sidonie Vilas Boas",
                 "Assistanat à la mise en scène",
                 "Romain Triouleyre",
                 "Jeu",
                 "Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis-Calixte, Clara Pacini, Lucile Rose"
             ],
+            "remerciements": [],
             "accroche": "Sept femmes entre usine et maternité — une forme clownesque sur la condition féminine.",
             "duree": "",
             "public": "",
             "resume": "Sept femmes comme projetées dans une époque d'autrefois, qui se fardent et s'habillent de leurs blouses de travail pour aller à l'usine. La patronne donne le tempo, le tricot démarre et le chant suit. Les accouchements se succèdent. Ici, on fabrique des bébés à la chaîne et on joue à la maman.",
+            "extraits": [],
+            "presse": [],
+            "videos": [],
             "photos": [
                 "/images/compagnie/images/photo-chimères1.JPG",
                 "/images/compagnie/images/photo-chimères2.JPG",
@@ -42,7 +45,6 @@
             "slug": "juliet",
             "titre": "JULIET",
             "sous_titre": "Création 2024",
-            "youtube_url": "aQysrMCEjas",
             "cadre": [
                 "-production-",
                 "Conservatoire de Lyon",
@@ -61,10 +63,14 @@
                 "Masques",
                 "Rachel Leca"
             ],
+            "remerciements": [],
             "accroche": "Et si Juliette n'existait pas ? Une relecture contemporaine de Shakespeare, portrait d'un homme solitaire qui s'invente une histoire d'amour pour survivre.",
             "duree": "",
             "public": "",
-            "resume": "Et si Juliette n'existait pas ? Et si Roméo s'était inventé toute son histoire d'amour avec Juliette ? Nous proposons une relecture particulière et contemporaine de la pièce iconique de Shakespeare.Nous désaxons la magnifique histoire d'amour partagée mais familialement impossible, pour mettre en lumière le désespoir d'un homme solitaire, pris dans un tourbillon de violence. Dans un environnement étouffant et mortifère où les gangs s'entretuent, où les fêtes sont de plus en plus décadentes, où les rivalités ont perdu tout leur sens, une seule échappatoire apparaît au jeune Roméo pour ne pas sombrer : s'inventer de toute pièce une histoire d'amour idéale. Un pur fantasme. ",
+            "resume": "Et si Juliette n'existait pas ? Et si Roméo s'était inventé toute son histoire d'amour avec Juliette ? Nous proposons une relecture particulière et contemporaine de la pièce iconique de Shakespeare. Nous désaxons la magnifique histoire d'amour partagée mais familialement impossible, pour mettre en lumière le désespoir d'un homme solitaire, pris dans un tourbillon de violence. Dans un environnement étouffant et mortifère où les gangs s'entretuent, où les fêtes sont de plus en plus décadentes, où les rivalités ont perdu tout leur sens, une seule échappatoire apparaît au jeune Roméo pour ne pas sombrer : s'inventer de toute pièce une histoire d'amour idéale. Un pur fantasme.",
+            "extraits": [],
+            "presse": [],
+            "videos": ["aQysrMCEjas"],
             "photos": [
                 "/images/compagnie/images/photo-juliet3.jpg",
                 "/images/compagnie/images/photo-juliet6.jpg",
@@ -96,7 +102,6 @@
             "slug": "stella",
             "titre": "ALLÔ STELLA",
             "sous_titre": "Création décembre 2025",
-            "youtube_url": "",
             "cadre": [
                 "-production-",
                 "carte blanche au CNSAD",
@@ -111,13 +116,17 @@
                 "Jeu",
                 "Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis-Calixte, Clara Pacini, Lucile Rose"
             ],
+            "remerciements": [],
             "accroche": "",
             "duree": "",
             "public": "",
-            "resume": "Sept femmes comme projetées dans une époque d'autrefois, qui se fardent et s'habillent de leurs blouses de travail pour aller à l'usine. La patronne donne le tempo, le tricot démarre et le chant suit. Les accouchements se succèdent. Ici, on fabrique des bébés à la chaîne et on joue à la maman.",
-            "photos": [            ],
-            "credit_photo": "Photos : Henrique Vilas Boas",
-            "dossier_url": "/images/compagnie/cv/dossier-chimères.pdf",
+            "resume": "",
+            "extraits": [],
+            "presse": [],
+            "videos": [],
+            "photos": [],
+            "credit_photo": "",
+            "dossier_url": "",
             "photo_principale": "/images/compagnie/images/chimeres-affiche.png"
         }
     ]

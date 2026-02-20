@@ -5,6 +5,24 @@
  * dans src/content/. Modifier un JSON implique de respecter ces types.
  */
 
+/** Un extrait de texte ou citation de presse */
+export interface Extrait {
+  /** Texte de l'extrait ou de la citation */
+  texte: string;
+  /** Source (journal, auteur, etc.) */
+  source: string;
+}
+
+/** Un article de presse */
+export interface ArticlePresse {
+  /** Titre de l'article */
+  titre: string;
+  /** Nom du journal / média */
+  source: string;
+  /** URL vers l'article (optionnel) */
+  url?: string;
+}
+
 /** Un spectacle de la compagnie (src/content/spectacles.json) */
 export interface Spectacle {
   /** Slug URL-friendly (ex: "chimeres", "juliet") */
@@ -13,12 +31,12 @@ export interface Spectacle {
   titre: string;
   /** Sous-titre affiché sous le titre (ex: "Création 2024") */
   sous_titre: string;
-  /** ID de la vidéo YouTube (ex: "aQysrMCEjas"). Vide si pas de vidéo. */
-  youtube_url: string;
   /** Cadre de production, alternance label/valeur : ["-production-", "CNSAD", "-soutien-", "Festival..."] */
   cadre: string[];
   /** Équipe de création, alternance role/noms : ["Mise en scène", "Nom Prénom", "Jeu", "Nom1, Nom2"] */
   creation: string[];
+  /** Personnes / structures remerciées */
+  remerciements: string[];
   /** Courte accroche (1 phrase, affichée en italique sur la liste) */
   accroche: string;
   /** Durée du spectacle (ex: "1h15"). Vide si non renseigné. */
@@ -27,6 +45,12 @@ export interface Spectacle {
   public: string;
   /** Résumé du spectacle */
   resume: string;
+  /** Extraits de texte ou citations de presse */
+  extraits: Extrait[];
+  /** Articles de presse */
+  presse: ArticlePresse[];
+  /** IDs YouTube des vidéos / teasers du spectacle */
+  videos: string[];
   /** Chemins des photos du spectacle (affichées dans le carousel) */
   photos: string[];
   /** Crédit photographe */
