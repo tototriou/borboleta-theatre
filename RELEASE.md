@@ -6,6 +6,23 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.7.0] - 2026-02-21
+
+### Modifié
+- Page galerie : titre affiché sans l'année (sous_titre retiré de l'affichage)
+- Photos limitées à 15 maximum par spectacle
+- Lightbox : affiche désormais le crédit photo (par photo ou par défaut de la catégorie)
+- Thumbnails : attribut `alt` descriptif sur chaque photo (accessibilité WCAG)
+
+### Ajouté
+- Nouvelle interface `GaleriePhoto` avec champs `url`, `alt`, `credit?`
+- Prop `defaultCredit` sur `LightboxModal`
+
+### Modifié (JSON)
+- `galerie.json` : photos converties en objets `{ url, alt, credit? }` au lieu de simples chemins
+
+---
+
 ## [1.6.0] - 2026-02-21
 
 ### Modifié
