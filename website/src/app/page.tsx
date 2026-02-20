@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main className={styles.hero}>
+      <main id="main-content" className={styles.hero}>
         {/* Éléments décoratifs */}
         <RedThread className="deco-thread" />
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={100} />

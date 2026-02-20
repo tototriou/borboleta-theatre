@@ -30,7 +30,7 @@ export default function GaleriePage() {
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={45} />
         <Header />
 
-        <main>
+        <main id="main-content">
           <h1>Galerie</h1>
 
           {categories.map((cat, ci) => (

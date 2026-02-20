@@ -30,7 +30,7 @@ export default function AgendaPage() {
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={35} />
         <Header />
 
-        <main>
+        <main id="main-content">
           <div className={styles.title}>
             <h1>Agenda</h1>
           </div>

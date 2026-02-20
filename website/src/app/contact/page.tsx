@@ -29,7 +29,7 @@ export default function ContactPage() {
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={40} />
         <Header />
 
-        <main>
+        <main id="main-content">
           <h1>Contactez-nous</h1>
 
           <section aria-label="Coordonnées">
