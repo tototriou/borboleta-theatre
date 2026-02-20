@@ -119,12 +119,23 @@ export interface ContactInfo {
   mention_legale: string;
 }
 
+/** Une photo individuelle dans la galerie */
+export interface GaleriePhoto {
+  /** Chemin vers l'image */
+  url: string;
+  /** Texte alternatif descriptif (WCAG) */
+  alt: string;
+  /** Crédit photographe spécifique à cette photo (remplace credit_photo de la catégorie si renseigné) */
+  credit?: string;
+}
+
 /** Une catégorie de photos dans la galerie (src/content/galerie.json) */
 export interface GalerieCategory {
   titre: string;
   sous_titre: string;
+  /** Crédit photographe par défaut pour toute la catégorie */
   credit_photo: string;
-  photos: string[];
+  photos: GaleriePhoto[];
 }
 
 /** Structure racine de galerie.json */
