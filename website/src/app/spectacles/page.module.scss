@@ -11,6 +11,8 @@
 }
 
 .pageTitle {
+  position: relative;
+  z-index: $z-content;
   font-family: $font-display;
   font-weight: $font-weight-normal;
   font-size: $font-size-5xl;
@@ -24,6 +26,8 @@
 }
 
 .list {
+  position: relative;
+  z-index: $z-content;
   display: flex;
   flex-direction: column;
   align-items: stretch;
