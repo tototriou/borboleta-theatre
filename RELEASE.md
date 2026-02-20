@@ -6,6 +6,13 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.4.1] - 2026-02-20
+
+### Ajouté
+- Spectacle *Allô Stella* (slug : `stella`)
+
+---
+
 ## [1.4.0] - 2025-02-20
 
 ### Ajouté
