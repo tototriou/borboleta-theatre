@@ -5,6 +5,14 @@
   position: relative;
   cursor: pointer;
   overflow: hidden;
+  border: none;
+  padding: 0;
+  background: none;
+
+  &:focus {
+    outline: 3px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
 }
 
 .image {
@@ -31,11 +39,12 @@
   transition: all 0.3s ease-in-out;
   top: 0;
   left: 0;
+}
 
-  &:hover {
-    opacity: 1;
-    background-color: rgba(3, 3, 3, 0.593);
-  }
+.card:hover .description,
+.card:focus .description {
+  opacity: 1;
+  background-color: rgba(3, 3, 3, 0.593);
 }
 
 .nomPrenom {

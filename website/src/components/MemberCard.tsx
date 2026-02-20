@@ -8,11 +8,17 @@ interface MemberCardProps {
   onClick: () => void;
 }
 
+/** Carte d'un membre de l'équipe avec photo et rôle. Clic ouvre la modale détail. */
 export default function MemberCard({ membre, onClick }: MemberCardProps) {
   return (
-    <div className={styles.card} onClick={onClick}>
+    <button
+      className={styles.card}
+      onClick={onClick}
+      type="button"
+      aria-label={`Voir le profil de ${membre.prenom} ${membre.nom}, ${membre.role}`}
+    >
       <div className={styles.image}>
-        <img src={membre.photo_url} alt={`${membre.prenom} ${membre.nom}`} />
+        <img src={membre.photo_url} alt="" aria-hidden="true" />
       </div>
       <div className={styles.description}>
         <p className={styles.nomPrenom}>
@@ -20,6 +26,6 @@ export default function MemberCard({ membre, onClick }: MemberCardProps) {
         </p>
         <p className={styles.role}>{membre.role}</p>
       </div>
-    </div>
+    </button>
   );
 }

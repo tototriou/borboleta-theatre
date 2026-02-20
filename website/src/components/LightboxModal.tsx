@@ -11,7 +11,7 @@ interface LightboxModalProps {
   onNavigate: (index: number) => void;
 }
 
-/** Modale plein écran pour afficher une photo avec navigation prev/next. */
+/** Modale plein écran pour afficher une photo avec navigation prev/next et clavier. */
 export default function LightboxModal({
   photos,
   currentIndex,
@@ -42,26 +42,54 @@ export default function LightboxModal({
   if (!isOpen) return null;
 
   return (
-    <dialog ref={dialogRef} className={styles.lightbox} onClose={onClose}>
-      <button className={styles.closeBtn} onClick={onClose} aria-label="Fermer">
+    <dialog
+      ref={dialogRef}
+      className={styles.lightbox}
+      onClose={onClose}
+      aria-label="Visualisation photo en plein écran"
+      role="dialog"
+      aria-modal="true"
+    >
+      <button
+        className={styles.closeBtn}
+        onClick={onClose}
+        aria-label="Fermer la galerie"
+        type="button"
+      >
         &times;
       </button>
 
       {currentIndex > 0 && (
-        <button className={styles.navBtn} data-dir="prev" onClick={goPrev} aria-label="Photo précédente">
+        <button
+          className={styles.navBtn}
+          data-dir="prev"
+          onClick={goPrev}
+          aria-label="Photo précédente"
+          type="button"
+        >
           &#8249;
         </button>
       )}
 
-      <img src={photos[currentIndex]} alt="" className={styles.photo} />
+      <img
+        src={photos[currentIndex]}
+        alt={`Photo ${currentIndex + 1} sur ${photos.length}`}
+        className={styles.photo}
+      />
 
       {currentIndex < photos.length - 1 && (
-        <button className={styles.navBtn} data-dir="next" onClick={goNext} aria-label="Photo suivante">
+        <button
+          className={styles.navBtn}
+          data-dir="next"
+          onClick={goNext}
+          aria-label="Photo suivante"
+          type="button"
+        >
           &#8250;
         </button>
       )}
 
-      <span className={styles.counter}>
+      <span className={styles.counter} aria-live="polite">
         {currentIndex + 1} / {photos.length}
       </span>
     </dialog>

@@ -4,24 +4,25 @@ import RedThread from "@/components/RedThread";
 import Butterfly from "@/components/Butterfly";
 import styles from "./page.module.scss";
 
+/** Page d'accueil du site Borboleta Théâtre. */
 export default function HomePage() {
   return (
     <>
       <Header />
-      <div className={styles.hero}>
-        {/* Decorative elements */}
+      <main className={styles.hero}>
+        {/* Éléments décoratifs */}
         <RedThread className="deco-thread" />
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={100} />
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={70} />
         <Butterfly className={`deco-butterfly ${styles.butterfly3}`} size={55} />
         <Butterfly className={`deco-butterfly ${styles.butterfly4}`} size={85} />
 
-        {/* Central content */}
+        {/* Contenu principal */}
         <div className={styles.central}>
-          <div className={styles.logoFrame}>
+          <article className={styles.logoFrame}>
             <img
               src="/images/home-page-image/image-accueil.jpeg"
-              alt="Borboleta Théâtre"
+              alt="Affiche Borboleta Théâtre avec papillons dorés sur fond sombre"
             />
             <h1 className={styles.titre}>Borboleta Théâtre</h1>
             <p className={styles.sousTitre}>
@@ -30,9 +31,9 @@ export default function HomePage() {
             <Link href="/compagnie/" className={styles.btnDecouvrir}>
               Découvrir
             </Link>
-          </div>
+          </article>
         </div>
-      </div>
+      </main>
     </>
   );
 }
