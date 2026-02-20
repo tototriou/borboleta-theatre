@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Butterfly from "@/components/Butterfly";
 import RedThread from "@/components/RedThread";
-import agendaData from "@/content/agenda.json";
-import { AgendaYear } from "@/types";
+import AgendaContent from "./AgendaContent";
 import styles from "./page.module.scss";
 
 export const metadata: Metadata = {
@@ -18,10 +16,8 @@ export const metadata: Metadata = {
   },
 };
 
-/** Page agenda avec les dates de représentation par année. */
+/** Page agenda avec les prochaines dates et l'historique des représentations. */
 export default function AgendaPage() {
-  const agenda = agendaData as AgendaYear[];
-
   return (
     <>
       <div className={styles.wrapper}>
@@ -35,28 +31,7 @@ export default function AgendaPage() {
             <h1>Agenda</h1>
           </div>
 
-          <div className={styles.content}>
-            {agenda.map((annee) => (
-              <section
-                key={annee.annee}
-                className={styles.section}
-                aria-labelledby={`annee-${annee.annee}`}
-              >
-                <h2 id={`annee-${annee.annee}`}>{annee.annee}</h2>
-                {annee.spectacles.map((spectacle, i) => (
-                  <article key={i} className={styles.ligne}>
-                    <p>{spectacle.lieu}</p>
-                    <p className={styles.date}>
-                      <time>{spectacle.date}</time>
-                    </p>
-                    <Link href="/spectacles/" aria-label={`Voir le spectacle ${spectacle.lieu}`}>
-                      <img src={spectacle.photo_url} alt={`Affiche ${spectacle.lieu}`} />
-                    </Link>
-                  </article>
-                ))}
-              </section>
-            ))}
-          </div>
+          <AgendaContent />
         </main>
       </div>
       <Footer />
