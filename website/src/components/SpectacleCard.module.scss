@@ -20,14 +20,11 @@
   }
 }
 
-.image {
-  position: relative;
+.image img {
+  display: block;
   width: 100%;
-  aspect-ratio: 2 / 3;
-
-  img {
-    object-fit: cover;
-  }
+  height: 100%;
+  object-fit: cover;
 }
 
 .description {

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Membre } from "@/types";
 import { useDialog } from "@/hooks/useDialog";
 import styles from "./MemberModal.module.scss";
@@ -36,11 +35,9 @@ export default function MemberModal({ membre, onClose }: MemberModalProps) {
           </div>
 
           <div className={styles.photoPopup}>
-            <Image
+            <img
               src={membre.photo_url}
               alt={`${membre.prenom} ${membre.nom}`}
-              fill
-              sizes="200px"
             />
           </div>
 

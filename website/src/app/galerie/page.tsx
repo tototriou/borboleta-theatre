@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LightboxModal from "@/components/LightboxModal";
@@ -52,13 +51,7 @@ export default function GaleriePage() {
                     aria-label={`Voir photo ${pi + 1} de ${cat.titre} en plein écran`}
                     type="button"
                   >
-                    <Image
-                      src={photo}
-                      alt=""
-                      aria-hidden="true"
-                      fill
-                      sizes="(max-width: 576px) 50vw, 150px"
-                    />
+                    <img src={photo} alt="" aria-hidden="true" />
                   </button>
                 ))}
               </div>

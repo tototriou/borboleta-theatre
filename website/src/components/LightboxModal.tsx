@@ -1,7 +1,6 @@
 "use client";
 
 import { useCallback, useEffect } from "react";
-import Image from "next/image";
 import { useDialog } from "@/hooks/useDialog";
 import styles from "./LightboxModal.module.scss";
 
@@ -72,15 +71,11 @@ export default function LightboxModal({
         </button>
       )}
 
-      <div className={styles.photoContainer}>
-        <Image
-          src={photos[currentIndex]}
-          alt={`Photo ${currentIndex + 1} sur ${photos.length}`}
-          fill
-          sizes="90vw"
-          priority
-        />
-      </div>
+      <img
+        src={photos[currentIndex]}
+        alt={`Photo ${currentIndex + 1} sur ${photos.length}`}
+        className={styles.photo}
+      />
 
       {currentIndex < photos.length - 1 && (
         <button
