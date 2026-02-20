@@ -6,6 +6,18 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.5.3] - 2026-02-20
+
+### Modifié
+- Fusion de la page Compagnie dans la page d'accueil (section `#compagnie`)
+- Bouton "Découvrir" → scroll smooth vers la section compagnie
+- Lien nav "Compagnie" → ancre `/#compagnie`
+
+### Supprimé
+- Route `/compagnie` (remplacée par section dans l'accueil)
+
+---
+
 ## [1.5.2] - 2026-02-20
 
 ### Modifié
