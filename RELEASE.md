@@ -6,6 +6,21 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.5.6] - 2026-02-20
+
+### Modifié
+- Refonte de la page individuelle spectacle : layout deux colonnes (infos techniques / carousel + résumé)
+- Colonne gauche : titre, sous-titre, durée, public, distribution, production & soutiens, remerciements, dossier PDF
+- Colonne droite : carousel photos + description du spectacle
+- Section extras (affichée si remplie) : extraits/citations, articles de presse, vidéos YouTube
+
+### Ajouté
+- Nouveaux champs dans `spectacles.json` : `remerciements`, `extraits`, `presse`, `videos`
+- Interfaces TypeScript `Extrait` et `ArticlePresse`
+- Suppression du champ `youtube_url` remplacé par le tableau `videos`
+
+---
+
 ## [1.5.5] - 2026-02-20
 
 ### Modifié

@@ -1,3 +1,5 @@
+@use "../../../styles/variables" as *;
+
 .wrapper {
   position: relative;
   min-height: 100vh;
@@ -6,116 +8,287 @@
 
 .breadcrumb {
   position: relative;
-  z-index: 2;
-  max-width: 800px;
+  z-index: $z-content;
+  max-width: 1100px;
   margin: 1.5rem auto 0.5rem;
   padding: 0 0.5rem;
 }
 
-.content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 12px;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .backLink {
-  align-self: flex-start;
-  color: var(--accent-purple);
+  color: $color-accent-purple;
   text-decoration: none;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
+  font-size: $font-size-sm;
 
   &:hover {
     text-decoration: underline;
   }
 }
 
-.titre {
-  padding: 0;
-  font-size: 4rem;
-  text-align: center;
+.content {
+  position: relative;
+  z-index: $z-content;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: $border-radius-lg;
+  padding: $spacing-xl $spacing-2xl;
 
-  @media (max-width: 600px) {
-    font-size: 2.5rem;
+  @media (max-width: $breakpoint-md) {
+    padding: $spacing-lg $spacing-md;
+  }
+}
+
+// ── Section principale : deux colonnes ──────────────────────
+.mainSection {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: $spacing-2xl;
+  align-items: start;
+
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: 1fr 1.3fr;
+    gap: $spacing-xl;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+    gap: $spacing-lg;
+  }
+}
+
+// ── Colonne gauche ───────────────────────────────────────────
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.titre {
+  font-family: $font-display;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-4xl;
+  color: $color-bg-secondary;
+  margin: 0 0 $spacing-xs;
+  line-height: 1.1;
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $font-size-3xl;
   }
 }
 
 .sousTitre {
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  color: $color-accent-gold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
   margin: 0;
-  font-weight: 100;
 }
 
-.infoSection {
-  width: 100%;
-}
-
-.context {
-  text-align: center;
-
-  * {
-    margin: 0 !important;
-  }
-}
-
-.youtubeWrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-
-  iframe {
-    border-radius: 8px;
-    max-width: 100%;
-  }
-}
-
-.resume {
-  text-align: justify;
-  margin: 0 1rem 2rem;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 1.5rem;
-}
-
-.agendaLink {
+.metaBlock {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
+  gap: 2px;
+  font-size: $font-size-sm;
+  color: $color-text-primary;
 }
 
-.dossierComp {
+.metaLabel {
+  font-weight: $font-weight-semibold;
+  color: $color-bg-secondary;
+  margin-right: $spacing-xs;
+}
+
+.infoBlock {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
+  gap: $spacing-sm;
+}
 
-  h6 {
-    margin: 0;
-  }
+.blockTitle {
+  font-family: $font-primary;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+  color: $color-bg-secondary;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  padding-bottom: $spacing-xs;
+  border-bottom: 1.5px solid $color-accent-gold;
+}
+
+.pairs {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+  margin: 0;
+  font-size: $font-size-sm;
+}
+
+.pairRow {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.pairLabel {
+  font-weight: $font-weight-semibold;
+  color: $color-text-muted;
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pairValue {
+  color: $color-text-primary;
+  margin: 0;
+}
+
+.remerciementsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: $font-size-sm;
+  color: $color-text-primary;
+}
+
+.dossierBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $spacing-xs;
 }
 
 .download {
   cursor: pointer;
-  transition: 0.2s all ease-in-out;
+  transition: transform $transition-base;
 
   &:hover {
     transform: scale(1.1);
   }
 }
 
+// ── Colonne droite ───────────────────────────────────────────
+.mediaColumn {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.resume {
+  text-align: justify;
+  line-height: 1.7;
+  color: $color-text-primary;
+  margin: 0;
+}
+
+// ── Section extras ────────────────────────────────────────────
+.extrasSection {
+  margin-top: $spacing-2xl;
+  padding-top: $spacing-xl;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xl;
+}
+
+.extraitsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.extrait {
+  border-left: 3px solid $color-accent-gold;
+  padding-left: $spacing-lg;
+  margin: 0;
+
+  p {
+    font-style: italic;
+    font-size: $font-size-lg;
+    color: $color-text-primary;
+    margin: 0 0 $spacing-xs;
+    line-height: 1.6;
+  }
+}
+
+.extraitSource {
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  color: $color-text-muted;
+  font-style: normal;
+}
+
+.presseBlock {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.presseList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+
+.presseLink {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-decoration: none;
+  transition: opacity $transition-fast;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.presseTitre {
+  font-weight: $font-weight-semibold;
+  color: $color-bg-secondary;
+  font-size: $font-size-base;
+}
+
+.presseSource {
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+}
+
+.videosBlock {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.videoWrapper {
+  border-radius: $border-radius-md;
+  overflow: hidden;
+
+  iframe {
+    display: block;
+    max-width: 100%;
+    border-radius: $border-radius-md;
+  }
+}
+
+// ── Footer ────────────────────────────────────────────────────
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-sm;
+  margin-top: $spacing-2xl;
+  padding-top: $spacing-lg;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+// ── Décoratifs ────────────────────────────────────────────────
 .butterfly1 {
   top: 12%;
   right: 5%;
