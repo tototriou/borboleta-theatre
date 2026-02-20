@@ -195,6 +195,29 @@ Règles :
 - Corps du commit pour expliquer le *pourquoi* si nécessaire
 - Un commit = une intention claire
 
+### Commits atomiques
+
+**Chaque tâche doit être découpée en plusieurs commits distincts** pour garder un historique lisible dans le git graph.
+
+Exemple pour une refactorisation de styles :
+```bash
+# Mauvais : un seul gros commit
+refactor(styles): ajouter design system complet
+
+# Bon : plusieurs commits atomiques
+refactor(styles): créer fichier _variables.scss avec tokens
+refactor(styles): migrer globals.scss vers les variables
+refactor(components): rendre Butterfly configurable
+refactor(components): uniformiser MemberCard avec variables
+refactor(components): uniformiser SpectacleCard avec variables
+```
+
+Principes :
+- **1 commit = 1 changement logique** (pas plusieurs features mélangées)
+- Chaque commit doit compiler et fonctionner indépendamment
+- L'historique doit raconter l'évolution du code étape par étape
+- Facilite les reverts, cherry-picks et la compréhension du projet
+
 ### Branches
 
 - `main` : production (déploiement automatique) — **toujours stable et déployable**
