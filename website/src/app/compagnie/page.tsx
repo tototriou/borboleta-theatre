@@ -18,7 +18,7 @@ export default function CompagniePage() {
 
   return (
     <>
-      <main className={styles.wrapper}>
+      <main id="main-content" className={styles.wrapper}>
         <RedThread className="deco-thread" />
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={60} />
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={45} />

@@ -54,7 +54,7 @@ export default async function SpectaclePage({ params }: Props) {
     return (
       <>
         <Header />
-        <main className={styles.wrapper}>
+        <main id="main-content" className={styles.wrapper}>
           <h1>Spectacle introuvable</h1>
           <Link href="/spectacles/" className="btn-borboleta">
             Retour aux spectacles
@@ -75,7 +75,7 @@ export default async function SpectaclePage({ params }: Props) {
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={45} />
         <Header />
 
-        <main className={styles.content}>
+        <main id="main-content" className={styles.content}>
           <nav aria-label="Fil d'Ariane">
             <Link href="/spectacles/" className={styles.backLink}>
               &larr; Retour aux spectacles
