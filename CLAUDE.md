@@ -417,4 +417,27 @@ Workflow :
 
 **Ne jamais oublier cette étape.** Le RELEASE.md est la documentation officielle des évolutions du site.
 
+### Tags git de version
+
+**Après chaque merge sur `main` avec une nouvelle version, créer un tag git annoté.**
+
+Les tags doivent correspondre aux versions du `RELEASE.md` avec le préfixe `v` :
+
+```bash
+# Créer un tag annoté sur le commit courant
+git tag -a v1.6.0 -m "Version 1.6.0 - Description courte"
+
+# Créer un tag sur un commit spécifique (ex: commit de merge)
+git tag -a v1.5.0 <commit-hash> -m "Version 1.5.0 - Description"
+
+# Pousser les tags sur origin
+git push origin --tags
+```
+
+**Règles :**
+- Format : `vMAJOR.MINOR.PATCH` (ex: v1.6.0)
+- Chaque version dans RELEASE.md doit avoir un tag correspondant
+- Le message du tag doit résumer les changements principaux
+- Toujours pousser les tags après création : `git push origin --tags`
+
 ---
