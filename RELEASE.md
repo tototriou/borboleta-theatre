@@ -6,23 +6,11 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
-## [1.7.0] - 2026-02-20
+## [1.5.1] - 2026-02-20
 
-### Ajouté
-- Indicateur de chargement animé (composant Loading avec animation de rebond)
-- États loading.tsx sur les routes principales (compagnie, spectacles, galerie)
-
----
-
-## [1.6.0] - 2026-02-20
-
-### Modifié
-- Migration de toutes les images vers `next/image` (lazy loading automatique)
-- Ajustement du contraste violet (#5a3590) pour WCAG 4.5:1
-
-### Performance
-- Lazy loading automatique sur toutes les photos
-- Attributs `sizes` optimisés pour chaque contexte d'affichage
+### Corrigé
+- Revert de la migration `next/image` qui causait des cartes surdimensionnées
+- Restauration des composants à l'état v1.5.0
 
 ---
 
