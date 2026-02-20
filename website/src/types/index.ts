@@ -36,12 +36,17 @@ export interface SpectaclesData {
   spectacles: Spectacle[];
 }
 
+/** Catégorie de membre : direction artistique ou collaboration */
+export type MembreCategory = "direction" | "collaboration";
+
 /** Un membre de la compagnie (src/content/compagnie.json) */
 export interface Membre {
   prenom: string;
   nom: string;
   /** Rôle dans la compagnie (ex: "co-directeur artistique", "comédienne") */
   role: string;
+  /** Catégorie : "direction" pour les co-directeurs, "collaboration" pour les autres */
+  category: MembreCategory;
   /** Chemin vers la photo de profil */
   photo_url: string;
   /** Liste des spectacles et rôles : ["JULIET - 2024", "jeu et mise en scène"] */
