@@ -404,6 +404,15 @@ Format : `MAJOR.MINOR.PATCH`
 
 > Cette section est réservée aux consignes données au fil des sessions. Toute règle globale communiquée doit être ajoutée ici immédiatement.
 
+### Gestion du fichier TODO.md
+
+**Quand l'utilisateur fournit une liste de tâches :** les ajouter immédiatement dans `TODO.md` avec leur détail complet (description, sous-tâches, critères d'acceptance) pour ne perdre aucune information.
+
+**Règles de tenue du fichier :**
+- `TODO.md` ne contient **que les tâches restantes à faire**
+- Dès qu'une tâche est terminée et mergée sur `main`, la **supprimer de `TODO.md`** — elle est tracée dans `RELEASE.md`
+- Ne jamais laisser de section "Terminé" dans `TODO.md` : c'est le rôle de `RELEASE.md`
+
 ### RELEASE.md obligatoire
 
 **À chaque merge sur `main` contenant une feature ou un fix, le fichier `RELEASE.md` DOIT être mis à jour.**
