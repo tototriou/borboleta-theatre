@@ -5,6 +5,14 @@
         "Le Papillon pour sa liberté. De la chrysalide à l'envol. De la naissance de l'idée à la création. C'est l'éclosion des possibles, l'exploration, la légèreté, et la spontanéité. Ne jamais figer, rester dans la découverte perpétuelle, la prise de risque. Le Papillon c'est l'émancipation de l'esprit et la poursuite de la créativité. Dans son envol gracieux, c'est l'esprit qui s'élève au-delà des contraintes et des limites.",
         "Ainsi, le Borboleta Théâtre traverse les styles, des relectures de classiques aux écritures personnelles, du cabaret au clown, du travail chorale au seul en scène, toujours dans cette recherche poétique et sensible, où les oreilles se greffent au cœur."
     ],
+    "artisticApproach": {
+        "intro": "BORBOLETA THEATRE est une association loi 1901 ayant pour objet la création et la diffusion de spectacles vivants. Elle a été créée en 2024 et co-dirigiée par Romain Triouleyre et Sidonie Vilas Boas. En Portugais, Borboleta, qui se prononce [boulboulette], est le mot désignant le \"Papillon\" : une figure esthétique de transformation, de déplacement et de métamorphose. Cette direction artistique à deux voix trouve son point de rencontre dans une même question : comment engager les spectateur.ices dans une expérience sensible, où le corps et l'émotion précèdent l'analyse ?",
+        "approach": [
+            "Notre travail interroge la place du public et son implication dans l'acte théâtral. Rendre les spectateur.ices acteur.ices de ce dont ils/elles assistent.",
+            "Nous cherchons à créer des formes où la sensation raconte autrement que l'intellectualisation, où quelque chose se joue avant même que l'on puisse le nommer. L'émotion comme porte d'entrée vers une réflexion plus intime et personnelle.",
+            "Nous concevons le théâtre comme un lieu de rencontre et de reconnaissance, celui où l'on se reconnaît comme semblables, où vivant séparément, éloignés par l'espace et le temps, par nos cultures et nos idées, on se retrouve ensemble à se considérer, à partager la même expérience et les mêmes émotions."
+        ]
+    },
     "membre": [
         {
             "prenom": "Romain",

@@ -14,7 +14,7 @@ import styles from "./page.module.scss";
 /** Page d'accueil du site Borboleta Théâtre. */
 export default function HomePage() {
   const [selectedMember, setSelectedMember] = useState<Membre | null>(null);
-  const { description, membre: membres } = compagnieData as CompagnieData;
+  const { description, artisticApproach, membre: membres } = compagnieData as CompagnieData;
 
   const direction = membres.filter((m) => m.category === "direction");
   const collaborateurs = membres.filter((m) => m.category === "collaboration");
@@ -98,6 +98,19 @@ export default function HomePage() {
                   membre={membre}
                   onClick={() => setSelectedMember(membre)}
                 />
+              ))}
+            </div>
+          </div>
+
+          <div className="trait70vw" />
+
+          {/* Section Démarche artistique */}
+          <div className={styles.compagnieSection} aria-labelledby="approche-title">
+            <h2 id="approche-title">La démarche artistique</h2>
+            <div className={styles.description}>
+              <p className={styles.approachIntro}>{artisticApproach.intro}</p>
+              {artisticApproach.approach.map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
               ))}
             </div>
           </div>

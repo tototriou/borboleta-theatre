@@ -4,11 +4,6 @@
 
 ## Features à livrer
 
-### `feat/home-red-thread-scroll` *(EPIC 5)*
-- [ ] Prolonger le fil rouge dans la section compagnie (actuellement il s'arrête dans le hero)
-- [ ] Pas de coupure visuelle abrupte entre les sections
-- [ ] Simplifier ou masquer sur mobile si nécessaire
-
 ### `feat/home-artistic-approach` *(EPIC 5)*
 - [ ] Ajouter champ `artisticApproach: { intro, approach }` dans `compagnie.json`
 - [ ] Mettre à jour `src/types/index.ts`
@@ -66,6 +61,7 @@
 - [ ] Optimiser les priorités du `sitemap.xml` (compagnie : 0.8 → 0.9)
 
 ## Priorité basse
+- [ ] `feat/home-red-thread-scroll` : prolonger le fil rouge dans la section compagnie
 - [ ] Copyright footer : remplacer "2024" par année dynamique
 - [ ] Corriger icône téléphone dans contact : ajouter `aria-hidden="true"` (`contact/page.tsx` ligne 49)
 - [ ] Dark mode (optionnel)
