@@ -87,10 +87,20 @@ export interface Membre {
   biographie: string;
 }
 
+/** Démarche artistique de la compagnie */
+export interface ArtisticApproach {
+  /** Phrase d'introduction */
+  intro: string;
+  /** Paragraphes de la démarche */
+  approach: string[];
+}
+
 /** Structure racine de compagnie.json */
 export interface CompagnieData {
   /** Texte de présentation de la compagnie (paragraphes séparés) */
   description: string[];
+  /** Démarche artistique */
+  artisticApproach: ArtisticApproach;
   /** Liste des membres */
   membre: Membre[];
 }
