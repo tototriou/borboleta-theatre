@@ -4,21 +4,6 @@
 
 ## Features à livrer
 
-### `feat/agenda-layout` *(EPIC 3)*
-- [ ] Supprimer les images dans la page agenda
-- [ ] Dates futures groupées par spectacle (titre en `h2`, liste de dates dessous)
-- [ ] Dates passées triées par date décroissante, groupées par année
-- [ ] Séparation passé/futur dynamique côté client (`Date.now()`)
-- [ ] Mettre à jour `agenda.json` : champ `date` ISO (`YYYY-MM-DD`), `dateDisplay`, `spectacleName`, `slug` (optionnel), `lieu`
-- [ ] Mettre à jour `src/types/index.ts`
-
-### `feat/galerie-layout` *(EPIC 4)*
-- [ ] Afficher le titre du spectacle sans l'année
-- [ ] Limiter à 15 photos maximum par spectacle
-- [ ] Mettre à jour `galerie.json` : chaque photo devient `{ url, alt, credit? }`
-- [ ] Afficher le crédit photo dans la lightbox si renseigné
-- [ ] Mettre à jour `LightboxModal.tsx` et `src/types/index.ts`
-
 ### `feat/home-hero-round` *(EPIC 5)*
 - [ ] Remplacer le cadre rectangulaire central par un cercle (`border-radius: 50%`)
 - [ ] Photo en cercle (`object-fit: cover`)
