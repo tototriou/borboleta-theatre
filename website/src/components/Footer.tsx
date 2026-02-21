@@ -6,7 +6,7 @@ export default function Footer() {
       <div className={styles.designedBy}>
         Designed by{" "}
         <a
-          href="https://mon-portfolio-sigma.vercel.app/"
+          href="https://www.linkedin.com/in/thomas-triouleyre-9827521b8/?originalSubdomain=fr"
           target="_blank"
           rel="noopener noreferrer"
         >
