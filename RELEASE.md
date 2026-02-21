@@ -6,13 +6,6 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
-## [1.7.4] - 2026-02-22
-
-### Modifié
-- Fil rouge décoratif déplacé hors de la section hero pour couvrir toute la page d'accueil (hero + section compagnie)
-
----
-
 ## [1.7.3] - 2026-02-21
 
 ### Modifié

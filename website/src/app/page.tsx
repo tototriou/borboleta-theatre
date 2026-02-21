@@ -30,11 +30,9 @@ export default function HomePage() {
     <>
       <Header />
       <main id="main-content">
-        {/* Fil rouge s'étend sur toute la page (hero + compagnie) */}
-        <RedThread className="deco-thread" />
-
         {/* Section Hero */}
         <section className={styles.hero}>
+          <RedThread className="deco-thread" />
           <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={100} />
           <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={70} />
           <Butterfly className={`deco-butterfly ${styles.butterfly3}`} size={55} />
