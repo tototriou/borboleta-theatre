@@ -6,6 +6,16 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.7.3] - 2026-02-21
+
+### Modifié
+- Hero page d'accueil : cadre rectangulaire remplacé par un cercle à fond doré (`--accent-gold`)
+- Photo de présentation recadrée en cercle (`object-fit: cover`)
+- Texte descriptif "Compagnie de Théâtre créée par…" supprimé
+- Couleurs du titre et du bouton "Découvrir" adaptées au nouveau fond clair
+
+---
+
 ## [1.7.2] - 2026-02-21
 
 ### Corrigé
