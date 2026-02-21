@@ -6,6 +6,15 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.8.0] - 2026-02-22
+
+### Ajouté
+- Section "La démarche artistique" en page d'accueil après la section équipe
+- Champ `artisticApproach: { intro, approach[] }` dans `compagnie.json` et les types TypeScript
+- Texte fourni par le client : présentation de l'association + démarche artistique
+
+---
+
 ## [1.7.3] - 2026-02-21
 
 ### Modifié
