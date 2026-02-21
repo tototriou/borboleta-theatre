@@ -89,8 +89,6 @@ export interface Membre {
 
 /** Démarche artistique de la compagnie */
 export interface ArtisticApproach {
-  /** Phrase d'introduction */
-  intro: string;
   /** Paragraphes de la démarche */
   approach: string[];
 }
