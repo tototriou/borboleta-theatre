@@ -4,13 +4,6 @@
 
 ## Features à livrer
 
-### `feat/home-hero-round` *(EPIC 5)*
-- [ ] Remplacer le cadre rectangulaire central par un cercle (`border-radius: 50%`)
-- [ ] Photo en cercle (`object-fit: cover`)
-- [ ] Fond du cercle couleur `--accent-gold`
-- [ ] Supprimer le texte descriptif "Compagnie de Théâtre créée par…" sous le titre
-- [ ] Vérifier le responsive (cercle proportionnel sur mobile)
-
 ### `feat/home-red-thread-scroll` *(EPIC 5)*
 - [ ] Prolonger le fil rouge dans la section compagnie (actuellement il s'arrête dans le hero)
 - [ ] Pas de coupure visuelle abrupte entre les sections
