@@ -39,15 +39,14 @@ export default function HomePage() {
           <Butterfly className={`deco-butterfly ${styles.butterfly4}`} size={85} />
 
           <div className={styles.central}>
-            <article className={styles.logoFrame}>
-              <img
-                src="/images/home-page-image/image-accueil.jpeg"
-                alt="Affiche Borboleta Théâtre avec papillons dorés sur fond sombre"
-              />
+            <article className={styles.heroCard}>
+              <div className={styles.circle}>
+                <img
+                  src="/images/home-page-image/image-accueil.jpeg"
+                  alt="Affiche Borboleta Théâtre avec papillons dorés sur fond sombre"
+                />
+              </div>
               <h1 className={styles.titre}>Borboleta Théâtre</h1>
-              <p className={styles.sousTitre}>
-                Compagnie de Théâtre créée par Sidonie Vilas Boas et Romain Triouleyre
-              </p>
               <button
                 type="button"
                 className={styles.btnDecouvrir}
