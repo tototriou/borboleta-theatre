@@ -4,6 +4,11 @@
 
 ## Features à livrer
 
+### `feat/home-red-thread-scroll` *(EPIC 5)*
+- [ ] Prolonger le fil rouge dans la section compagnie (actuellement il s'arrête dans le hero)
+- [ ] Pas de coupure visuelle abrupte entre les sections
+- [ ] Simplifier ou masquer sur mobile si nécessaire
+
 ### `feat/home-artistic-approach` *(EPIC 5)*
 - [ ] Ajouter champ `artisticApproach: { intro, approach }` dans `compagnie.json`
 - [ ] Mettre à jour `src/types/index.ts`
