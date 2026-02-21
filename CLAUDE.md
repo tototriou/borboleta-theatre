@@ -451,4 +451,17 @@ git push origin --tags
 - Toujours pousser les tags après création : `git push origin --tags`
 - **IMPORTANT : Ne jamais créer de tag sans l'accord explicite de l'utilisateur.** Après le merge, attendre que l'utilisateur teste et valide avant de tagger la version.
 
+### Validation obligatoire avant merge sur main
+
+**Ne jamais merger une branche sur `main` sans validation explicite de l'utilisateur.**
+
+Workflow obligatoire :
+1. Développer et committer sur la branche feature
+2. Pousser la branche sur origin : `git push origin feat/nom-feature`
+3. **Présenter le résultat à l'utilisateur** : indiquer ce qui a été fait, demander de tester en local (`npm run dev`)
+4. **Attendre la validation explicite** de l'utilisateur avant de procéder au merge
+5. Une fois validé, merger avec `--no-ff`, mettre à jour `RELEASE.md`, pusher
+
+**Ne jamais merger de sa propre initiative**, même si le build passe et que les changements semblent corrects.
+
 ---
