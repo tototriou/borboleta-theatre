@@ -25,7 +25,7 @@ export default function SpectaclesPage() {
   return (
     <>
       <main id="main-content" className={styles.wrapper}>
-        <RedThread className="deco-thread" />
+        <RedThread className="deco-thread" opacity={0.2} />
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={55} />
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={40} />
         <Header />

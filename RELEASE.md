@@ -6,6 +6,14 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.7.2] - 2026-02-21
+
+### Corrigé
+- Fil rouge décoratif : opacité réduite à 20 % sur toutes les pages (agenda, galerie, contact, spectacles, page spectacle) pour ne plus gêner la lisibilité du texte
+- Correction du z-index : le contenu principal s'affiche désormais toujours au-dessus du fil rouge
+
+---
+
 ## [1.7.1] - 2026-02-21
 
 ### Supprimé
