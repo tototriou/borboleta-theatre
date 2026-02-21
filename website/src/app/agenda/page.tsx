@@ -21,7 +21,7 @@ export default function AgendaPage() {
   return (
     <>
       <div className={styles.wrapper}>
-        <RedThread className="deco-thread" />
+        <RedThread className="deco-thread" opacity={0.2} />
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={50} />
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={35} />
         <Header />

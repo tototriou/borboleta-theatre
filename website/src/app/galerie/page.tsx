@@ -32,7 +32,7 @@ export default function GaleriePage() {
   return (
     <>
       <div className={styles.wrapper}>
-        <RedThread className="deco-thread" />
+        <RedThread className="deco-thread" opacity={0.2} />
         <Butterfly className={`deco-butterfly ${styles.butterfly1}`} size={60} />
         <Butterfly className={`deco-butterfly ${styles.butterfly2}`} size={45} />
         <Header />
