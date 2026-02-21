@@ -6,6 +6,15 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.8.1] - 2026-02-22
+
+### Corrigé
+- Texte "La Compagnie" remplacé par le texte fourni par le client
+- "La démarche artistique" repositionnée juste après la présentation, en sous-section (h3, sans séparateur)
+- Suppression de l'intro en jaune italique redondante
+
+---
+
 ## [1.8.0] - 2026-02-22
 
 ### Ajouté

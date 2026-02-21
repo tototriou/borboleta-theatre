@@ -4,12 +4,6 @@
 
 ## Features à livrer
 
-### `feat/home-artistic-approach` *(EPIC 5)*
-- [ ] Ajouter champ `artisticApproach: { intro, approach }` dans `compagnie.json`
-- [ ] Mettre à jour `src/types/index.ts`
-- [ ] Créer la section "La démarche artistique" en page d'accueil après la section équipe
-- [ ] Contenu entièrement issu du JSON (texte fourni par le client)
-
 ### `feat/home-team-cards-layout` *(EPIC 5)*
 - [ ] Cartes membres en format paysage (ratio 3/2 ou 16/9, plus large que haut)
 - [ ] Nom affiché en overlay sur la photo (texte en bas, fond semi-transparent)
