@@ -158,23 +158,9 @@ export default async function SpectaclePage({ params }: Props) {
                   </section>
                 )}
 
-                {spectacle.dossier_url && (
-                  <div className={styles.dossierBlock}>
-                    <p className={styles.metaLabel}>Dossier spectacle</p>
-                    <a
-                      href={spectacle.dossier_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={styles.download}
-                      aria-label={`Télécharger le dossier de ${spectacle.titre}`}
-                    >
-                      <img src="/icons/download.svg" alt="" aria-hidden="true" />
-                    </a>
-                  </div>
-                )}
               </aside>
 
-              {/* Colonne droite : carousel + résumé */}
+              {/* Colonne droite : carousel + résumé + dossier */}
               <div className={styles.mediaColumn}>
                 {spectacle.photos.length > 0 && (
                   <ImageCarousel
@@ -184,6 +170,20 @@ export default async function SpectaclePage({ params }: Props) {
                 )}
                 {spectacle.resume && (
                   <p className={styles.resume}>{spectacle.resume}</p>
+                )}
+                {spectacle.dossier_url && (
+                  <div className={styles.dossierBlock}>
+                    <a
+                      href={spectacle.dossier_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.dossierBtn}
+                      aria-label={`Télécharger le dossier de ${spectacle.titre}`}
+                    >
+                      <img src="/icons/download.svg" alt="" aria-hidden="true" className={styles.dossierIcon} />
+                      Dossier de présentation
+                    </a>
+                  </div>
                 )}
               </div>
             </div>
