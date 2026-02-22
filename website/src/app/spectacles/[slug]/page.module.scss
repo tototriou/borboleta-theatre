@@ -155,6 +155,8 @@
 
 .dossierBlock {
   display: flex;
+  justify-content: center;
+  margin-top: $spacing-sm;
 }
 
 .dossierBtn {

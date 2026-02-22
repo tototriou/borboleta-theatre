@@ -160,7 +160,7 @@ export default async function SpectaclePage({ params }: Props) {
 
               </aside>
 
-              {/* Colonne droite : carousel + résumé */}
+              {/* Colonne droite : carousel + résumé + dossier */}
               <div className={styles.mediaColumn}>
                 {spectacle.photos.length > 0 && (
                   <ImageCarousel
@@ -171,23 +171,21 @@ export default async function SpectaclePage({ params }: Props) {
                 {spectacle.resume && (
                   <p className={styles.resume}>{spectacle.resume}</p>
                 )}
+                {spectacle.dossier_url && (
+                  <div className={styles.dossierBlock}>
+                    <a
+                      href={spectacle.dossier_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.dossierBtn}
+                      aria-label={`Télécharger le dossier de ${spectacle.titre}`}
+                    >
+                      <img src="/icons/download.svg" alt="" aria-hidden="true" className={styles.dossierIcon} />
+                      Dossier de présentation
+                    </a>
+                  </div>
+                )}
               </div>
-
-              {/* Dossier : col gauche sur desktop, après le résumé sur mobile */}
-              {spectacle.dossier_url && (
-                <div className={styles.dossierBlock}>
-                  <a
-                    href={spectacle.dossier_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.dossierBtn}
-                    aria-label={`Télécharger le dossier de ${spectacle.titre}`}
-                  >
-                    <img src="/icons/download.svg" alt="" aria-hidden="true" className={styles.dossierIcon} />
-                    Dossier de présentation
-                  </a>
-                </div>
-              )}
             </div>
 
             {/* Section extras : extraits, presse, vidéos */}
