@@ -1,24 +1,22 @@
 @use "../styles/variables" as *;
 
 .card {
-  display: flex;
-  width: $card-width-member;
-  margin: $spacing-xs;
   position: relative;
+  width: 22em;
+  aspect-ratio: 3 / 2;
   cursor: pointer;
   overflow: hidden;
   border: none;
   padding: 0;
   background: none;
+  flex-shrink: 0;
 
-  // Responsive: cartes plus petites sur tablette et mobile
   @media (max-width: $breakpoint-md) {
-    width: 12em;
+    width: 16em;
   }
 
   @media (max-width: $breakpoint-sm) {
     width: calc(50% - #{$spacing-sm});
-    margin: $spacing-xs / 2;
   }
 
   &:focus {
@@ -29,42 +27,38 @@
 
 .image {
   width: 100%;
+  height: 100%;
 
   img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top center;
   }
 }
 
+// Overlay permanent en bas : nom + rôle toujours visibles
 .description {
   position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0;
-  color: $color-text-light;
-  transition: all $transition-slow;
-  top: 0;
+  bottom: 0;
   left: 0;
-}
-
-.card:hover .description,
-.card:focus .description {
-  opacity: 1;
-  background-color: $color-overlay-dark;
+  right: 0;
+  padding: 0.4rem 0.75rem;
+  // rgba(0,0,0,0.65) sur fond blanc = ~#595959 → contraste blanc ≥ 7:1 (WCAG AA ✓)
+  background-color: rgba(0, 0, 0, 0.65);
+  color: $color-text-light;
 }
 
 .nomPrenom {
   margin: 0;
   font-weight: $font-weight-semibold;
+  font-size: 0.88rem;
+  line-height: 1.3;
 }
 
 .role {
   color: $color-accent-gold;
   margin: 0;
+  font-size: 0.78rem;
 }
