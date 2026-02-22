@@ -4,12 +4,6 @@
 
 ## Features à livrer
 
-### `feat/spectacles-list-refinements` *(EPIC 6 — dépend de feat/spectacles-list-layout)*
-- [ ] Couleur de l'année de création : utiliser `--accent-gold` pour qu'elle ressorte
-- [ ] Image cliquable → navigation vers `/spectacles/[slug]`
-- [ ] `cursor: pointer` sur l'image
-- [ ] `aria-label="Voir le spectacle [titre]"` sur le lien image
-
 ### `feat/spectacle-page-fullwidth` *(EPIC 7 — dépend de feat/spectacle-page-layout)*
 - [ ] Supprimer les conteneurs encadrés (fond blanc, ombre, `border-radius`) sur la page spectacle
 - [ ] Contenu pleine largeur dans les marges normales

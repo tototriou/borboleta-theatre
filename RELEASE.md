@@ -6,6 +6,15 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.9.1] - 2026-02-22
+
+### Modifié
+- Image de spectacle cliquable → navigation vers la page du spectacle
+- `aria-label="Voir le spectacle [titre]"` sur le lien image
+- Sous-titre (année de création) en texte classique lisible
+
+---
+
 ## [1.9.0] - 2026-02-22
 
 ### Modifié
