@@ -22,11 +22,18 @@ export default function SpectacleCard({ spectacle, reversed = false }: Spectacle
   return (
     <article className={`${styles.row} ${reversed ? styles.reversed : ""}`}>
       <div className={styles.imageWrapper}>
-        <img
-          src={spectacle.photo_principale}
-          alt={`Affiche du spectacle ${spectacle.titre}`}
-          loading="lazy"
-        />
+        <Link
+          href={`/spectacles/${spectacle.slug}/`}
+          className={styles.imageLink}
+          aria-label={`Voir le spectacle ${spectacle.titre}`}
+        >
+          <img
+            src={spectacle.photo_principale}
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          />
+        </Link>
       </div>
 
       <div className={styles.content}>

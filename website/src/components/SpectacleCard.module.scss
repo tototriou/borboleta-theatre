@@ -22,12 +22,22 @@
 .imageWrapper {
   flex: 0 0 38%;
 
-  img {
-    width: 100%;
-    height: auto;
+  .imageLink {
     display: block;
-    border-radius: $border-radius-md;
-    box-shadow: $shadow-md;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: $border-radius-md;
+      box-shadow: $shadow-md;
+      transition: opacity $transition-base;
+    }
+
+    &:hover img {
+      opacity: 0.88;
+    }
   }
 
   @media (max-width: $breakpoint-md) {
