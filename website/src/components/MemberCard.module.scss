@@ -1,11 +1,10 @@
 @use "../styles/variables" as *;
 
 .card {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 22em;
-  aspect-ratio: 3 / 2;
   cursor: pointer;
-  overflow: hidden;
   border: none;
   padding: 0;
   background: none;
@@ -27,7 +26,8 @@
 
 .image {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
 
   img {
     display: block;
@@ -38,27 +38,23 @@
   }
 }
 
-// Overlay permanent en bas : nom + rôle toujours visibles
+// Bande sous la photo : toujours visible, fond violet sombre
 .description {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0.4rem 0.75rem;
-  // rgba(0,0,0,0.65) sur fond blanc = ~#595959 → contraste blanc ≥ 7:1 (WCAG AA ✓)
-  background-color: rgba(0, 0, 0, 0.65);
-  color: $color-text-light;
+  padding: 0.4rem 0.6rem;
+  background-color: $color-bg-secondary;
+  text-align: center;
 }
 
 .nomPrenom {
   margin: 0;
+  color: $color-text-light;
   font-weight: $font-weight-semibold;
   font-size: 0.88rem;
   line-height: 1.3;
 }
 
 .role {
-  color: $color-accent-gold;
   margin: 0;
+  color: $color-accent-gold;
   font-size: 0.78rem;
 }
