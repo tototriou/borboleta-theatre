@@ -5,6 +5,10 @@
   grid-template-columns: 40px 1fr 40px;
   align-items: center;
   width: 100%;
+
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .navButton {
@@ -13,7 +17,7 @@
   justify-content: center;
   height: 10vh;
   cursor: pointer;
-  transition: all ease-in-out 0.2s;
+  transition: transform ease-in-out 0.2s;
   background: none;
   border: none;
   padding: 0;
@@ -26,15 +30,32 @@
     opacity: 0;
     cursor: default;
   }
+
+  @media (max-width: $breakpoint-md) {
+    display: none;
+  }
 }
 
-.mainImage {
-  display: block;
+// Conteneur scrollable (swipe mobile, scroll snapping)
+.track {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.slide {
+  flex-shrink: 0;
   width: 100%;
   height: auto;
   max-height: 80dvh;
   object-fit: contain;
-  margin: 0 auto;
+  scroll-snap-align: center;
 
   @media (max-width: $breakpoint-md) {
     max-height: 50dvh;
