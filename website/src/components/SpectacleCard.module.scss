@@ -72,9 +72,8 @@
 .sousTitre {
   font-size: $font-size-sm;
   font-weight: $font-weight-semibold;
-  color: $color-accent-gold;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+  color: $color-text-primary;
+  letter-spacing: 0.5px;
   margin: 0;
 
   @media (max-width: $breakpoint-md) {
