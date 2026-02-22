@@ -6,6 +6,23 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.10.1] - 2026-02-22
+
+### Ajouté
+- Spectacles : Confessions d'une Nihiliste (slug : `nihiliste`), Saudade (slug : `saudade`), Les Yeux dans la Cour 2024 (slug : `bulle1`) et 2025 (slug : `bulle2`)
+- Assets spectacles : photos nihiliste (×10), saudade (×15), bulle 2024/2025 (×20), stella (×10), chimères (+14), juliet nouvelles photos
+- Dossiers de diffusion : `dossier-nihiliste.pdf`, `dossier-stella.pdf`, `dossier-juliet.pdf` (mis à jour)
+- Membres : Wiktor Vallet, Elise Vasseur, Sébastien Renard, Jeremy Ducroux, Louna Baylacq, Victor Breda
+- Portraits membres mis à jour : Romain, Ambroise, Piero + remplacements Emilie, Felix, Hugo, Jeanne, Juliette, Lucie, Lucile, Pauline, Sidonie
+- Papillons décoratifs PNG (×6) dans `public/images/papillons/`
+
+### Modifié
+- Ordre des spectacles : Allô Stella → Nihiliste → Juliet → Saudade → Bulle 2024 → Bulle 2025
+- Présentation compagnie et démarche artistique mises à jour (`compagnie.json`)
+- Clara Pacini et Adrien Vignes retirés de l'équipe artistique
+
+---
+
 ## [1.10.0] - 2026-02-22
 
 ### Ajouté

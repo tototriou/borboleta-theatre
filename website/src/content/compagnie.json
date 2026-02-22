@@ -16,7 +16,7 @@
             "nom": "Triouleyre",
             "role": "co-directeur artistique",
             "category": "direction",
-            "photo_url": "/images/compagnie/images/pp-romain.jpg",
+            "photo_url": "/images/compagnie/images/pp-romain2.jpg",
             "spectacles": [
                 "JULIET - 2024",
                 "jeu et mise en scène"
@@ -103,19 +103,6 @@
             "biographie": "Jeanne commence le théâtre à 8 ans dans des ateliers de quartiers de la ville de Saint-Denis. Elle travaille dans diverses projets amateur et professionnel de danse et de théâtre. A 18 ans elle entre dans la classe de Natalie Bécue-Prader au cycle spécialisé du CRR de Paris, à 20 ans elle passe une année dans la classe de Marc Ernote au cycle préparatoire à l'enseignement supérieur du CRR de Paris avant d'entrer au Conservatoire National Supérieur d'Art Dramatique de Paris où elle poursuit ses études depuis 2 ans."
         },
         {
-            "prenom": "Clara",
-            "nom": "Pacini",
-            "role": "comédienne",
-            "category": "collaboration",
-            "photo_url": "/images/compagnie/images/pp-clara.png",
-            "spectacles": [
-                "CHIMERES - 2023",
-                "comédienne"
-            ],
-            "cv_url": "/images/compagnie/cv/romain-triouleyre.pdf",
-            "biographie": "Clara Pacini vient de Pélissanne dans le sud de la France. À 18 ans elle monte à Paris où elle va suivre pendant deux ans une formation théâtrale au Cours Florent. Elle est reçue en 2022 au CNSAD où elle continue ses études aujourd'hui."
-        },
-        {
             "prenom": "Lucile",
             "nom": "Rose",
             "role": "comédienne",
@@ -133,7 +120,7 @@
             "nom": "Ract Madoux",
             "role": "comédien",
             "category": "collaboration",
-            "photo_url": "/images/compagnie/images/pp-ambroise1.png",
+            "photo_url": "/images/compagnie/images/pp-ambroise2.jpg",
             "spectacles": [
                 "JULIET - 2024",
                 "Jeu et mise en scène"
@@ -146,26 +133,13 @@
             "nom": "Hernandez",
             "role": "comédien",
             "category": "collaboration",
-            "photo_url": "/images/compagnie/images/pp-piero1.png",
+            "photo_url": "/images/compagnie/images/pp-piero2.png",
             "spectacles": [
                 "JULIET - 2024",
                 "jeu et mise en scène"
             ],
             "cv_url": "/images/compagnie/cv/romain-triouleyre.pdf",
             "biographie": "Il suit sa formation au conservatoire de Lyon en parallèle d'une licence d'arts du spectacle à Lyon II. Il joue à la télé dans le téléfilm « Noir comme Neige » et dans plusieurs courts métrages produits par la Cinéfabrique. Passionné de sport, il pratique le tennis de table pendant 12 années, du foot, du volley… Cette physicalité se ressent dans un jeu qu'il cherche dynamique et engagé."
-        },
-        {
-            "prenom": "Adrien",
-            "nom": "Vignes",
-            "role": "comédien",
-            "category": "collaboration",
-            "photo_url": "/images/compagnie/images/pp-adrien.png",
-            "spectacles": [
-                "JULIET - 2024",
-                "Comédien"
-            ],
-            "cv_url": "/images/compagnie/cv/romain-triouleyre.pdf",
-            "biographie": "Il commence sa formation théâtrale au Conservatoire de Montpellier puis les poursuit au Conservatoire de Lyon en 2023. Il fait une reprise de rôle en 2022 dans le spectacle L'Humanité était mon horizon et joue dans l'Opéra comique Le Docteur Sangrado et Le Medecin de l'Amour de Gabrielle Ordas. Il collabore également avec les compagnies « Bleu Nuit » dans La Lune des Pauvres, la cie « Feux de Brouillard » dans une réécriture du petit prince et la cie « Blue Velvet » dans une mise en scène d'Après la fin de Dennis Kelly."
         },
         {
             "prenom": "Felix",
@@ -192,6 +166,84 @@
             ],
             "cv_url": "/images/compagnie/cv/cv-hugo.pdf",
             "biographie": "Après avoir commencé la trompette à 9 ans et découvert la composition à travers la M.A.O, il obtient sa licence au Conservatoire d'Aix-en-Provence en harmonie et contrepoint, écriture et composition, composition contemporaine, solfège et culture. Actuellement en Master Musique appliqués aux Arts Visuels au Conservatoire de Lyon, il mêle dans ses compositions musique écrite sur partition et programmation d'instruments virtuels."
+        },
+        {
+            "prenom": "Wiktor",
+            "nom": "Vallet",
+            "role": "comédien",
+            "category": "collaboration",
+            "photo_url": "/images/compagnie/images/pp-wiktor.jpg",
+            "spectacles": [
+                "JULIET - 2024",
+                "comédien et masques"
+            ],
+            "cv_url": "",
+            "biographie": ""
+        },
+        {
+            "prenom": "Elise",
+            "nom": "Vasseur",
+            "role": "scénographe, créatrice lumière",
+            "category": "collaboration",
+            "photo_url": "/images/compagnie/images/pp-elise.png",
+            "spectacles": [
+                "ALLÔ STELLA - 2025",
+                "scénographie et lumière"
+            ],
+            "cv_url": "",
+            "biographie": ""
+        },
+        {
+            "prenom": "Sébastien",
+            "nom": "Renard",
+            "role": "régisseur son",
+            "category": "collaboration",
+            "photo_url": "/images/compagnie/images/pp-sebastien.png",
+            "spectacles": [
+                "ALLÔ STELLA - 2025",
+                "création et régie son"
+            ],
+            "cv_url": "",
+            "biographie": ""
+        },
+        {
+            "prenom": "Jeremy",
+            "nom": "Ducroux",
+            "role": "auteur",
+            "category": "collaboration",
+            "photo_url": "",
+            "spectacles": [
+                "CONFESSIONS D'UNE NIHILISTE - 2025",
+                "texte"
+            ],
+            "cv_url": "",
+            "biographie": ""
+        },
+        {
+            "prenom": "Louna",
+            "nom": "Baylacq",
+            "role": "comédienne",
+            "category": "collaboration",
+            "photo_url": "/images/compagnie/images/pp-louna.png",
+            "spectacles": [
+                "CONFESSIONS D'UNE NIHILISTE - 2025",
+                "comédienne"
+            ],
+            "cv_url": "",
+            "biographie": ""
+        },
+        {
+            "prenom": "Victor",
+            "nom": "Breda",
+            "role": "musicien",
+            "category": "collaboration",
+            "photo_url": "/images/compagnie/images/pp-victor.jpg",
+            "spectacles": [
+                "CONFESSIONS D'UNE NIHILISTE - 2025",
+                "musicien"
+            ],
+            "cv_url": "",
+            "biographie": ""
         }
     ]
 }
