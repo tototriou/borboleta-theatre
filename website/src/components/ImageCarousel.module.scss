@@ -41,9 +41,44 @@
   }
 }
 
+.counter {
+  text-align: center;
+  font-size: $font-size-xs;
+  color: $color-text-muted;
+  margin: $spacing-xs 0 0;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-xs;
+  margin: $spacing-xs 0 0;
+  flex-wrap: wrap;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color $transition-base;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+}
+
+.dotActive {
+  background-color: $color-bg-secondary;
+}
+
 .creditPhoto {
   font-size: small;
   font-weight: lighter;
   font-style: italic;
   text-align: center;
+  margin-top: $spacing-xs;
 }

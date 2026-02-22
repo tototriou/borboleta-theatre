@@ -46,6 +46,23 @@ export default function ImageCarousel({
           <img src="/icons/chevron-compact-right.svg" alt="" />
         </button>
       </div>
+      <p className={styles.counter} aria-live="polite" aria-atomic="true">
+        {currentIndex + 1} / {photos.length}
+      </p>
+      {photos.length > 1 && (
+        <div className={styles.dots} role="tablist" aria-label="Navigation photos">
+          {photos.map((_, i) => (
+            <button
+              key={i}
+              role="tab"
+              aria-selected={i === currentIndex}
+              aria-label={`Photo ${i + 1}`}
+              className={`${styles.dot} ${i === currentIndex ? styles.dotActive : ""}`}
+              onClick={() => setCurrentIndex(i)}
+            />
+          ))}
+        </div>
+      )}
       <p className={styles.creditPhoto}>{creditPhoto}</p>
     </>
   );
