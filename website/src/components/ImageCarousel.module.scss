@@ -2,7 +2,7 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 40px 1fr 40px;
+  grid-template-columns: 56px 1fr 56px;
   align-items: center;
   width: 100%;
 
@@ -16,11 +16,17 @@
   align-items: center;
   justify-content: center;
   height: 10vh;
+  width: 56px;
   cursor: pointer;
   transition: transform ease-in-out 0.2s;
   background: none;
   border: none;
   padding: 0;
+
+  img {
+    width: 36px;
+    height: 36px;
+  }
 
   &:hover:not(:disabled) {
     transform: scale(1.1);
@@ -66,14 +72,14 @@
   text-align: center;
   font-size: $font-size-xs;
   color: $color-text-muted;
-  margin: $spacing-xs 0 0;
+  margin: 4px 0 0;
 }
 
 .dots {
   display: flex;
   justify-content: center;
   gap: $spacing-xs;
-  margin: $spacing-xs 0 0;
+  margin: 4px 0 0;
   flex-wrap: wrap;
 }
 
@@ -101,5 +107,5 @@
   font-weight: lighter;
   font-style: italic;
   text-align: center;
-  margin-top: $spacing-xs;
+  margin-top: 4px;
 }
