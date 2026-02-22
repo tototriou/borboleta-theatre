@@ -80,10 +80,6 @@ export default function ImageCarousel({
         </button>
       </div>
 
-      <p className={styles.counter} aria-live="polite" aria-atomic="true">
-        {currentIndex + 1} / {photos.length}
-      </p>
-
       {photos.length > 1 && (
         <div className={styles.dots} role="tablist" aria-label="Navigation photos">
           {photos.map((_, i) => (
