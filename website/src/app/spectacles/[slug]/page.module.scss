@@ -29,7 +29,11 @@
   z-index: $z-content;
   max-width: 1100px;
   margin: 0 auto;
-  padding: $spacing-md 0;
+  padding: $spacing-md $spacing-xl;
+
+  @media (max-width: $breakpoint-md) {
+    padding: $spacing-md;
+  }
 }
 
 // ── Section principale : deux colonnes ──────────────────────

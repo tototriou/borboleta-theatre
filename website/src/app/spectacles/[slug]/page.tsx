@@ -158,20 +158,6 @@ export default async function SpectaclePage({ params }: Props) {
                   </section>
                 )}
 
-                {spectacle.dossier_url && (
-                  <div className={styles.dossierBlock}>
-                    <p className={styles.metaLabel}>Dossier spectacle</p>
-                    <a
-                      href={spectacle.dossier_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={styles.download}
-                      aria-label={`Télécharger le dossier de ${spectacle.titre}`}
-                    >
-                      <img src="/icons/download.svg" alt="" aria-hidden="true" />
-                    </a>
-                  </div>
-                )}
               </aside>
 
               {/* Colonne droite : carousel + résumé */}
@@ -186,6 +172,22 @@ export default async function SpectaclePage({ params }: Props) {
                   <p className={styles.resume}>{spectacle.resume}</p>
                 )}
               </div>
+
+              {/* Dossier : col gauche sur desktop, après le résumé sur mobile */}
+              {spectacle.dossier_url && (
+                <div className={styles.dossierBlock}>
+                  <p className={styles.metaLabel}>Dossier spectacle</p>
+                  <a
+                    href={spectacle.dossier_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.download}
+                    aria-label={`Télécharger le dossier de ${spectacle.titre}`}
+                  >
+                    <img src="/icons/download.svg" alt="" aria-hidden="true" />
+                  </a>
+                </div>
+              )}
             </div>
 
             {/* Section extras : extraits, presse, vidéos */}

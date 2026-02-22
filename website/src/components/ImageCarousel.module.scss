@@ -32,6 +32,11 @@
   height: auto;
   max-height: 80dvh;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    max-width: calc(100% - 72px);
+    max-height: 50dvh;
+  }
 }
 
 .creditPhoto {
