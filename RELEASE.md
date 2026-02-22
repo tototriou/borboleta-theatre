@@ -6,6 +6,21 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.10.0] - 2026-02-22
+
+### Ajouté
+- Carousel photos avec swipe natif sur mobile (scroll-snap), flèches sur desktop
+- Points de navigation cliquables (dots) sous le carousel
+- Bouton "Dossier de présentation" centré sous le résumé
+
+### Modifié
+- Page spectacle pleine largeur : suppression du conteneur blanc (fond, ombre, border-radius)
+- Marges latérales ajustées selon la taille d'écran
+- Layout carousel revu : grid symétrique, centrage image, flèches agrandies
+- 6 photos portrait supprimées du carousel Juliet (juliet5/6/7/8/16/19)
+
+---
+
 ## [1.9.1] - 2026-02-22
 
 ### Modifié

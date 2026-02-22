@@ -4,11 +4,6 @@
 
 ## Features à livrer
 
-### `feat/spectacle-page-fullwidth` *(EPIC 7 — dépend de feat/spectacle-page-layout)*
-- [ ] Supprimer les conteneurs encadrés (fond blanc, ombre, `border-radius`) sur la page spectacle
-- [ ] Contenu pleine largeur dans les marges normales
-- [ ] Vérifier la hiérarchie visuelle et la lisibilité mobile sans les cadres
-
 ### `feat/agenda-inline-rows` *(EPIC 8 — dépend de feat/agenda-layout)*
 - [ ] Supprimer tous les conteneurs de type card dans la page agenda
 - [ ] Chaque date sur une ligne : `Spectacle — Date — Lieu, Ville (Département)`
