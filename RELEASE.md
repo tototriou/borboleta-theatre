@@ -6,6 +6,15 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.9.0] - 2026-02-22
+
+### Modifié
+- Cartes membres en format paysage (ratio 3/2)
+- Nom et rôle affichés dans une bande sous la photo (fond violet sombre, toujours visible)
+- Layout mobile revu : 2 cartes par ligne sur petit écran
+
+---
+
 ## [1.8.1] - 2026-02-22
 
 ### Corrigé

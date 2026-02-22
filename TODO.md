@@ -4,13 +4,6 @@
 
 ## Features à livrer
 
-### `feat/home-team-cards-layout` *(EPIC 5)*
-- [ ] Cartes membres en format paysage (ratio 3/2 ou 16/9, plus large que haut)
-- [ ] Nom affiché en overlay sur la photo (texte en bas, fond semi-transparent)
-- [ ] Contraste suffisant (WCAG AA)
-- [ ] Adapter `MemberCard.tsx` et styles associés
-- [ ] Vérifier que `MemberModal.tsx` reste inchangé fonctionnellement
-
 ### `feat/spectacles-list-refinements` *(EPIC 6 — dépend de feat/spectacles-list-layout)*
 - [ ] Couleur de l'année de création : utiliser `--accent-gold` pour qu'elle ressorte
 - [ ] Image cliquable → navigation vers `/spectacles/[slug]`
