@@ -336,9 +336,7 @@ Ces hooks garantissent :
 ## Checklist avant chaque PR / déploiement
 
 - [ ] `npm run build` passe sans erreur ni warning
-- [ ] `npm run lint` sans erreur
-- [ ] `npm run type-check` sans erreur
-- [ ] Pages affectées testées en local
+- [ ] Demandez à l'utilisateur de tester la feature
 - [ ] Contenu uniquement dans les JSON (aucun texte hardcodé)
 - [ ] Images avec `alt` renseigné
 - [ ] Nouveaux composants documentés (JSDoc)
@@ -465,3 +463,8 @@ Workflow obligatoire :
 **Ne jamais merger de sa propre initiative**, même si le build passe et que les changements semblent corrects.
 
 ---
+
+
+## Responsive 
+
+il faut une attention particulière au responsive de tous les développements.
