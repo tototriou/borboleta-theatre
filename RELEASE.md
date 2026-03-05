@@ -6,6 +6,15 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.12.0] - 2026-03-05
+
+### Modifié
+- Galerie : titre du spectacle intégré verticalement à gauche de la grille (horizontal sur mobile)
+- Galerie : limite de photos réduite à 10 par catégorie (était 15)
+- Galerie : police du titre agrandie à 1.1rem
+
+---
+
 ## [1.11.0] - 2026-03-05
 
 ### Ajouté
