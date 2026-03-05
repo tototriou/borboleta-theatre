@@ -1,5 +1,26 @@
 [
     {
+        "date": "2026-04-10",
+        "dateDisplay": "10 et 11 Avril 2026",
+        "spectacleName": "ALLÔ STELLA",
+        "slug": "stella",
+        "lieu": "Théâtre de la Croix-Rousse, Lyon"
+    },
+    {
+        "date": "2026-05-20",
+        "dateDisplay": "20 Mai 2026",
+        "spectacleName": "CONFESSIONS D'UNE NIHILISTE",
+        "slug": "nihiliste",
+        "lieu": "La Plage des Six Pompes, La Rochelle"
+    },
+    {
+        "date": "2026-05-22",
+        "dateDisplay": "22 Mai 2026",
+        "spectacleName": "ALLÔ STELLA",
+        "slug": "stella",
+        "lieu": "Le Centquatre-Paris, Paris"
+    },
+    {
         "date": "2024-11-06",
         "dateDisplay": "6 au 9 Novembre 2024",
         "spectacleName": "JULIET",
