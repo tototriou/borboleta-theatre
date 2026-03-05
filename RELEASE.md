@@ -6,6 +6,21 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [2.1.0] - 2026-03-05
+
+### Ajouté
+- Page `/travaux/` : liste des autres travaux (saudade, bulle1, bulle2)
+- Pages individuelles `/travaux/[slug]/` avec breadcrumb "← Nos autres travaux"
+- Navbar : dropdown "Spectacles ▾" avec sous-navigation "Nos spectacles" / "Nos autres travaux"
+- Mobile : deux liens directs dans le menu burger pour les deux sections
+
+### Modifié
+- `spectacles.json` : ne contient plus que les spectacles (stella, juliet, nihiliste)
+- `travaux.json` (nouveau) : saudade, bulle1, bulle2 — même format JSON
+- `SpectacleCard` : prop `basePath` pour supporter `/spectacles/` et `/travaux/`
+
+---
+
 ## [2.0.0] - 2026-03-05
 
 ### Ajouté
