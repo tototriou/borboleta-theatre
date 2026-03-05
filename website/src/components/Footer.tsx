@@ -13,7 +13,7 @@ export default function Footer() {
           Thomas Triouleyre
         </a>
       </div>
-      <p className={styles.copyright}>&copy; 2024 Thomas Triouleyre. All rights reserved</p>
+      <p className={styles.copyright}>&copy; {new Date().getFullYear()} Thomas Triouleyre. All rights reserved</p>
     </footer>
   );
 }
