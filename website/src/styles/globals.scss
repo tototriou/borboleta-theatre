@@ -210,6 +210,114 @@ h2 {
   }
 }
 
+// ===== Navbar dropdown Spectacles =====
+.navbar-dropdown {
+  position: relative;
+
+  // Bouton trigger (desktop)
+  .navbar-dropdown-trigger {
+    background: none;
+    border: none;
+    color: $color-text-light;
+    font-size: $font-size-sm;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0;
+    transition: color $transition-base;
+
+    &:hover,
+    &[aria-expanded="true"] {
+      color: white;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    &.active {
+      color: $color-accent-gold;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    // Masqué sur mobile (liens directs à la place)
+    @media (max-width: $breakpoint-md) {
+      display: none;
+    }
+  }
+
+  // Menu déroulant (desktop uniquement)
+  .navbar-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $color-bg-secondary;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 0.4rem 0;
+    min-width: 170px;
+    list-style: none;
+    margin: 0;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    z-index: $z-navbar + 2;
+
+    li a {
+      display: block;
+      padding: 0.5rem 1.1rem;
+      font-size: $font-size-sm;
+      color: $color-text-light;
+      text-decoration: none;
+      white-space: nowrap;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+        color: white;
+        text-decoration: none;
+      }
+
+      &[aria-current="page"] {
+        color: $color-accent-gold;
+      }
+    }
+
+    @media (max-width: $breakpoint-md) {
+      display: none;
+    }
+  }
+
+  // Sur mobile : liens directs visibles dans le burger menu
+  .navbar-dropdown-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: $spacing-xl;
+
+    a {
+      color: $color-text-light;
+      font-size: $font-size-2xl;
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+      }
+
+      &[aria-current="page"] {
+        color: $color-accent-gold;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+      }
+    }
+
+    @media (max-width: $breakpoint-md) {
+      display: flex;
+    }
+  }
+}
+
 // ===== Dividers =====
 @for $i from 1 through 7 {
   .trait#{$i * 10}vw {
