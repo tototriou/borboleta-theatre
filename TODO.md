@@ -20,7 +20,6 @@
 - [ ] Ajouter `metadata` sur la page d'accueil (`page.tsx` est `"use client"` — extraire dans un wrapper server component)
 - [ ] Ajouter `metadata` sur la page galerie (même problème `"use client"`)
 - [ ] Données structurées JSON-LD : schema `Organization` (compagnie), `Event` (agenda), `CreativeWork` (spectacles)
-- [ ] Ajouter favicon, `apple-touch-icon` et `manifest.json` dans `public/`
 - [ ] Optimiser les priorités du `sitemap.xml` (compagnie : 0.8 → 0.9)
 
 ## Priorité basse

@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Butterfly from "./Butterfly";
 
 interface NavLink {
   href: string;
@@ -35,7 +34,7 @@ export default function Header() {
             aria-label="Borboleta Théâtre - Accueil"
             onClick={closeMenu}
           >
-            <Butterfly size={28} />
+            <img src="/images/logo.png" alt="" aria-hidden="true" height={36} style={{ width: "auto" }} />
             <span>Borboleta Théâtre</span>
           </Link>
 
