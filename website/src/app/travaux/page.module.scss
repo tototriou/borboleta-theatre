@@ -1,0 +1,61 @@
+@use "../../styles/variables" as *;
+
+.wrapper {
+  position: relative;
+  padding-top: $page-padding-top;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.pageTitle {
+  position: relative;
+  z-index: $z-content;
+  font-family: $font-display;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-5xl;
+  letter-spacing: 2px;
+  margin: $spacing-xl 0 $spacing-lg;
+  text-align: center;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: $font-size-4xl;
+  }
+}
+
+.list {
+  position: relative;
+  z-index: $z-content;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 70%;
+  padding-bottom: $spacing-3xl;
+
+  @media (max-width: $breakpoint-lg) {
+    width: 85%;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    width: 90%;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    width: 100%;
+    padding: 0 $spacing-md $spacing-3xl;
+  }
+}
+
+.butterfly1 {
+  top: 120px;
+  left: 4%;
+  transform: rotate(-10deg);
+}
+
+.butterfly2 {
+  bottom: 15%;
+  right: 6%;
+  transform: rotate(25deg);
+}
