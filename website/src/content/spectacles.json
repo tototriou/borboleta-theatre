@@ -22,7 +22,9 @@
                 "Avec les voix",
                 "Angélique Clairand, Luna Garcia-Odin, Pierre Nicolas et Laurent Ziserman"
             ],
-            "remerciements": ["Catherine Ailloud-Nicolas, Heidi Becker-Babel, Jeremy Ducroux, Julie Francols, Luna Garcia-Odin, Sébastien Renard, Kerrie Szuch et Elise Vasseur"],
+            "remerciements": [
+                "Catherine Ailloud-Nicolas, Heidi Becker-Babel, Jeremy Ducroux, Julie Francols, Luna Garcia-Odin, Sébastien Renard, Kerrie Szuch et Elise Vasseur"
+            ],
             "accroche": "Thriller Théâtral dans un studio de radio",
             "duree": "1h15",
             "public": "Tout public à partir de 15 ans",
@@ -69,7 +71,9 @@
             "duree": "1h",
             "public": "Tout public à partir de 8 ans",
             "resume": "MADAME, bourgeoise en décomposition et ancienne star déchue, vient offrir un ultime spectacle… dans la rue. Que reste-t-il de ses heures de gloire ? Quelqu'un s'en souvient-il encore ? Face à un public qu'elle ne reconnaît plus, elle tente de tirer un trait sur un passé qui la hante. Elle retraverse sa vie, oscillant entre nostalgie douloureuse, vanité jubilatoire et culpabilisation des autres, portée par une autosatisfaction aussi excessive qu'hypocrite. À ses côtés, BREDOUILLE, serviteur maladroit et éternel célibataire, rêve de trouver l'âme sœur qui viendrait enfin combler le vide de son existence. Lorsque la Mort surgit pour réclamer Madame, celle-ci, armée de sa verve, entreprend de négocier... et de désigner un autre pour prendre sa place. Le spectacle navigue entre texte et chanson, passant sans cesse de l'un à l'autre : la parole déborde en musique et la chanson prolonge le récit, révélant les failles intimes des personnages.",
-            "extraits": ["Je ne veux pas mourir ! Voilà c'est dit, je veux rester vivante, mourir c'est pour les moches, c'est pour les gens qui déjà vivants pourrissent"],
+            "extraits": [
+                "Je ne veux pas mourir ! Voilà c'est dit, je veux rester vivante, mourir c'est pour les moches, c'est pour les gens qui déjà vivants pourrissent"
+            ],
             "presse": [],
             "videos": [],
             "photos": [
@@ -115,9 +119,13 @@
             "duree": "1h",
             "public": "Tout Public à partir de 15 ans",
             "resume": "Et si Juliette n'existait pas ? Et si Roméo s'était inventé toute son histoire d'amour avec Juliette ? Nous proposons une relecture particulière et contemporaine de la pièce iconique de Shakespeare. Nous désaxons la magnifique histoire d'amour partagée mais familialement impossible, pour mettre en lumière le désespoir d'un homme solitaire, pris dans un tourbillon de violence. Dans un environnement étouffant et mortifère où les gangs s'entretuent, où les fêtes sont de plus en plus décadentes, où les rivalités ont perdu tout leur sens, une seule échappatoire apparaît au jeune Roméo pour ne pas sombrer : s'inventer de toute pièce une histoire d'amour idéale. Un pur fantasme.",
-            "extraits": ["Ici on a beaucoup à faire avec la haine, mais plus encore avec l'amour."],
+            "extraits": [
+                "Ici on a beaucoup à faire avec la haine, mais plus encore avec l'amour."
+            ],
             "presse": [],
-            "videos": ["aQysrMCEjas"],
+            "videos": [
+                "aQysrMCEjas"
+            ],
             "photos": [
                 "/images/compagnie/images/photo-juliet24.jpg",
                 "/images/compagnie/images/photo-juliet25.jpg",
@@ -141,133 +149,6 @@
             "credit_photo": "Photos : Cyril Masson",
             "dossier_url": "/images/compagnie/cv/dossier-juliet.pdf",
             "photo_principale": "/images/compagnie/images/photo-juliet1.jpg"
-        },
-        {
-            "slug": "saudade",
-            "titre": "SAUDADE",
-            "sous_titre": "Atelier d'élève CNSAD 2025",
-            "cadre": [
-                "-production-",
-                "CNSAD"
-            ],
-            "creation": [
-                "Mise en scène",
-                "Sidonie Vilas Boas",
-                "Jeu",
-                "Yesükheï Altantsetseg, Clara Arthur-Vaude, Juliette Cahon, Lucie Courbet, Laetitia Gaillac, Violette Grimaud, Atefa Hesari, Clara Pacini, Olivier Sangwa",
-                "Dramaturgie, assistanat et écriture",
-                "Romain Triouleyre",
-                "Costumes",
-                "Sophie Schaal",
-                "Scénographie",
-                "Angeline Croissant",
-                "Lumière",
-                "Simon Frishti",
-                "Son",
-                "Simon Peneau",
-                "Composition Musicale",
-                "Martin Jaugey"
-            ],
-            "remerciements": [],
-            "accroche": "Ecriture de plateau autour de la mémoire et de l'exil",
-            "duree": "1h30",
-            "public": "",
-            "resume": "Dans une pièce close, un roi mélancolique commande à ses sujets de jouer sa vie, non pas telle qu'elle fut, mais telle qu'il souhaite s'en souvenir. Se complaisant dans sa nostalgie il fait, refait, réinvente et fantasme son passé. Malgré lui, ses obsessions prennent le dessus, les fantômes et les cauchemars enfouis resurgissent. Parmi eux un homme sans tête et une mère démultipliée. Dans le labyrinthe de sa mémoire, il enquête sur les zones d'ombres de son passé et affronte ses névroses.",
-            "extraits": ["LA SAUDADE EST UNE VISION IDÉALE, RIEN NE ME MANQUE VRAIMENT, CAR TOUT EST LÀ, EN MOI, SOUS LA FORME DE CE QUI N'A PAS ÉTÉ. Ferando Pessoa"],
-            "presse": [],
-            "videos": [],
-            "photos": [
-                "/images/compagnie/images/photo-saudade1.jpg",
-                "/images/compagnie/images/photo-saudade2.jpg",
-                "/images/compagnie/images/photo-saudade3.jpg",
-                "/images/compagnie/images/photo-saudade4.jpg",
-                "/images/compagnie/images/photo-saudade5.jpg",
-                "/images/compagnie/images/photo-saudade6.jpg",
-                "/images/compagnie/images/photo-saudade7.jpg",
-                "/images/compagnie/images/photo-saudade8.jpg",
-                "/images/compagnie/images/photo-saudade9.jpg",
-                "/images/compagnie/images/photo-saudade10.jpg",
-                "/images/compagnie/images/photo-saudade11.jpg",
-                "/images/compagnie/images/photo-saudade12.jpg",
-                "/images/compagnie/images/photo-saudade13.jpg",
-                "/images/compagnie/images/photo-saudade14.jpg",
-                "/images/compagnie/images/photo-saudade15.jpg"
-            ],
-            "credit_photo": "Photos : Christophe Raynaud De Lage",
-            "dossier_url": "",
-            "photo_principale": "/images/compagnie/images/photo-saudade3.jpg"
-        },
-        {
-            "slug": "bulle1",
-            "titre": "Festival - LES YEUX DANS LA COUR",
-            "sous_titre": "Concours de bulles 2024",
-            "cadre": [
-                "Concours de bulles 2024",
-                "Festival Les Yeux dans la Cour - Courzieu (69)"
-            ],
-            "creation": [
-                "Créations de",
-                "Jeremy Ducroux, Piero Hernandez, Victoire Loriau, Ambroise Ract Madoux et Romain Triouleyre"
-            ],
-            "remerciements": [],
-            "accroche": "Création en 48h d'une forme de 15min",
-            "duree": "",
-            "public": "",
-            "resume": "Au Royaume de la Cuette, la nomination du premier mi-cuette, monsieur Bernard Cuette-Neuve, le grand méchant machiavélique de l'histoire qui veut dissoudre la Cuette Nationale et prendre le pouvoir en assassinant le Roi de le Cuette, pousse le peuple de la Cuette, mené par le Chevalier de la Cuette, à se soulever contre cette dictacuette.",
-            "extraits": [""],
-            "presse": [],
-            "videos": [],
-            "photos": [
-                "/images/compagnie/images/photo-bulle-2024-1.jpg",
-                "/images/compagnie/images/photo-bulle-2024-2.jpg",
-                "/images/compagnie/images/photo-bulle-2024-3.jpg",
-                "/images/compagnie/images/photo-bulle-2024-4.jpg",
-                "/images/compagnie/images/photo-bulle-2024-5.jpg",
-                "/images/compagnie/images/photo-bulle-2024-6.jpg",
-                "/images/compagnie/images/photo-bulle-2024-7.jpg",
-                "/images/compagnie/images/photo-bulle-2024-8.jpg",
-                "/images/compagnie/images/photo-bulle-2024-9.jpg",
-                "/images/compagnie/images/photo-bulle-2024-10.jpg"
-            ],
-            "credit_photo": "Photos : Jérôme Mastrovalerio et Alexandre Kong A Siou",
-            "dossier_url": "",
-            "photo_principale": "/images/compagnie/images/photo-bulle-2024-1.jpg"
-        },
-        {
-            "slug": "bulle2",
-            "titre": "Festival - LES YEUX DANS LA COUR",
-            "sous_titre": "Concours de bulles 2025",
-            "cadre": [
-                "Concours de bulles 2025",
-                "Festival Les Yeux dans la Cour - Courzieu (69)"
-            ],
-            "creation": [
-                "Créations de",
-                "Jeremy Ducroux, Piero Hernandez, Victoire Loriau, Ambroise Ract Madoux et Romain Triouleyre"
-            ],
-            "remerciements": [],
-            "accroche": "Création en 48h d'une forme de 15min dans la rue",
-            "duree": "",
-            "public": "",
-            "resume": "Dans la belle ville de Courzieu, un homme en cape s'adonne à des rituels sataniques. Le résultat ne se fait pas attendre, et rapidement l'entiereté du village se fait posséder par ce vieux sheitan à cornes. Heureusement, l'exorciste le plus stylé de la région ne se fait pas attendre et procède à ce que l'on pourrait qualifer d'un exorcisme à la banane en bonne et due forme.",
-            "extraits": ["Où est le démon ?"],
-            "presse": [],
-            "videos": [],
-            "photos": [
-                "/images/compagnie/images/photo-bulle-2025-1.jpg",
-                "/images/compagnie/images/photo-bulle-2025-2.jpg",
-                "/images/compagnie/images/photo-bulle-2025-3.jpg",
-                "/images/compagnie/images/photo-bulle-2025-4.jpg",
-                "/images/compagnie/images/photo-bulle-2025-5.jpg",
-                "/images/compagnie/images/photo-bulle-2025-6.jpg",
-                "/images/compagnie/images/photo-bulle-2025-7.jpg",
-                "/images/compagnie/images/photo-bulle-2025-8.jpg",
-                "/images/compagnie/images/photo-bulle-2025-9.jpg",
-                "/images/compagnie/images/photo-bulle-2025-10.jpg"
-            ],
-            "credit_photo": "Photos : Jérôme Mastrovalerio",
-            "dossier_url": "",
-            "photo_principale": "/images/compagnie/images/photo-bulle-2025-1.jpg"
         }
     ]
 }
