@@ -24,7 +24,7 @@ export default function Butterfly({ className, size = 80 }: ButterflyProps) {
       alt=""
       aria-hidden="true"
       className={className}
-      width={size}
+      width={size * 2}
       style={{ height: "auto" }}
     />
   );
