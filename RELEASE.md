@@ -6,6 +6,18 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [2.0.0] - 2026-03-05
+
+### Ajouté
+- Logo PNG dans la navbar (remplace le papillon SVG du brand)
+- Favicon depuis le logo (`src/app/icon.png` — auto-détecté par Next.js)
+
+### Modifié
+- Papillons décoratifs : images PNG réelles (parmi 5 fichiers) remplaçant le SVG codé à la main
+- Taille des papillons aléatoire entre ×2 et ×3 de la taille de base à chaque chargement
+
+---
+
 ## [1.12.0] - 2026-03-05
 
 ### Modifié
