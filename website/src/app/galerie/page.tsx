@@ -10,7 +10,7 @@ import galerieData from "@/content/galerie.json";
 import { GalerieCategory } from "@/types";
 import styles from "./page.module.scss";
 
-const MAX_PHOTOS = 15;
+const MAX_PHOTOS = 10;
 
 /** Page galerie avec photos organisées par catégorie et lightbox. */
 export default function GaleriePage() {
@@ -48,23 +48,32 @@ export default function GaleriePage() {
                 className={styles.section}
                 aria-labelledby={`galerie-${cat.titre.toLowerCase()}`}
               >
-                <h2 id={`galerie-${cat.titre.toLowerCase()}`}>{cat.titre}</h2>
+                <div className={styles.sectionInner}>
+                  <h2
+                    id={`galerie-${cat.titre.toLowerCase()}`}
+                    className={styles.sectionTitle}
+                  >
+                    {cat.titre}
+                  </h2>
 
-                <div className={styles.grid} role="list" aria-label={`Photos de ${cat.titre}`}>
-                  {photos.map((photo, pi) => (
-                    <button
-                      key={pi}
-                      className={styles.thumb}
-                      onClick={() => openPhoto(cat, pi)}
-                      aria-label={`Voir en plein écran : ${photo.alt}`}
-                      type="button"
-                    >
-                      <img src={photo.url} alt={photo.alt} />
-                    </button>
-                  ))}
+                  <div className={styles.gridWrapper}>
+                    <div className={styles.grid} role="list" aria-label={`Photos de ${cat.titre}`}>
+                      {photos.map((photo, pi) => (
+                        <button
+                          key={pi}
+                          className={styles.thumb}
+                          onClick={() => openPhoto(cat, pi)}
+                          aria-label={`Voir en plein écran : ${photo.alt}`}
+                          type="button"
+                        >
+                          <img src={photo.url} alt={photo.alt} />
+                        </button>
+                      ))}
+                    </div>
+
+                    <p className={styles.credit}>{cat.credit_photo}</p>
+                  </div>
                 </div>
-
-                <p className={styles.credit}>{cat.credit_photo}</p>
               </section>
             );
           })}
