@@ -6,13 +6,15 @@ interface SpectacleCardProps {
   spectacle: Spectacle;
   /** Si true, l'image est à droite et le contenu à gauche */
   reversed?: boolean;
+  /** Chemin de base pour les liens (ex: "/spectacles" ou "/travaux"). Défaut : "/spectacles" */
+  basePath?: string;
 }
 
 /**
  * Présentation d'un spectacle en mode ligne : image d'un côté, contenu de l'autre.
  * Le côté de l'image alterne selon la prop `reversed`.
  */
-export default function SpectacleCard({ spectacle, reversed = false }: SpectacleCardProps) {
+export default function SpectacleCard({ spectacle, reversed = false, basePath = "/spectacles" }: SpectacleCardProps) {
   // Parse du tableau création : alternance [rôle, noms, rôle, noms, ...]
   const creationPairs: { role: string; noms: string }[] = [];
   for (let i = 0; i + 1 < spectacle.creation.length; i += 2) {
@@ -23,7 +25,7 @@ export default function SpectacleCard({ spectacle, reversed = false }: Spectacle
     <article className={`${styles.row} ${reversed ? styles.reversed : ""}`}>
       <div className={styles.imageWrapper}>
         <Link
-          href={`/spectacles/${spectacle.slug}/`}
+          href={`${basePath}/${spectacle.slug}/`}
           className={styles.imageLink}
           aria-label={`Voir le spectacle ${spectacle.titre}`}
         >
@@ -64,7 +66,7 @@ export default function SpectacleCard({ spectacle, reversed = false }: Spectacle
         )}
 
         <Link
-          href={`/spectacles/${spectacle.slug}/`}
+          href={`${basePath}/${spectacle.slug}/`}
           className={styles.btn}
           aria-label={`En savoir plus sur ${spectacle.titre}`}
         >
