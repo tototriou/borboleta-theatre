@@ -10,7 +10,6 @@ interface NavLink {
 }
 
 const navLinks: NavLink[] = [
-  { href: "/#compagnie", label: "Compagnie" },
   { href: "/agenda/", label: "Agenda" },
   { href: "/contact/", label: "Contact" },
   { href: "/galerie/", label: "Galerie" },
@@ -74,6 +73,17 @@ export default function Header() {
           className={`navbar-links ${isMenuOpen ? "open" : ""}`}
           role="list"
         >
+          {/* Compagnie */}
+          <li>
+            <Link
+              href="/#compagnie"
+              onClick={closeAll}
+              aria-current={pathname === "/#compagnie" ? "page" : undefined}
+            >
+              Compagnie
+            </Link>
+          </li>
+
           {/* Dropdown Spectacles */}
           <li className="navbar-dropdown" ref={dropdownRef}>
             {/* Desktop : bouton trigger */}
@@ -83,7 +93,7 @@ export default function Header() {
               aria-haspopup="true"
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             >
-              Spectacles <span aria-hidden="true">{isDropdownOpen ? "▴" : "▾"}</span>
+              Spectacles
             </button>
 
             {isDropdownOpen && (
