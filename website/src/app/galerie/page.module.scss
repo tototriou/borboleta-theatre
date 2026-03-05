@@ -17,6 +17,10 @@
   align-items: stretch;
   max-width: 1060px;
   margin: 0 auto;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .sectionTitle {
@@ -32,6 +36,17 @@
   padding: 0 1rem;
   border-right: 2px solid var(--accent-gold);
   margin-right: 1.25rem;
+
+  @media (max-width: 600px) {
+    writing-mode: horizontal-tb;
+    transform: none;
+    border-right: none;
+    border-bottom: 2px solid var(--accent-gold);
+    margin-right: 0;
+    margin-bottom: 0.75rem;
+    padding: 0 0 0.5rem;
+    justify-content: flex-start;
+  }
 }
 
 .gridWrapper {
