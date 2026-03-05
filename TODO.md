@@ -4,13 +4,6 @@
 
 ## Features à livrer
 
-### `feat/agenda-inline-rows` *(EPIC 8 — dépend de feat/agenda-layout)*
-- [ ] Supprimer tous les conteneurs de type card dans la page agenda
-- [ ] Chaque date sur une ligne : `Spectacle — Date — Lieu, Ville (Département)`
-- [ ] Séparateur léger entre les lignes (bordure fine, pas de card)
-- [ ] Ajouter champ `department` ou `city` dans `agenda.json` si absent
-- [ ] Mettre à jour `src/types/index.ts`
-
 ### `feat/galerie-refinements` *(EPIC 9 — dépend de feat/galerie-layout)*
 - [ ] Réduire la limite à **10 photos** par spectacle (au lieu de 15)
 - [ ] Supprimer l'affichage de l'année de création
@@ -38,7 +31,6 @@
 
 ## Priorité basse
 - [ ] `feat/home-red-thread-scroll` : prolonger le fil rouge dans la section compagnie
-- [ ] Copyright footer : remplacer "2024" par année dynamique
 - [ ] Corriger icône téléphone dans contact : ajouter `aria-hidden="true"` (`contact/page.tsx` ligne 49)
 - [ ] Dark mode (optionnel)
 - [ ] Bouton retour en haut de page

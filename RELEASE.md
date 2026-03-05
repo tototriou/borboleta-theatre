@@ -6,6 +6,19 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.11.0] - 2026-03-05
+
+### Ajouté
+- Agenda : 3 dates à venir (Allô Stella — Avril et Mai 2026, Confessions d'une Nihiliste — Mai 2026)
+
+### Modifié
+- Agenda : lignes inline remplaçant les conteneurs de type card (`Spectacle — Date — Lieu` pour les dates passées, `Date — Lieu` pour les dates futures)
+- Agenda : séparateur `border-bottom` fin entre les lignes
+- Agenda : années plus grandes (1.4rem) dans la section "Dates passées"
+- Footer : copyright avec année dynamique (`new Date().getFullYear()`)
+
+---
+
 ## [1.10.1] - 2026-02-22
 
 ### Ajouté
