@@ -4,12 +4,6 @@
 
 ## Features à livrer
 
-### `feat/galerie-refinements` *(EPIC 9 — dépend de feat/galerie-layout)*
-- [ ] Réduire la limite à **10 photos** par spectacle (au lieu de 15)
-- [ ] Supprimer l'affichage de l'année de création
-- [ ] Titre du spectacle intégré à la grille (vertical latéral ou première cellule) — pas au-dessus
-- [ ] Crédit photo fonctionnel en lightbox
-
 ---
 
 ## Responsive
