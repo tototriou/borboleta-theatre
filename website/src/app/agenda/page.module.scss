@@ -76,11 +76,20 @@
 /* Ligne d'un événement */
 .ligne {
   display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  padding: 0.75rem 1rem;
-  background-color: rgba(255, 255, 255, 0.88);
-  border-radius: 8px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  &:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+.sep {
+  color: rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
 }
 
 .spectacleName {
@@ -89,6 +98,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--bg-secondary);
+  flex-shrink: 0;
 
   a {
     color: inherit;
@@ -102,7 +112,8 @@
 }
 
 .date {
-  font-weight: bold;
+  font-weight: 600;
+  flex-shrink: 0;
 }
 
 .lieu {

@@ -108,6 +108,7 @@ export default function AgendaContent() {
                     <time dateTime={event.date} className={styles.date}>
                       {event.dateDisplay}
                     </time>
+                    <span className={styles.sep}>—</span>
                     <span className={styles.lieu}>{event.lieu}</span>
                   </li>
                 ))}
@@ -145,9 +146,11 @@ export default function AgendaContent() {
                         event.spectacleName
                       )}
                     </span>
+                    <span className={styles.sep}>—</span>
                     <time dateTime={event.date} className={styles.date}>
                       {event.dateDisplay}
                     </time>
+                    <span className={styles.sep}>—</span>
                     <span className={styles.lieu}>{event.lieu}</span>
                   </li>
                 ))}
