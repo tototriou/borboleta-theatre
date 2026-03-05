@@ -25,8 +25,6 @@
 ## Priorité basse
 - [ ] `feat/home-red-thread-scroll` : prolonger le fil rouge dans la section compagnie
 - [ ] Corriger icône téléphone dans contact : ajouter `aria-hidden="true"` (`contact/page.tsx` ligne 49)
-- [ ] Dark mode (optionnel)
-- [ ] Bouton retour en haut de page
 - [ ] Partage sur réseaux sociaux (pages spectacles)
 - [ ] Tests unitaires (Jest + React Testing Library)
 - [ ] Storybook pour les composants
