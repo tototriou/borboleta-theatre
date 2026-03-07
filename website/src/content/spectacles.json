@@ -1,6 +1,48 @@
 {
     "spectacles": [
         {
+            "slug": "chimeres",
+            "titre": "CHIMERES (ET HISTOIRES DE LESSIVES)",
+            "sous_titre": "Création 2027",
+            "cadre": [
+                "-production-",
+                "Borboleta Théâtre"
+            ],
+            "creation": [
+                "Mise en scène",
+                "Sidonie Vilas Boas",
+                "Jeu",
+                "Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis-Calixte, Lucile Rose",
+                "Scénographie et lumière",
+                "Elise Vasseur",
+                "Dramaturgie et assistanat mise en scène",
+                "Romain Triouleyre"
+            ],
+            "remerciements":[
+            ],
+            "accroche": "Dyptique autour de la maternité et de l'enfantement",
+            "duree": "1h30 estimé",
+            "public": "Tout public",
+            "resume": "Spectacle en cours de création.\nMaquette créée lors des cartes blanches au CNSAD, présenté en rue lors du festival MEUF MARS 2024 et au Festival d'Aurillac 2024",
+            "extraits": [],
+            "presse": [],
+            "videos": [],
+            "photos": [
+                "/images/compagnie/images/photo-chimères1.JPG",
+                "/images/compagnie/images/photo-chimères2.JPG",
+                "/images/compagnie/images/photo-chimères3.JPG",
+                "/images/compagnie/images/photo-chimères4.JPG",
+                "/images/compagnie/images/photo-chimères5.JPG",
+                "/images/compagnie/images/photo-chimères6.JPG",
+                "/images/compagnie/images/photo-chimères7.JPG",
+                "/images/compagnie/images/photo-chimères8.JPG",
+                "/images/compagnie/images/photo-chimères9.JPG"
+            ],
+            "credit_photo": "Photos : Henrique Vilas Boas",
+            "dossier_url": "/images/compagnie/cv/dossier-chimères.pdf",
+            "photo_principale": "/images/compagnie/images/photo-chimères2.JPG"
+        },
+        {
             "slug": "stella",
             "titre": "ALLÔ STELLA",
             "sous_titre": "Création décembre 2025",
