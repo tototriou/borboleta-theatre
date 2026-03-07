@@ -6,6 +6,23 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [2.2.0] - 2026-03-07
+
+### Ajouté
+- Spectacle CHIMÈRES remis en première position dans `spectacles.json`
+- Galerie : 5 nouvelles catégories (Stella, Nihiliste, Saudade, Bulles 2024/2025)
+- Galerie : mise à jour photos JULIET (juliet24–41)
+- Portrait Jeremy Ducroux (`pp-jeremy.jpg`) ajouté
+- Agenda 2026 mis à jour avec nouvelles dates et lieux
+
+### Modifié
+- `compagnie.json` : membres triés par ordre alphabétique de nom
+- `compagnie.json` : photo_url de Jeremy Ducroux renseignée
+- Portraits membres mis à jour (résolution et nouveaux visuels)
+- Suppression anciens portraits inutilisés (ambroise1, clara, piero1, romain)
+
+---
+
 ## [2.1.0] - 2026-03-05
 
 ### Ajouté
