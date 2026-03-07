@@ -33,28 +33,110 @@
       "sous_titre": "Création 2024",
       "credit_photo": "Photos : Cyril Masson",
       "photos": [
-        { "url": "/images/compagnie/images/photo-juliet1.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet3.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet4.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet5.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet6.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet7.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet8.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet9.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet10.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet11.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet12.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet13.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet14.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet15.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet16.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet17.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet18.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet19.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet20.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet21.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet22.jpg", "alt": "Scène du spectacle JULIET" },
-        { "url": "/images/compagnie/images/photo-juliet23.jpg", "alt": "Scène du spectacle JULIET" }
+        { "url": "/images/compagnie/images/photo-juliet24.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet25.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet26.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet27.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet28.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet29.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet30.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet31.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet32.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet33.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet34.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet35.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet36.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet37.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet38.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet39.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet40.jpg", "alt": "Scène du spectacle JULIET" },
+        { "url": "/images/compagnie/images/photo-juliet41.jpg", "alt": "Scène du spectacle JULIET" }
+      ]
+    }
+    ,
+    {
+      "titre": "ALLÔ STELLA",
+      "sous_titre": "Création décembre 2025",
+      "credit_photo": "Photos : Romain Triouleyre",
+      "photos": [
+        { "url": "/images/compagnie/images/photo-stella1.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella2.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella3.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella4.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella5.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella6.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella7.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella8.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella9.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella10.JPG", "alt": "Scène du spectacle ALLÔ STELLA" }
+      ]
+    },
+    {
+      "titre": "CONFESSIONS D'UNE NIHILISTE",
+      "sous_titre": "Création 2025",
+      "credit_photo": "Photos : David Fraternali et Gilles Mauron",
+      "photos": [
+        { "url": "/images/compagnie/images/photo-nihiliste1.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste2.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste3.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste4.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste5.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste6.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste7.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste8.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste9.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste10.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" }
+      ]
+    },
+    {
+      "titre": "SAUDADE",
+      "sous_titre": "Atelier d'élève CNSAD 2025",
+      "credit_photo": "",
+      "photos": [
+        { "url": "/images/compagnie/images/photo-saudade1.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade2.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade3.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade4.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade5.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade6.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade7.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade8.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade9.jpg", "alt": "Scène du spectacle SAUDADE" },
+        { "url": "/images/compagnie/images/photo-saudade10.jpg", "alt": "Scène du spectacle SAUDADE" }
+      ]
+    },
+    {
+      "titre": "Festival - LES YEUX DANS LA COUR 2024",
+      "sous_titre": "Concours de bulles 2024",
+      "credit_photo": "",
+      "photos": [
+        { "url": "/images/compagnie/images/photo-bulle-2024-1.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-2.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-3.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-4.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-5.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-6.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-7.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-8.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-9.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" },
+        { "url": "/images/compagnie/images/photo-bulle-2024-10.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2024" }
+      ]
+    },
+    {
+      "titre": "Festival - LES YEUX DANS LA COUR 2025",
+      "sous_titre": "Concours de bulles 2025",
+      "credit_photo": "",
+      "photos": [
+        { "url": "/images/compagnie/images/photo-bulle-2025-1.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-2.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-3.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-4.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-5.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-6.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-7.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-8.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-9.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" },
+        { "url": "/images/compagnie/images/photo-bulle-2025-10.jpg", "alt": "Festival Les Yeux dans la Cour — Concours de bulles 2025" }
       ]
     }
   ]
