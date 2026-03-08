@@ -6,6 +6,13 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [2.3.1] - 2026-03-08
+
+### Corrigé
+- `spectacles.json` : extraits de juliet et nihiliste convertis au format `{texte, source}` — crash build au prerendering corrigé
+
+---
+
 ## [2.3.0] - 2026-03-08
 
 ### Ajouté
