@@ -32,7 +32,8 @@
         "dateDisplay": "9 Septembre 2024",
         "spectacleName": "CONCOURS DE BULLES",
         "slug": "bulle1",
-        "lieu": "Festival Les yeux dans la cour, Courzieu (69)"
+        "lieu": "Festival Les yeux dans la cour, Courzieu (69)",
+        "basePath": "/travaux"
     },
     {
         "date": "2024-08-14",
@@ -67,7 +68,8 @@
         "dateDisplay": "14 au 17 mai 2025",
         "spectacleName": "SAUDADE",
         "slug": "saudade",
-        "lieu": "Atelier d'élèves CNSAD, Paris (75)"
+        "lieu": "Atelier d'élèves CNSAD, Paris (75)",
+        "basePath": "/travaux"
     },
     {
         "date": "2025-04-18",
@@ -95,7 +97,8 @@
         "dateDisplay": "14 septembre",
         "spectacleName": "CONCOURS DE BULLES",
         "slug": "bulle2",
-        "lieu": "Festival Les yeux dans la cour, Courzieu (69)"
+        "lieu": "Festival Les yeux dans la cour, Courzieu (69)",
+        "basePath": "/travaux"
     },
     {
         "date": "2025-12-03",

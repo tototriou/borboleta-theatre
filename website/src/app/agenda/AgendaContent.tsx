@@ -97,7 +97,7 @@ export default function AgendaContent() {
             <div key={spectacleName} className={styles.spectacleGroup}>
               <h3 className={styles.spectacleTitle}>
                 {slug ? (
-                  <Link href={`/spectacles/${slug}/`}>{spectacleName}</Link>
+                  <Link href={`${events[0].basePath ?? "/spectacles"}/${slug}/`}>{spectacleName}</Link>
                 ) : (
                   spectacleName
                 )}
@@ -139,7 +139,7 @@ export default function AgendaContent() {
                   <li key={i} className={styles.ligne}>
                     <span className={styles.spectacleName}>
                       {event.slug ? (
-                        <Link href={`/spectacles/${event.slug}/`}>
+                        <Link href={`${event.basePath ?? "/spectacles"}/${event.slug}/`}>
                           {event.spectacleName}
                         </Link>
                       ) : (
