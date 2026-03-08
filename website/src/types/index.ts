@@ -113,6 +113,8 @@ export interface AgendaEvent {
   spectacleName: string;
   /** Slug du spectacle pour le lien vers sa page (ex: "juliet") — optionnel */
   slug?: string;
+  /** Chemin de base pour le lien (ex: "/spectacles" ou "/travaux"). Défaut : "/spectacles" */
+  basePath?: string;
   /** Lieu de représentation (ex: "Lavoir Public, Lyon") */
   lieu: string;
 }
