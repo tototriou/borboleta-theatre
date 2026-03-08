@@ -6,6 +6,26 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [2.3.0] - 2026-03-08
+
+### Ajouté
+- Page spectacle : support des sauts de paragraphes (`\n\n`) dans le résumé et les extraits
+- Page spectacle : section "Extraits" renommée "À propos du spectacle"
+- Page spectacle : guillemets autour des citations de presse
+- Page spectacle : dossier de présentation déplacé sous la section presse
+
+### Modifié
+- Thème visuel : palette de couleurs mise à jour (`_variables.scss`) — fond rose orchidée `#d46dad`, or clair `#ffe477`
+- Titres de spectacles en couleur dorée sur les pages spectacles, travaux et cartes spectacles
+- Traits décoratifs en couleur prune `#3d1030` (couleur navbar) sur toutes les pages
+- Séparateurs d'événements dans l'agenda remis en noir discret
+- `spectacles.json` : contenu Allô Stella mis à jour (résumé avec sauts de paragraphes, extraits et presse au bon format)
+- `compagnie.json` mis à jour
+- `galerie.json` mis à jour
+- CVs mis à jour : `cv-romain.pdf`, `dossier-chimères.pdf`, `dossier-stella.pdf`
+
+---
+
 ## [2.2.0] - 2026-03-07
 
 ### Ajouté
