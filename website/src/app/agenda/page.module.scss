@@ -29,7 +29,7 @@
   font-size: 1.4rem;
   margin-bottom: 1.25rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--accent-gold);
+  border-bottom: 2px solid #3d1030;
 }
 
 /* Groupe par spectacle (dates futures) */
@@ -40,6 +40,7 @@
 .spectacleTitle {
   font-size: 1.15rem;
   margin-bottom: 0.6rem;
+  color: var(--accent-gold);
 
   a {
     color: inherit;
@@ -97,7 +98,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--bg-secondary);
+  color: var(--accent-gold);
   flex-shrink: 0;
 
   a {
@@ -118,7 +119,7 @@
 
 .lieu {
   font-size: 0.95rem;
-  color: #555;
+  color: #1a1a1a;
 }
 
 .noEvent {

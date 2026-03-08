@@ -4,27 +4,27 @@
 
 // ----- COULEURS -----
 // Palette principale
-$color-bg-primary: #f0b8d0;       // Rose principal (fond)
-$color-bg-secondary: #2d1b4e;     // Violet sombre (navbar, footer)
+$color-bg-primary: #d46dad;       // Rose orchidée (fond principal)
+$color-bg-secondary: #3d1030;     // Prune foncé (navbar, footer)
 $color-bg-card: #ffffff;          // Fond des cartes
 
 // Texte
 $color-text-primary: #1a1a1a;     // Texte principal (noir)
-$color-text-light: #f2eddb;       // Texte sur fond sombre (beige)
+$color-text-light: #fceef8;       // Texte sur fond sombre (rose très pâle)
 $color-text-muted: rgba(0, 0, 0, 0.6);
 
 // Accents
-$color-accent-gold: #d4a843;      // Or (boutons, highlights)
-$color-accent-red: #c43c3c;       // Fil rouge décoratif
-$color-accent-purple: #6b3fa0;    // Violet (boutons secondaires)
+$color-accent-gold: #ffe477;      // Jaune clair (boutons, highlights)
+$color-accent-red: #8a1a45;       // Grenat (fil décoratif)
+$color-accent-purple: #5a1a7a;    // Violet profond (boutons secondaires)
 
 // Overlays
 $color-overlay-dark: rgba(3, 3, 3, 0.6);
 $color-overlay-light: rgba(255, 255, 255, 0.85);
 
 // Décoratifs (papillons)
-$color-butterfly-dark: #2a2a2a;
-$color-butterfly-light: #555555;
+$color-butterfly-dark: #3d1030;
+$color-butterfly-light: #8a4070;
 
 // ----- TYPOGRAPHIE -----
 $font-primary: "Catamaran", sans-serif;

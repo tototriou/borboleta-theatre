@@ -169,20 +169,10 @@ export default async function SpectaclePage({ params }: Props) {
                   />
                 )}
                 {spectacle.resume && (
-                  <p className={styles.resume}>{spectacle.resume}</p>
-                )}
-                {spectacle.dossier_url && (
-                  <div className={styles.dossierBlock}>
-                    <a
-                      href={spectacle.dossier_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={styles.dossierBtn}
-                      aria-label={`Télécharger le dossier de ${spectacle.titre}`}
-                    >
-                      <img src="/icons/download.svg" alt="" aria-hidden="true" className={styles.dossierIcon} />
-                      Dossier de présentation
-                    </a>
+                  <div className={styles.resume}>
+                    {spectacle.resume.split('\n\n').map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
                   </div>
                 )}
               </div>
@@ -193,10 +183,12 @@ export default async function SpectaclePage({ params }: Props) {
               <section className={styles.extrasSection} aria-label="Presse et médias">
                 {spectacle.extraits.length > 0 && (
                   <div className={styles.extraitsBlock}>
+                    <h2 className={styles.blockTitle}>À propos du spectacle</h2>
                     {spectacle.extraits.map((extrait, i) => (
                       <blockquote key={i} className={styles.extrait}>
-                        <p>&ldquo;{extrait.texte}&rdquo;</p>
-                        <cite className={styles.extraitSource}>— {extrait.source}</cite>
+                        {extrait.texte.split('\n\n').map((paragraph, j) => (
+                          <p key={j}>{paragraph}</p>
+                        ))}
                       </blockquote>
                     ))}
                   </div>
@@ -215,18 +207,33 @@ export default async function SpectaclePage({ params }: Props) {
                               rel="noopener noreferrer"
                               className={styles.presseLink}
                             >
-                              <span className={styles.presseTitre}>{article.titre}</span>
+                              <span className={styles.presseTitre}>&ldquo;{article.titre}&rdquo;</span>
                               <span className={styles.presseSource}>{article.source}</span>
                             </a>
                           ) : (
                             <>
-                              <span className={styles.presseTitre}>{article.titre}</span>
+                              <span className={styles.presseTitre}>&ldquo;{article.titre}&rdquo;</span>
                               <span className={styles.presseSource}>{article.source}</span>
                             </>
                           )}
                         </li>
                       ))}
                     </ul>
+                  </div>
+                )}
+
+                {spectacle.dossier_url && (
+                  <div className={styles.dossierBlock}>
+                    <a
+                      href={spectacle.dossier_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.dossierBtn}
+                      aria-label={`Télécharger le dossier de ${spectacle.titre}`}
+                    >
+                      <img src="/icons/download.svg" alt="" aria-hidden="true" className={styles.dossierIcon} />
+                      Dossier de présentation
+                    </a>
                   </div>
                 )}
 

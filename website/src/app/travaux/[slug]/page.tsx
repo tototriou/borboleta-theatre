@@ -162,7 +162,11 @@ export default async function TravauxSlugPage({ params }: Props) {
                   />
                 )}
                 {travail.resume && (
-                  <p className={styles.resume}>{travail.resume}</p>
+                  <div className={styles.resume}>
+                    {travail.resume.split('\n\n').map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
+                  </div>
                 )}
                 {travail.dossier_url && (
                   <div className={styles.dossierBlock}>
