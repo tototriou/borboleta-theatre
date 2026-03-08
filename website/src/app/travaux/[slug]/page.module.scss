@@ -65,7 +65,7 @@
   font-family: $font-display;
   font-weight: $font-weight-normal;
   font-size: $font-size-4xl;
-  color: $color-bg-secondary;
+  color: $color-accent-gold;
   margin: 0 0 $spacing-xs;
   line-height: 1.1;
 
@@ -112,7 +112,7 @@
   letter-spacing: 1px;
   margin: 0;
   padding-bottom: $spacing-xs;
-  border-bottom: 1.5px solid $color-accent-gold;
+  border-bottom: 1.5px solid #3d1030;
 }
 
 .pairs {
@@ -211,7 +211,7 @@
 .extrasSection {
   margin-top: $spacing-2xl;
   padding-top: $spacing-xl;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid #3d1030;
   display: flex;
   flex-direction: column;
   gap: $spacing-xl;
@@ -224,7 +224,7 @@
 }
 
 .extrait {
-  border-left: 3px solid $color-accent-gold;
+  border-left: 3px solid #3d1030;
   padding-left: $spacing-lg;
   margin: 0;
 
@@ -307,7 +307,7 @@
   gap: $spacing-sm;
   margin-top: $spacing-2xl;
   padding-top: $spacing-lg;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid #3d1030;
 }
 
 // ── Décoratifs ────────────────────────────────────────────────
