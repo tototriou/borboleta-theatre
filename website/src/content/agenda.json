@@ -1,5 +1,19 @@
 [
     {
+        "date": "2027-03-29",
+        "dateDisplay": "29 mars au 27 avril 2027 (lundis et mardis)",
+        "spectacleName": "ALLÔ STELLA",
+        "slug": "stella",
+        "lieu": "Théâtre du Chariot, Paris (75)"
+    },
+    {
+        "date": "2027-04-01",
+        "dateDisplay": "01 au 04 avril 2027",
+        "spectacleName": "ALLÔ STELLA",
+        "slug": "stella",
+        "lieu": "Théâtre des Marronniers, Lyon (69)"
+    },
+    {
         "date": "2026-04-18",
         "dateDisplay": "18 et 19 Avril 2026",
         "spectacleName": "CONFESSIONS D'UNE NIHILISTE",
