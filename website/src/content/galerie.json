@@ -1,31 +1,37 @@
 {
   "categories": [
     {
-      "titre": "CHIMÈRES",
-      "sous_titre": "Création novembre 2023",
-      "credit_photo": "Photos : Henrique Vilas Boas",
+      "titre": "ALLÔ STELLA",
+      "sous_titre": "Création décembre 2025",
+      "credit_photo": "Photos : Romain Triouleyre",
       "photos": [
-        { "url": "/images/compagnie/images/photo-chimères1.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères2.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères3.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères4.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères5.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères6.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères7.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères8.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères9.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/IMG_1497.png", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/IMG_1911.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/IMG_1937.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/IMG_1949.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/IMG_2002.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/IMG_2007.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/IMG_2025.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/IMG_2038.JPG", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/image00001.jpeg", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/spectacles/chimere/image00014.jpeg", "alt": "Scène du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères-grp.png", "alt": "L'équipe du spectacle CHIMÈRES" },
-        { "url": "/images/compagnie/images/photo-chimères-meuf-mars.jpeg", "alt": "CHIMÈRES au Festival du meuf mars, Paris" }
+        { "url": "/images/compagnie/images/photo-stella1.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella2.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella3.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella4.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella5.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella6.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella7.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella8.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella9.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
+        { "url": "/images/compagnie/images/photo-stella10.JPG", "alt": "Scène du spectacle ALLÔ STELLA" }
+      ]
+    },
+    {
+      "titre": "CONFESSIONS D'UNE NIHILISTE",
+      "sous_titre": "Création 2025",
+      "credit_photo": "Photos : David Fraternali et Gilles Mauron",
+      "photos": [
+        { "url": "/images/compagnie/images/photo-nihiliste1.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste2.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste3.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste4.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste6.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste7.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste11.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste12.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste10.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
+        { "url": "/images/compagnie/images/photo-nihiliste13.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" }
       ]
     },
     {
@@ -52,41 +58,6 @@
         { "url": "/images/compagnie/images/photo-juliet40.jpg", "alt": "Scène du spectacle JULIET" },
         { "url": "/images/compagnie/images/photo-juliet41.jpg", "alt": "Scène du spectacle JULIET" }
       ]
-    }
-    ,
-    {
-      "titre": "ALLÔ STELLA",
-      "sous_titre": "Création décembre 2025",
-      "credit_photo": "Photos : Romain Triouleyre",
-      "photos": [
-        { "url": "/images/compagnie/images/photo-stella1.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella2.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella3.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella4.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella5.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella6.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella7.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella8.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella9.JPG", "alt": "Scène du spectacle ALLÔ STELLA" },
-        { "url": "/images/compagnie/images/photo-stella10.JPG", "alt": "Scène du spectacle ALLÔ STELLA" }
-      ]
-    },
-    {
-      "titre": "CONFESSIONS D'UNE NIHILISTE",
-      "sous_titre": "Création 2025",
-      "credit_photo": "Photos : David Fraternali et Gilles Mauron",
-      "photos": [
-        { "url": "/images/compagnie/images/photo-nihiliste1.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste2.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste3.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste4.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste5.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste6.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste7.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste8.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste9.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" },
-        { "url": "/images/compagnie/images/photo-nihiliste10.jpg", "alt": "Scène du spectacle CONFESSIONS D'UNE NIHILISTE" }
-      ]
     },
     {
       "titre": "SAUDADE",
@@ -103,6 +74,34 @@
         { "url": "/images/compagnie/images/photo-saudade8.jpg", "alt": "Scène du spectacle SAUDADE" },
         { "url": "/images/compagnie/images/photo-saudade9.jpg", "alt": "Scène du spectacle SAUDADE" },
         { "url": "/images/compagnie/images/photo-saudade10.jpg", "alt": "Scène du spectacle SAUDADE" }
+      ]
+    },
+    {
+      "titre": "CHIMÈRES",
+      "sous_titre": "Création novembre 2023",
+      "credit_photo": "Photos : Henrique Vilas Boas",
+      "photos": [
+        { "url": "/images/compagnie/images/photo-chimères1.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères2.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères3.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères4.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères5.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères6.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères7.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères8.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères9.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/IMG_1497.png", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/IMG_1911.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/IMG_1937.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/IMG_1949.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/IMG_2002.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/IMG_2007.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/IMG_2025.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/IMG_2038.JPG", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/image00001.jpeg", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/spectacles/chimere/image00014.jpeg", "alt": "Scène du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères-grp.png", "alt": "L'équipe du spectacle CHIMÈRES" },
+        { "url": "/images/compagnie/images/photo-chimères-meuf-mars.jpeg", "alt": "CHIMÈRES au Festival du meuf mars, Paris" }
       ]
     },
     {
