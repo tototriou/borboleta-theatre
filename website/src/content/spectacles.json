@@ -6,7 +6,11 @@
             "sous_titre": "Création 2027",
             "cadre": [
                 "-production-",
-                "Borboleta Théâtre"
+                "Borboleta Théâtre",
+                "-compagnonnage-",
+                "Théâtre Gérard Philippe",
+                "-soutiens-",
+                "Centquatre-Paris, Grand Parquet/Paris Villette, Jeune Théâtre National, ENSATT-Labo71"
             ],
             "creation": [
                 "Mise en scène",
@@ -22,24 +26,16 @@
             "accroche": "Dyptique autour de la maternité et de l'enfantement",
             "duree": "1h30 estimé",
             "public": "Tout public",
-            "resume": "Spectacle en cours de création. Maquette créée lors des cartes blanches au CNSAD, présenté en rue lors du festival MEUF MARS 2024 et au Festival d'Aurillac 2024",
+            "resume": "J’ai monté “Chimères”, une première étape de recherche dans le cadre des cartes blanches au Conservatoire National Supérieur d’Art Dramatique en novembre 2023. Elle abordait la maternité comme injonction collective et sociale, à travers une forme burlesque, musicale et lumineuse : une usine à fabriquer des enfants, où le jeu masque la violence d’un système productiviste. Avec “Chimères”, nous souhaitions aborder le sujet de la maternité de manière ludique et sensible, en traversant les questionnements qu’elle provoque par le jeu, celui de l’enfant qui s’amuse à reproduire. La seconde forme, en cours de recherche, prolongera ce travail en déplaçant le regard vers la figure maternelle originelle, la mémoire, la famille, le foyer et le rituel. Elle s’attachera à la maternité inscrite dans notre mémoire et héritage culturel commun.e, et dans nos représentations et rapports au corps maternel.",
             "extraits": [],
             "presse": [],
             "videos": [],
             "photos": [
-                "/images/compagnie/images/photo-chimères1.JPG",
-                "/images/compagnie/images/photo-chimères2.JPG",
-                "/images/compagnie/images/photo-chimères3.JPG",
-                "/images/compagnie/images/photo-chimères4.JPG",
-                "/images/compagnie/images/photo-chimères5.JPG",
-                "/images/compagnie/images/photo-chimères6.JPG",
-                "/images/compagnie/images/photo-chimères7.JPG",
-                "/images/compagnie/images/photo-chimères8.JPG",
-                "/images/compagnie/images/photo-chimères9.JPG"
+                "/images/compagnie/images/affiche-chimeres.png"
             ],
-            "credit_photo": "Photos : Henrique Vilas Boas",
-            "dossier_url": "/images/compagnie/cv/dossier-chimères.pdf",
-            "photo_principale": "/images/compagnie/images/photo-chimères2.JPG"
+            "credit_photo": [],
+            "dossier_url": "/images/compagnie/cv/dossier-chimeres.pdf",
+            "photo_principale": "/images/compagnie/images/photo-chimeres-presentation.jpeg"
         },
         {
             "slug": "stella",
